@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #dc3434;
+  --secondary-color: #ffed4a;
+  --background-color: #FAF5EF;
+  --text-color: #2d3748;
+}
+
+.dark {
+  --primary-color: #d81d1d;
+  --secondary-color: #facc15;
+  --background-color: #1a202c;
+  --text-color: #f7fafc;
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+.font-weight-400 {
+  font-weight: 400;
+}
+
+.font-weight-500 {
+  font-weight: 500;
+}
+
+.font-weight-700 {
+  font-weight: 700;
+}
+
+.drop-animate {
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+
+.w-16:hover .drop-animate {
+  transform: rotate(180deg);
+
+
+}
+
+
+
+/* animation for the image disappearing */
+@keyframes moveLeftShrink {
+  0% {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%) scale(0.5);
+    opacity: 0;
+  }
+}
+
+/* animation for the image appearing */
+@keyframes moveRightScale {
+  0% {
+    transform: translateX(100%) scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+  }
+}
+
+.image-enter {
+  animation: moveRightScale 0.3s ease-in-out forwards;
+}
+
+.image-exit {
+  animation: moveLeftShrink 0.3s ease-in-out forwards;
+}
