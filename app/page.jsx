@@ -1,13 +1,23 @@
-import Header from "../components/Translator/Header";
 import HearoSection from "../components/Translator/HearoSection";
+import ProjectsHome from "../components/Translator/ProjectsHome";
+import ServicesHome from "../components/Translator/ServicesHome";
+import SideBar from "../components/Translator/SideBar";
+import SocialMedia from "../components/Translator/SocialMedia";
+import Testimonials from "../components/Translator/Testimonials";
 
 export default function Home() {
   return (
-    <div className="!w-screen !min-h-screen  container mx-auto relative  ">
-      <div className="fixed z-10 inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_80%_50%_at_50%_0%,#000_70%,transparent_110%)]"></div>
-      <div className="relative z-10">
-        <Header />
-        <HearoSection/>
+    <div className="relative z-20 ">
+      <HearoSection />
+      <SocialMedia />
+      <ServicesHome />
+      <div className="flex  w-screen ">
+        <SideBar title={"projects"} position={"left-0"} />
+        <ProjectsHome />
+      </div>
+      <div className="flex  w-screen ">
+        <SideBar title={"Testimonials"} position={"right-0"} />
+        <Testimonials />
       </div>
     </div>
   );

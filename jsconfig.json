@@ -20,6 +20,9 @@
     "app",
     "components",
     "public",
+    "constants",
+    "utils",
+    "styles",
     "pages",
     "../Backend"
   ],
