@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@formspree/react": "^2.5.1",
     "@tippyjs/react": "^4.2.6",
     "framer-motion": "^11.3.19",
     "lottie-react": "^2.4.0",
