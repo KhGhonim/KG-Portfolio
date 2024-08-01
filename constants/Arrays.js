@@ -33,23 +33,19 @@ export const VARIANTS = {
 
 export const navLinks = [
   {
-    href: "/",
+    href: "/Translator",
     text: "Home",
   },
   {
-    href: "/Resume",
+    href: "/Translator/Resume",
     text: "Resume",
   },
   {
-    href: "/Projects",
-    text: "Projects",
-  },
-  {
-    href: "/Services",
+    href: "/Translator/Services",
     text: "Services",
   },
   {
-    href: "/Contact",
+    href: "/Translator/Contact",
     text: "Contact",
   },
 ];
@@ -126,5 +122,74 @@ export const testimonials = [
     testimonial:
       "Khaled has played a pivotal role in translating and transcribing historical series like Diriliş Ertuğrul and Kuruluş Osman, along with many other episodes. His deep understanding of historical context and linguistic precision has brought these stories to life for a broader audience. Khaled’s work is highly valued for its accuracy and cultural sensitivity. Highly recommended for any historical translation and transcription projects.",
     photo: "/643d11b454483.jpg",
+  },
+  {
+    name: "Pinnacles Productions",
+    title: "Account Manager",
+    location: "Pakistan",
+    testimonial:
+      "Working with Pinnacles Productions, a partner for MBC Group's entertainment services, Khaled Ghonim showcased exceptional translation and linguistic skills. Within just a month, Khaled delivered over 1,000 minutes of content in various languages, demonstrating not only his proficiency but also his remarkable ability to handle high-volume projects under tight deadlines. His dedication and meticulous attention to detail have significantly contributed to our success. Khaled's work consistently exceeds expectations, making him an invaluable asset to any project requiring top-notch translation services.",
+    photo: "/PinnacleWhite+Logo.png",
+  },
+  {
+    name: "TransTech",
+    title: "Project Manager",
+    location: "Egypt",
+    testimonial:
+      "Khaled Ghonim has been an exceptional MTPE specialist at TransTech. His sharp linguistic skills and attention to detail have greatly improved our machine-generated translations. Khaled's ability to refine translations and ensure accuracy has been invaluable to our projects. We highly recommend him for any MTPE role.",
+    photo: "/unnamed.jpg",
+  },
+];
+
+export const services = [
+  {
+    imgSrc: "/translate.png",
+    imgAlt: "Translation Service",
+    title: "Translation",
+    description:
+      "As a seasoned language translator, I specialize in providing expert translation services in multiple language pairs. With fluency in English, Arabic, and Turkish, I offer precise and culturally nuanced translations from English to Arabic, Arabic to English, Turkish to Arabic, and Arabic to Turkish. With meticulous attention to detail and a thorough understanding of language intricacies, I ensure your message is accurately conveyed across different languages and cultural contexts.",
+    Link: "/Translator/Services/Translation",
+  },
+  {
+    imgSrc: "/project-manager.png",
+    imgAlt: "Project Management ",
+    title: "Project Management",
+    description:
+      "With a wealth of experience as a Project Manager and Operation Manager at reputable companies in Switzerland and the UAE, I offer exceptional Project Management services. I bring a strategic approach, meticulous planning, and effective execution to ensure successful project outcomes aligned with your business objectives.",
+    Link: "/Translator/Services/Management ",
+  },
+
+  {
+    imgSrc: "/transcription.png",
+    imgAlt: "Transcription Service",
+    title: "Transcription",
+    description:
+      "Enhance your content with our accurate transcription services. Capture every word from meetings, interviews, and lectures with precision. Improve accessibility and make your content searchable.",
+    Link: "/Translator/Services/Transcription",
+  },
+  {
+    imgSrc: "/ai.png",
+    imgAlt: "Post Editing Service",
+    title: "Post Editing",
+    description: `
+MTPE Editor
+
+Join me on a journey to transform your language with my MTPE (Machine Translation Post-Editing) editing services. As a linguistic alchemist, I take the raw materials of machine-generated translations and imbue them with the power of human creativity. Witness the magic of technology and human expertise coming together to create linguistic works of art that will capture the hearts and minds of people worldwide. Let's shape the future of communication together!`,
+    Link: "/Translator/Services/PE",
+  },
+  {
+    imgSrc: "/translating.png",
+    imgAlt: "Proofreading Service",
+    title: "Proofreading",
+    description:
+      "Embark on a linguistic journey of perfection with my extraordinary Linguistic Quality Assurance services. Harnessing the artistry of language, I weave a tapestry of flawlessness, polishing every word and nuance to captivate your audience. From linguistic finesse to cultural resonance, I breathe life into your content, crafting a symphony of linguistic brilliance. Elevate your brand's voice and leave an indelible mark with my unrivalled linguistic mastery.",
+    Link: "/Translator/Services/Proofreading",
+  },
+  {
+    imgSrc: "/subtitles.png",
+    imgAlt: "Subtitling Service",
+    title: "Subtitling",
+    description: `Unleash the full potential of your videos with my creative expertise in video subtitling service. I seamlessly bridge the language gap with my Turkish, English, and Arabic fluency, offering accurate and captivating translations in both directions. From English to Arabic, Turkish to Arabic, and beyond, I ensure your videos resonate with diverse audiences, captivating hearts and minds across cultures. Let's bring your visuals to life and connect the world through powerful storytelling.`,
+    Link: "/Translator/Services/Subtitling",
   },
 ];

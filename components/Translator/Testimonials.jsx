@@ -12,7 +12,7 @@ import { testimonials } from "../../constants/Arrays";
 import Image from "next/image";
 export default function Testimonials() {
   return (
-    <div className="w-screen h-dvh mb-10">
+    <div className="w-screen h-dvh md:mb-16">
       <div className="container mx-auto relative z-20 md:py-20 md:border-l-2   md:border-black  h-dvh md:pr-44">
         <div className="flex flex-row max-md:flex-col items-center justify-between gap-8  md:gap-2  w-full p-4">
           <div className="w-full text-center">
@@ -78,7 +78,7 @@ export default function Testimonials() {
                   </Swiper>
                 </div>
 
-                <div className="w-full flex justify-center items-center gap-7 my-4 font-semibold max-md:text-xs ">
+                <div className="w-full flex justify-center items-center gap-7  font-semibold text-Lg md:text-2xl">
                   Swipe to right to see more testimonials{" "}
                   <span>
                     <Image

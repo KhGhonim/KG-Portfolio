@@ -1,5 +1,5 @@
 import { Tajawal } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 
 const tajawal = Tajawal({
   subsets: ["latin", "arabic"],
@@ -15,11 +15,5 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body className={tajawal.className}>
-        {children}
-      </body>
-    </html>
-  );
+  return <div className="relative w-screen h-full">{children}</div>;
 }

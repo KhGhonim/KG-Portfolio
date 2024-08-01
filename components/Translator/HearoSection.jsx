@@ -29,11 +29,11 @@ export default function HearoSection() {
   }, []);
 
   return (
-    <section className=" flex items-center justify-center w-screen container mx-auto z-20  ">
+    <section className=" flex items-center justify-center w-screen container mx-auto   ">
       <div className="flex flex-col md:flex-row justify-between w-screen h-dvh  ">
-        <div className="w-screen md:w-1/2 max-md:p-8 flex flex-col justify-center items-center">
+        <div className="w-screen md:w-1/2 max-md:p-8 flex flex-col justify-center items-center relative z-10">
           {/* HeroSection JSON in SM screens */}
-          <div className="hidden max-md:block w-full mb-5 ">
+          <div className="hidden max-md:block w-full mb-5 -z-50 ">
             <Lottie animationData={HeroSection} loop={true} />
           </div>
 
@@ -70,13 +70,19 @@ export default function HearoSection() {
           </div>
 
           {/* Contact and Read More buttons */}
-          <div className="flex  pt-4 md:pt-10  max-sm:flex-col gap-5 max-md:w-[100%]">
-            <button className="relative uppercase  shadow-[9px_5px_0px_1px_rgba(0,0,0,1)] hover:shadow-[0px_0px_0px_0px_rgba(0,0,0,1)] transition-all duration-500 font-semibold p-3 sm:p-4 sm:px-14 text-sm sm:text-base text-black bg-[#FF4654] border md:border-2 border-black ">
+          <div className="flex text-center  pt-4 md:pt-10  max-sm:flex-col gap-5 max-md:w-[100%]">
+            <Link
+              className="relative uppercase  shadow-[9px_5px_0px_1px_rgba(0,0,0,1)] hover:shadow-[0px_0px_0px_0px_rgba(0,0,0,1)] transition-all duration-500 font-semibold p-3 sm:p-4 sm:px-14 text-sm sm:text-base text-black bg-[#FF4654] border md:border-2 border-black "
+              href={"/Translator/Contact"}
+            >
               Contact
-            </button>
-            <button className="relative shadow-[9px_5px_0px_1px_rgba(0,0,0,1)] hover:shadow-[0px_0px_0px_0px_rgba(0,0,0,1)] transition-all duration-500  uppercase font-semibold p-3 sm:p-4 sm:px-14 text-sm sm:text-base  text-black bg-gray-100 border md:border-2 border-black">
+            </Link>
+            <Link
+              className="relative shadow-[9px_5px_0px_1px_rgba(0,0,0,1)] hover:shadow-[0px_0px_0px_0px_rgba(0,0,0,1)] transition-all duration-500  uppercase font-semibold p-3 sm:p-4 sm:px-14 text-sm sm:text-base  text-black bg-gray-100 border md:border-2 border-black"
+              href={"/Translator/Services"}
+            >
               Read More
-            </button>
+            </Link>
           </div>
         </div>
         <div className="hidden md:block md:w-1/2 mt-8 md:mt-0">

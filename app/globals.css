@@ -45,7 +45,10 @@ html {
 
 
 }
+.origin-top-right {
+  transform: skewY(-6deg);
 
+}
 
 
 /* animation for the image disappearing */

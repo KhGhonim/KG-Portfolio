@@ -78,8 +78,8 @@ export default function SocialMedia() {
 
       {/* Mobile Socail Media */}
 
-      <div className="hidden absolute right-0 w-full max-md:flex items-center justify-center py-28 z-30">
-        <hr className="w-5 border-2 border-red-400" />
+      <div className="hidden absolute right-0 w-full max-md:flex items-center justify-center py-28 max-md:py-36 z-30">
+        <hr className="w-5 max-md:w-10 ma border-2 border-red-400" />
         <div className="flex space-x-4 mx-4">
           <Link
             href="mailto:khaledonem89@gmail.com"
@@ -142,7 +142,7 @@ export default function SocialMedia() {
             />
           </Link>
         </div>
-        <hr className="w-5 border-2 border-red-400" />
+        <hr className="w-5 max-md:w-10 border-2 border-red-400" />
       </div>
     </div>
   );

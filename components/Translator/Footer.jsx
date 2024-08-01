@@ -26,14 +26,14 @@ export default function Footer() {
         quality={100}
         className="hidden md:flex absolute -z-10 bg-cover w-full rounded-lg "
       />
-      <section className="md:py-8 relative">
+      <section className="py-8 relative">
         <Image
           src="/CallToAction.jpg"
           alt="footer"
           width={500}
           height={300}
           quality={100}
-          className="hidden max-md:flex opacity-80 absolute -z-10 bg-cover h-full rounded-lg "
+          className="hidden max-md:flex opacity-80 absolute -z-10 bg-cover min-w-full h-full rounded-lg "
         />
         <div className="container mx-auto flex flex-col justify-center p-4 space-y-8 md:p-10 lg:space-y-0 lg:space-x-12 lg:justify-between lg:flex-row ">
           <div className="flex flex-col space-y-4 text-center lg:text-left ">
@@ -53,7 +53,7 @@ export default function Footer() {
       </section>
 
       <footer className="bg-black text-white py-10">
-        <div className="container mx-auto flex justify-around max-md:flex-col gap-10 max-md:p-6">
+        <div className="container mx-auto flex justify-around max-md:flex-wrap gap-10 max-md:p-6">
           <div>
             <h3 className="font-extrabold text-lg mb-4">SOCIALS</h3>
             <ul>
