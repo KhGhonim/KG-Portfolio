@@ -10,7 +10,7 @@ export default function page() {
 
 
   return (
-    <div className=" relative z-50 ">
+    <div className=" relative z-40 ">
       <div>
         <h1 className="text-2xl md:text-5xl font-bold text-center py-10 px-4">
           Welcome! Have a look to my Journey as a Language Linguistic

@@ -50,21 +50,35 @@ export default function HearoSection() {
             <Marquee pauseOnHover={true} className="flex py-9">
               <Link
                 className="shadow-xl mr-4 px-4 py-2 rounded-2xl"
-                href={"/Translation"}
+                href={"/Translator/Services/Translation"}
               >
                 Translation and Localization
               </Link>
               <Link
                 className="shadow-xl  mr-4  px-4 py-2 rounded-2xl"
-                href={"Subtitling&Transcription"}
+                href={"/Translator/Services/Subtitling"}
               >
-                Subtitling and Transcription
+                Subtitling
+              </Link>
+
+              <Link
+                className="shadow-xl  mr-4  px-4 py-2 rounded-2xl"
+                href={"/Translator/Services/Transcription"}
+              >
+                Transcription
               </Link>
               <Link
                 className="shadow-xl  mr-4  px-4 py-2 rounded-2xl"
-                href={"Postediting&Proofreading"}
+                href={"/Translator/Services/PE"}
               >
-                Post Editing and Proofreading
+                Post Editing
+              </Link>
+
+              <Link
+                className="shadow-xl  mr-4  px-4 py-2 rounded-2xl"
+                href={"/Translator/Services/Proofreading"}
+              >
+                Proofreading
               </Link>
             </Marquee>
           </div>

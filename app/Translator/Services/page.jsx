@@ -20,7 +20,7 @@ export default function page() {
             <div className="flex  max-sm:flex-col  max-md:w-[100%] mt-4">
               <Link
                 className="relative uppercase text-center shadow-[9px_5px_0px_1px_rgba(0,0,0,1)] hover:shadow-[0px_0px_0px_0px_rgba(0,0,0,1)] transition-all duration-500 font-semibold p-2  sm:px-14 text-sm sm:text-base text-white bg-[#FF4654] border md:border-2 border-black "
-                href={"/Projects"}
+                href={"#services"}
               >
                 Let's see Services!
               </Link>
@@ -36,18 +36,18 @@ export default function page() {
 
       <div className="min-h-screen container mx-auto border-r-2 border-l-2 border-black max-md:mt-52  p-6 md:p-12 text-center relative z-30">
         <div className="max-w-7xl mx-auto">
-          <h1 className="text-4xl md:text-7xl font-bold mb-4">My Services</h1>
+          <h1 id="services" className="text-4xl md:text-7xl font-bold mb-4">My Services</h1>
           <p className="text-lg my-8">
             Discover my comprehensive range of translation services,
             meticulously tailored to meet your diverse linguistic needs. Unlock
             global communication with my professional and innovative language
             solutions.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 ">
+          <div  className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 ">
             {services.map((service, index) => (
               <Link
                 key={index}
-                className="p-6 rounded-lg shadow-2xl relative border border-gray-500 group "
+                className="p-6 rounded-lg shadow-md hover:shadow-2xl transition-all duration-500 relative border border-gray-500 group "
                 href={`${service.Link}`}
               >
                 <img

@@ -193,3 +193,424 @@ Join me on a journey to transform your language with my MTPE (Machine Translatio
     Link: "/Translator/Services/Subtitling",
   },
 ];
+
+export const projects = [
+  {
+    category: "Translation",
+    items: [
+      {
+        title: "Project Title 1",
+        description:
+          "A project leveraging AI and machine learning for real-time translation of large documents, ensuring high accuracy and context preservation.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: ["AI", "Machine Learning", "Translation Memory"],
+      },
+      {
+        title: "Project Title 2",
+        description:
+          "An innovative project focused on translating complex technical manuals using specialized terminology databases and glossaries.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: ["Terminology Database", "Glossary Management", "CAT Tools"],
+      },
+      {
+        title: "Project Title 3",
+        description:
+          "A comprehensive translation project for e-commerce platforms, involving product descriptions, user reviews, and UI elements.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: [
+          "E-commerce Platforms",
+          "Localization",
+          "Content Management System",
+        ],
+      },
+      {
+        title: "Project Title 4",
+        description:
+          "A project focusing on translating legal documents with precision, utilizing OCR technology and legal dictionaries.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: [
+          "OCR Technology",
+          "Legal Dictionaries",
+          "Secure File Transfer",
+        ],
+      },
+      {
+        title: "Project Title 5",
+        description:
+          "A creative translation project for marketing campaigns, ensuring cultural relevance and engagement across different regions.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: ["Marketing Tools", "Cultural Adaptation", "SEO"],
+      },
+      {
+        title: "Project Title 6",
+        description:
+          "A localization project for mobile applications, focusing on user interface and user experience design in multiple languages.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: [
+          "Localization Platform",
+          "UI/UX Design",
+          "Mobile Development",
+        ],
+      },
+    ],
+  },
+  {
+    category: "Management",
+    items: [
+      {
+        title: "Project Title 1",
+        description:
+          "Managing a large-scale multilingual project with agile methodologies and real-time collaboration tools.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: [
+          "Agile Methodologies",
+          "Collaboration Tools",
+          "Project Management Software",
+        ],
+      },
+      {
+        title: "Project Title 2",
+        description:
+          "Coordinating a global team for a high-profile translation project, using advanced scheduling and resource allocation techniques.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: [
+          "Resource Allocation",
+          "Scheduling Tools",
+          "Global Team Coordination",
+        ],
+      },
+      {
+        title: "Project Title 3",
+        description:
+          "Overseeing a complex project with multiple stakeholders, ensuring seamless communication and progress tracking.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: [
+          "Communication Platforms",
+          "Progress Tracking",
+          "Stakeholder Management",
+        ],
+      },
+      {
+        title: "Project Title 4",
+        description:
+          "Implementing project management best practices for a series of translation and localization projects, ensuring on-time delivery.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: ["Best Practices", "Risk Management", "Quality Assurance"],
+      },
+      {
+        title: "Project Title 5",
+        description:
+          "Leading a project to localize educational content for various regions, using specialized tools for educational material management.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: ["Educational Tools", "Content Management", "Localization"],
+      },
+      {
+        title: "Project Title 6",
+        description:
+          "Managing a project involving the translation and localization of multimedia content, ensuring high-quality audio and video synchronization.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: [
+          "Multimedia Management",
+          "Audio/Video Synchronization",
+          "Quality Control",
+        ],
+      },
+    ],
+  },
+  {
+    category: "Transcription",
+    items: [
+      {
+        title: "Project Title 1",
+        description:
+          "Transcribing interviews and speeches with high accuracy, using advanced speech-to-text software.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: [
+          "Speech-to-Text Software",
+          "Audio Analysis",
+          "Transcription Tools",
+        ],
+      },
+      {
+        title: "Project Title 2",
+        description:
+          "A project focused on transcribing legal proceedings, ensuring precision and adherence to legal terminology.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: [
+          "Legal Transcription",
+          "Terminology Management",
+          "Secure Storage",
+        ],
+      },
+      {
+        title: "Project Title 3",
+        description:
+          "Transcribing educational videos for online learning platforms, integrating with captioning tools.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: [
+          "Captioning Tools",
+          "Educational Platforms",
+          "Video Integration",
+        ],
+      },
+      {
+        title: "Project Title 4",
+        description:
+          "Providing transcription services for multilingual conference recordings, using AI-based language detection.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: [
+          "Language Detection",
+          "Conference Tools",
+          "AI-based Transcription",
+        ],
+      },
+      {
+        title: "Project Title 5",
+        description:
+          "Transcribing market research focus groups, utilizing specialized tools for industry-specific terminology.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: [
+          "Market Research Tools",
+          "Industry Terminology",
+          "Transcription Management",
+        ],
+      },
+      {
+        title: "Project Title 6",
+        description:
+          "A project aimed at transcribing medical dictations with high precision, using medical transcription software.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: [
+          "Medical Transcription Software",
+          "Dictation Tools",
+          "Terminology Management",
+        ],
+      },
+    ],
+  },
+  {
+    category: "PE",
+    items: [
+      {
+        title: "Project Title 1",
+        description:
+          "Post-editing machine-translated content for accuracy and fluency, using advanced linguistic tools.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: ["Linguistic Tools", "MT Post-Editing", "Quality Assurance"],
+      },
+      {
+        title: "Project Title 2",
+        description:
+          "A project focused on enhancing the quality of translated legal documents, ensuring adherence to legal standards.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: ["Legal Standards", "Quality Control", "MT Enhancement"],
+      },
+      {
+        title: "Project Title 3",
+        description:
+          "Post-editing marketing materials translated by AI, ensuring cultural relevance and persuasive language.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: [
+          "Marketing Tools",
+          "Cultural Adaptation",
+          "Language Enhancement",
+        ],
+      },
+      {
+        title: "Project Title 4",
+        description:
+          "Enhancing the readability and coherence of translated educational content, using specialized educational tools.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: [
+          "Educational Tools",
+          "Readability Enhancement",
+          "Content Coherence",
+        ],
+      },
+      {
+        title: "Project Title 5",
+        description:
+          "A project aimed at improving the fluency and accuracy of translated medical documents, using medical post-editing tools.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: ["Medical Tools", "Fluency Enhancement", "Accuracy Control"],
+      },
+      {
+        title: "Project Title 6",
+        description:
+          "Post-editing translated technical manuals, ensuring precision and consistency in terminology.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: [
+          "Technical Tools",
+          "Terminology Management",
+          "Consistency Control",
+        ],
+      },
+    ],
+  },
+  {
+    category: "Proofreading",
+    items: [
+      {
+        title: "Project Title 1",
+        description:
+          "Proofreading legal documents for accuracy and compliance with legal standards, using advanced proofreading tools.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: ["Proofreading Tools", "Legal Standards", "Accuracy Control"],
+      },
+      {
+        title: "Project Title 2",
+        description:
+          "A project focused on proofreading marketing content, ensuring persuasive and engaging language.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: [
+          "Marketing Tools",
+          "Engagement Enhancement",
+          "Language Control",
+        ],
+      },
+      {
+        title: "Project Title 3",
+        description:
+          "Proofreading educational materials for clarity and coherence, using specialized educational tools.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: [
+          "Educational Tools",
+          "Clarity Enhancement",
+          "Coherence Control",
+        ],
+      },
+      {
+        title: "Project Title 4",
+        description:
+          "Ensuring the precision and fluency of translated medical documents, using medical proofreading tools.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: ["Medical Tools", "Fluency Control", "Precision Enhancement"],
+      },
+      {
+        title: "Project Title 5",
+        description:
+          "Proofreading technical manuals for consistency and accuracy, using advanced technical proofreading tools.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: [
+          "Technical Tools",
+          "Consistency Control",
+          "Accuracy Enhancement",
+        ],
+      },
+      {
+        title: "Project Title 6",
+        description:
+          "A project aimed at proofreading multimedia content captions for readability and synchronization.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: [
+          "Multimedia Tools",
+          "Caption Synchronization",
+          "Readability Enhancement",
+        ],
+      },
+    ],
+  },
+  {
+    category: "Subtitling",
+    items: [
+      {
+        title: "Project Title 1",
+        description:
+          "Subtitling a series of educational videos, ensuring synchronization and readability, using specialized subtitling software.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: [
+          "Subtitling Software",
+          "Educational Tools",
+          "Synchronization",
+        ],
+      },
+      {
+        title: "Project Title 2",
+        description:
+          "Creating subtitles for a documentary series, focusing on accuracy and cultural relevance.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: [
+          "Documentary Tools",
+          "Cultural Adaptation",
+          "Accuracy Control",
+        ],
+      },
+      {
+        title: "Project Title 3",
+        description:
+          "Subtitling multilingual conference recordings, using AI-based language detection and synchronization tools.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: ["Language Detection", "AI Tools", "Conference Subtitling"],
+      },
+      {
+        title: "Project Title 4",
+        description:
+          "A project focused on subtitling animated films, ensuring timing accuracy and viewer engagement.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: ["Animation Tools", "Timing Control", "Viewer Engagement"],
+      },
+      {
+        title: "Project Title 5",
+        description:
+          "Subtitling e-learning courses, integrating with LMS platforms to enhance learning experience.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: [
+          "LMS Integration",
+          "E-learning Tools",
+          "Subtitling Software",
+        ],
+      },
+      {
+        title: "Project Title 6",
+        description:
+          "Creating subtitles for marketing videos, focusing on brand messaging and viewer retention.",
+        imageUrl: "https://placehold.co/600x400",
+        usedTech: ["Marketing Tools", "Brand Messaging", "Viewer Retention"],
+      },
+    ],
+  },
+];
+
+export const serviceNames = {
+  Translation: "Translation",
+  Proofreading: "Proofreading",
+  Management: "Project Management",
+  Transcription: "Transcription",
+  Subtitling: "Subtitling",
+  PE: "Post Editing",
+};
+
+export const Sliderprojects = [
+  {
+    name: "Al-Ahli Saudi FC",
+    photo: "/projects/Alahli from Arabic to English.png", // Replace with actual image path or data
+  },
+  {
+    name: "Dicerna Phyox",
+    photo: "/projects/Dicerna Phyox, medical.png",
+  },
+  {
+    name: "Dina Farms",
+    photo: "/projects/Dina Farms.png",
+  },
+  {
+    name: "HSBC",
+    photo: "/projects/HSCB.png",
+  },
+  {
+    name: "200k MTPE Project files",
+    photo: "/projects/Screenshot_2.png",
+  },
+  {
+    name: "Series and Movies Translated From Turkish to Arabic or English",
+    photo: "/projects/Series and Movies I translated from Turkish.png",
+  },
+  {
+    name: "Turkish Series Translated to English or Arabic",
+    photo: "/projects/Turkish series translated.png",
+  },
+  {
+    name: "Turkish to Arabic Empsan",
+    photo: "/projects/Turkish to Arabic Empsan.png",
+  },
+];

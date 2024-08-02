@@ -7,15 +7,10 @@ import { navLinks, VARIANTS } from "../../constants/Arrays";
 import { usePathname } from "next/navigation";
 
 export default function Header() {
-  const [Translator, setTranslator] = useState(false);
-  const [Developer, setDeveloper] = useState(true);
   const [active, setActive] = useState(false);
   const [Menu, setMenu] = useState("hidden");
-  const location = usePathname();
   const toggleMenu = () => {
-    setMenu((prevMenu) => (prevMenu === "hidden" ? "block" : "hidden"))
-    
-
+    setMenu((prevMenu) => (prevMenu === "hidden" ? "block" : "hidden"));
   };
   const CloseHeader = () => {
     setActive(false);
@@ -42,14 +37,10 @@ export default function Header() {
     };
   }, []);
 
-  const WebStatusHandler = () => {
-    setTranslator((prev) => !prev);
-    setDeveloper((prev) => !prev);
-  };
   return (
-    <div className=" w-screen container mx-auto z-20">
+    <div className=" w-screen container mx-auto relative z-50">
       {/* Pc Header */}
-      <header className=" hidden md:flex items-center justify-between p-4 z-20 relative">
+      <header className=" hidden md:flex items-center justify-between p-4 z-50 relative">
         <div className="flex items-center">
           <div className="w-16 h-16 border-2 border-red-500 rounded-full flex items-center justify-center cursor-pointer  hover:bg-red-500 transition-all duration-300 ease-linear ">
             <Link
@@ -77,43 +68,30 @@ export default function Header() {
           })}
         </nav>
 
-        <div onClick={WebStatusHandler} className="w-12 h-12 cursor-pointer  ">
-          <div className={`absolute transition-all duration-500 `}>
-            {Translator && (
-              <Tippy content="Go To Translator Website">
-                <img
-                  src="/languages.png"
-                  alt="Translator Switcher"
-                  className={`w-full h-full object-cover ${
-                    Translator ? "image-enter" : "image-exit"
-                  }`}
-                />
-              </Tippy>
-            )}
-
-            {Developer && (
-              <Tippy content="Go To Developer Website">
-                <img
-                  src="/app-development.png"
-                  alt="Translator Switcher"
-                  className={`w-full h-full object-cover ${
-                    Developer ? "image-enter" : "image-exit"
-                  }`}
-                />
-              </Tippy>
-            )}
-          </div>
+        <div className="w-12 h-12 cursor-pointer  ">
+          <Link
+            className={`absolute transition-all duration-500 hover:scale-90 `}
+            href={"Developer"}
+          >
+            <Tippy content="Go To Developer Website">
+              <img
+                src="/app-development.png"
+                alt="Translator Switcher"
+                className={`w-full h-full object-cover cursor-pointer`}
+              />
+            </Tippy>
+          </Link>
         </div>
       </header>
 
       {/* Telefon Header */}
-      <header className="hidden max-md:flex items-center justify-between p-4 z-30 relative">
+      <header className="hidden max-md:flex items-center justify-between p-4 z-50 relative">
         {/* Logo */}
         <div className="flex items-center">
           <div className="w-16 h-16 border-2 border-red-500 rounded-full flex items-center justify-center cursor-pointer  hover:bg-red-500 ">
             <Link
               className="text-red-500 font-semibold flex  hover:text-gray-50 p-4"
-              href={"/"}
+              href={"/Translator"}
             >
               K <span className="drop-animate ">G</span>
             </Link>
@@ -162,11 +140,10 @@ export default function Header() {
 
           {/* Menu Items for Phone */}
           <div
-        ref={ref}
+            ref={ref}
             className={`absolute z-50 origin-top-right ${Menu} top-full w-44 rounded-lg shadow-lg border border-black bg-[--background-color]`}
           >
             <div
-        
               className=" flex flex-col items-center px-4 py-5 gap-3 "
               role="none"
             >
@@ -189,35 +166,19 @@ export default function Header() {
         </div>
 
         {/* Translator and Developer Switcher */}
-        <div
-          onClick={WebStatusHandler}
-          className=" relative w-12 h-12 cursor-pointer pr-6 "
-        >
-          <div className={`absolute transition-all duration-500 `}>
-            {Translator && (
-              <Tippy content="Go To Developer Website">
-                <img
-                  src="/languages.png"
-                  alt="Translator Switcher"
-                  className={`w-full h-full object-cover ${
-                    Translator ? "image-enter" : "image-exit"
-                  }`}
-                />
-              </Tippy>
-            )}
-
-            {Developer && (
-              <Tippy content="Go To Translator Website">
-                <img
-                  src="/app-development.png"
-                  alt="Translator Switcher"
-                  className={`w-full h-full object-cover ${
-                    Developer ? "image-enter" : "image-exit"
-                  }`}
-                />
-              </Tippy>
-            )}
-          </div>
+        <div className="w-12 h-12 cursor-pointer  ">
+          <Link
+            className={`absolute transition-all duration-500 hover:scale-90 `}
+            href={"Developer"}
+          >
+            <Tippy content="Go To Developer Website">
+              <img
+                src="/app-development.png"
+                alt="Translator Switcher"
+                className={`w-full h-full object-cover cursor-pointer`}
+              />
+            </Tippy>
+          </Link>
         </div>
       </header>
     </div>

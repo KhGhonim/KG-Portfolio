@@ -3,7 +3,7 @@ import ProjectHomeSlider from "./ProjectHomeSlider";
 
 export default function ProjectsHome() {
   return (
-    <div className="w-screen h-dvh ">
+    <div className="w-screen h-dvh relative z-30">
       <div className="container mx-auto relative z-20 md:py-20 md:border-r-2   md:border-black  h-dvh md:pl-44">
         <div className="flex flex-row max-md:flex-col items-center justify-between gap-8  md:gap-2  w-full p-4">
           <div className="w-full md:w-1/3">
@@ -18,9 +18,9 @@ export default function ProjectsHome() {
             <div className="flex  max-sm:flex-col  max-md:w-[100%] mt-4">
               <Link
                 className="relative uppercase text-center shadow-[9px_5px_0px_1px_rgba(0,0,0,1)] hover:shadow-[0px_0px_0px_0px_rgba(0,0,0,1)] transition-all duration-500 font-semibold p-2  sm:px-14 text-sm sm:text-base text-white bg-[#FF4654] border md:border-2 border-black "
-                href={"/Translator/Projects"}
+                href={"/Translator/Services"}
               >
-                See Projects
+                See Projects and Services
               </Link>
             </div>
           </div>

@@ -19,7 +19,7 @@ export default function ContactHerosSection() {
             <div className="flex  max-sm:flex-col  max-md:w-[100%] mt-4">
               <Link
                 className="relative uppercase text-center shadow-[9px_5px_0px_1px_rgba(0,0,0,1)] hover:shadow-[0px_0px_0px_0px_rgba(0,0,0,1)] transition-all duration-500 font-semibold p-2  sm:px-14 text-sm sm:text-base text-white bg-[#FF4654] border md:border-2 border-black "
-                href={"/Projects"}
+                href={"#contact"}
               >
                 Contact ME!
               </Link>

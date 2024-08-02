@@ -1,3 +1,4 @@
+import ScrollUp from "../../components/ScrollUP";
 import HearoSection from "../../components/Translator/HearoSection";
 import ProjectsHome from "../../components/Translator/ProjectsHome";
 import ServicesHome from "../../components/Translator/ServicesHome";
@@ -19,6 +20,7 @@ export default function TranslatorHome() {
         <SideBar title={"Testimonials"} position={"right-0"} />
         <Testimonials />
       </div>
+      <ScrollUp />
     </div>
   );
 }

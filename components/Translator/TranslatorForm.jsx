@@ -13,7 +13,7 @@ export default function TranslatorForm() {
   } 
 
   return (
-    <div className="w-full mx-auto  relative z-30 max-md:pt-56 ">
+    <div id="contact" className="w-full mx-auto  relative z-30 max-md:pt-56 ">
       <div className="w-11/12 mx-auto md:border-r-2 md:border-l-2  border-black md:py-10">
         <div className="max-w-5xl mx-auto   px-4 sm:px-6 lg:px-8  p-6 bg-background rounded-lg shadow-md">
           <h2 className="text-2xl font-bold text-red-700 text-center mb-4">

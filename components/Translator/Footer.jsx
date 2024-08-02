@@ -17,7 +17,7 @@ import FooterForm from "./FooterForm";
 
 export default function Footer() {
   return (
-    <div className="relative z-20  rounded-lg  overflow-hidden ">
+    <div className="relative z-10  rounded-lg  overflow-hidden ">
       <Image
         src="/CallToAction.jpg"
         alt="footer"
@@ -48,7 +48,7 @@ export default function Footer() {
               and let's get started!
             </p>
           </div>
-<FooterForm/>
+          <FooterForm />
         </div>
       </section>
 
