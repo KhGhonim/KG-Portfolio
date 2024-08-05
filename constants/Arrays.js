@@ -614,3 +614,279 @@ export const Sliderprojects = [
     photo: "/projects/Turkish to Arabic Empsan.png",
   },
 ];
+
+export const backendSkills = [
+  {
+    text: "Node",
+    image: "/devSVG/node-svgrepo-com.svg",
+    alt: "node",
+    additionalClasses:
+      "group cursor-pointer flex justify-center items-center gap-5",
+    imgClasses:
+      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+  },
+  {
+    text: "Prisma",
+    image: "/devSVG/prisma-svgrepo-com.svg",
+    alt: "prisma",
+    additionalClasses:
+      "group cursor-pointer flex justify-center items-center gap-5",
+    imgClasses:
+      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+  },
+  {
+    text: "Express",
+    image: "/devSVG/express-svgrepo-com.svg",
+    alt: "express",
+    additionalClasses:
+      "group cursor-pointer flex justify-center items-center gap-5",
+    imgClasses:
+      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+  },
+  {
+    text: "MongoDB",
+    image: "/devSVG/mongo-svgrepo-com.svg",
+    alt: "mongodb",
+    additionalClasses:
+      "group cursor-pointer flex justify-center items-center gap-5",
+    imgClasses:
+      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+  },
+  {
+    text: "Strapi",
+    image: "/devSVG/strapi-svgrepo-com.svg",
+    alt: "Strapi",
+    additionalClasses:
+      "group cursor-pointer flex justify-center items-center gap-5",
+    imgClasses:
+      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+  },
+];
+
+export const frontendSkills = [
+  {
+    text: "React",
+    image: "/devSVG/react-javascript-js-framework-facebook-svgrepo-com.svg",
+    alt: "react",
+    additionalClasses:
+      "group cursor-pointer flex justify-center items-center gap-5",
+    imgClasses:
+      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+  },
+  {
+    text: "Vite",
+    image: "/devSVG/vite-svgrepo-com.svg",
+    alt: "vite",
+    additionalClasses:
+      "group cursor-pointer flex justify-center items-center gap-5",
+    imgClasses:
+      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+  },
+  {
+    text: "NextJS",
+    image: "/devSVG/nextjs-svgrepo-com.svg",
+    alt: "nextjs",
+    additionalClasses:
+      "group cursor-pointer flex justify-center items-center gap-5",
+    imgClasses:
+      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+  },
+  {
+    text: "Typescript",
+    image: "/devSVG/typescript-svgrepo-com.svg",
+    alt: "typescript",
+    additionalClasses:
+      "group cursor-pointer flex justify-center items-center gap-5",
+    imgClasses:
+      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+  },
+  {
+    text: "Bootstrap",
+    image: "/devSVG/bootstrap-svgrepo-com.svg",
+    alt: "bootstrap",
+    additionalClasses:
+      "group cursor-pointer flex justify-center items-center gap-5",
+    imgClasses:
+      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+  },
+
+  {
+    text: "Javascript",
+    image: "/devSVG/javascript-svgrepo-com.svg",
+    alt: "javascript",
+    additionalClasses:
+      "group cursor-pointer flex justify-center items-center gap-5",
+    imgClasses:
+      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+  },
+  {
+    text: "Typescript",
+    image: "/devSVG/react-javascript-js-framework-facebook-svgrepo-com.svg",
+    alt: "typescript",
+    additionalClasses:
+      "group cursor-pointer flex justify-center items-center gap-5",
+    imgClasses:
+      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+  },
+  {
+    text: "HTML",
+    image: "/devSVG/html-5-svgrepo-com.svg",
+    alt: "html",
+    additionalClasses:
+      "group cursor-pointer flex justify-center items-center gap-5",
+    imgClasses:
+      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+  },
+  {
+    text: "Tailwind CSS",
+    image: "/devSVG/tailwind-svgrepo-com.svg",
+    alt: "tailwindcss",
+    additionalClasses:
+      "group cursor-pointer flex justify-center items-center gap-5",
+    imgClasses:
+      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+  },
+  {
+    text: "CSS",
+    image: "/devSVG/css-3-svgrepo-com.svg",
+    alt: "css",
+    additionalClasses:
+      "group cursor-pointer flex justify-center items-center gap-5",
+    imgClasses:
+      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+  },
+  {
+    text: "Material-UI",
+    image: "/devSVG/material-ui-svgrepo-com.svg",
+    alt: "Material-UI",
+    additionalClasses:
+      "group cursor-pointer flex justify-center items-center gap-5",
+    imgClasses:
+      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+  },
+  {
+    text: "Sass",
+    image: "/devSVG/sass-svgrepo-com.svg",
+    alt: "Sass",
+    additionalClasses:
+      "group cursor-pointer flex justify-center items-center gap-5",
+    imgClasses:
+      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+  },
+];
+
+export const tools = [
+  {
+    text: "VS Code",
+    image: "/devSVG/vs-code-svgrepo-com.svg",
+    alt: "vscode",
+    additionalClasses:
+      "group cursor-pointer flex justify-center items-center gap-5",
+    imgClasses:
+      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+  },
+  {
+    text: "Github",
+    image: "/devSVG/github-142-svgrepo-com.svg",
+    alt: "github",
+    additionalClasses:
+      "group cursor-pointer flex justify-center items-center gap-5",
+    imgClasses:
+      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+  },
+  {
+    text: "NPM",
+    image: "/devSVG/npm-svgrepo-com.svg",
+    alt: "npm",
+    additionalClasses:
+      "group cursor-pointer flex justify-center items-center gap-5",
+    imgClasses:
+      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+  },
+
+  {
+    text: "Wordpress",
+    image: "/devSVG/wordpress-svgrepo-com.svg",
+    alt: "wordpress",
+    additionalClasses:
+      "group cursor-pointer flex justify-center items-center gap-5",
+    imgClasses:
+      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+  },
+];
+
+export const Devprojects = [
+  {
+    title: "Project 1",
+    previewLink: "https://example.com/preview1",
+    repoLink: "https://github.com/username/repo1",
+    description:
+      "Description of Project 1. This project involves building a responsive web application using React and Tailwind CSS.",
+    photo: "/fetih.jpg",
+    category: "React",
+  },
+  {
+    title: "Project 2",
+    previewLink: "https://example.com/preview2",
+    repoLink: "https://github.com/username/repo2",
+    description:
+      "Description of Project 2. This project focuses on creating a dynamic e-commerce platform with Node.js and MongoDB.",
+    photo: "/fetih.jpg",
+    category: "Nextjs",
+  },
+  {
+    title: "Project 3",
+    previewLink: "https://example.com/preview3",
+    repoLink: "https://github.com/username/repo3",
+    description:
+      "Description of Project 3. A real-time chat application built with Next.js and Firebase, featuring user authentication and messaging.",
+    photo: "/fetih.jpg",
+    category: "NE",
+  },
+  {
+    title: "Project 4",
+    previewLink: "https://example.com/preview4",
+    repoLink: "https://github.com/username/repo4",
+    description:
+      "Description of Project 4. A portfolio website developed using Gatsby and GraphQL.",
+    photo: "/fetih.jpg",
+    category: "React",
+  },
+  {
+    title: "Project 5",
+    previewLink: "https://example.com/preview5",
+    repoLink: "https://github.com/username/repo5",
+    description:
+      "Description of Project 5. An interactive data visualization dashboard built with D3.js.",
+    photo: "/fetih.jpg",
+    category: "Nextjs",
+  },
+  {
+    title: "Project 6",
+    previewLink: "https://example.com/preview6",
+    repoLink: "https://github.com/username/repo6",
+    description:
+      "Description of Project 6. A blogging platform developed with WordPress and customized themes.",
+    photo: "/fetih.jpg",
+    category: "NE",
+  },
+  {
+    title: "Project 7",
+    previewLink: "https://example.com/preview7",
+    repoLink: "https://github.com/username/repo7",
+    description:
+      "Description of Project 7. A single-page application created with Vue.js and Vuex.",
+    photo: "/fetih.jpg",
+    category: "Nextjs",
+  },
+  {
+    title: "Project 8",
+    previewLink: "https://example.com/preview8",
+    repoLink: "https://github.com/username/repo8",
+    description:
+      "Description of Project 8. An e-commerce site built with Shopify and Liquid templates.",
+    photo: "/fetih.jpg",
+    category: "React",
+  },
+
+];

@@ -2,7 +2,6 @@ import {
   FaFacebook,
   FaGithub,
   FaHome,
-  FaInstagram,
   FaLinkedin,
   FaSkype,
   FaWhatsapp,

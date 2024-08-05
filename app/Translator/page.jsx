@@ -1,4 +1,4 @@
-import ScrollUp from "../../components/ScrollUP";
+import ScrollUp from "../../components/ScrollUpTranslator";
 import HearoSection from "../../components/Translator/HearoSection";
 import ProjectsHome from "../../components/Translator/ProjectsHome";
 import ServicesHome from "../../components/Translator/ServicesHome";
