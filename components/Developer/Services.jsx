@@ -1,3 +1,10 @@
+import { FcCustomerSupport } from "react-icons/fc";
+import { BsLightning } from "react-icons/bs";
+import { GiShieldcomb } from "react-icons/gi";
+import { VscSettingsGear } from "react-icons/vsc";
+import { HiMiniRocketLaunch } from "react-icons/hi2";
+import { IoThumbsUpOutline } from "react-icons/io5";
+
 export default function Services() {
   return (
     <div className="w-full py-72 md:py-80  ">
@@ -20,10 +27,7 @@ export default function Services() {
               <div className="relative">
                 <dt>
                   <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary text-primary-foreground">
-                    <img
-                      alt="lightning-bolt"
-                      src="https://openui.fly.dev/openui/24x24.svg?text=⚡"
-                    />
+                    <BsLightning size={30} color="#fafba5" />
                   </div>
                   <p className="ml-16 text-lg leading-6 font-medium text-foreground">
                     Fast Performance
@@ -38,10 +42,7 @@ export default function Services() {
               <div className="relative">
                 <dt>
                   <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary text-primary-foreground">
-                    <img
-                      alt="shield"
-                      src="https://openui.fly.dev/openui/24x24.svg?text=🛡️"
-                    />
+                    <GiShieldcomb  size={30} color="#991b1e" />
                   </div>
                   <p className="ml-16 text-lg leading-6 font-medium text-foreground">
                     Secure
@@ -56,10 +57,7 @@ export default function Services() {
               <div className="relative">
                 <dt>
                   <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary text-primary-foreground">
-                    <img
-                      alt="gear"
-                      src="https://openui.fly.dev/openui/24x24.svg?text=⚙️"
-                    />
+                    <VscSettingsGear size={30} color="#B7BF99" />
                   </div>
                   <p className="ml-16 text-lg leading-6 font-medium text-foreground">
                     Customizable
@@ -74,10 +72,7 @@ export default function Services() {
               <div className="relative">
                 <dt>
                   <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary text-primary-foreground">
-                    <img
-                      alt="rocket"
-                      src="https://openui.fly.dev/openui/24x24.svg?text=🚀"
-                    />
+                    <HiMiniRocketLaunch size={30} color="red" />
                   </div>
                   <p className="ml-16 text-lg leading-6 font-medium text-foreground">
                     Scalable
@@ -91,10 +86,7 @@ export default function Services() {
               <div className="relative">
                 <dt>
                   <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary text-primary-foreground">
-                    <img
-                      alt="thumbs-up"
-                      src="https://openui.fly.dev/openui/24x24.svg?text=👍"
-                    />
+                    <IoThumbsUpOutline size={30} color="#6b7280   " />
                   </div>
                   <p className="ml-16 text-lg leading-6 font-medium text-foreground">
                     User-Friendly
@@ -109,10 +101,7 @@ export default function Services() {
               <div className="relative">
                 <dt>
                   <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary text-primary-foreground">
-                    <img
-                      alt="support"
-                      src="https://openui.fly.dev/openui/24x24.svg?text=💬"
-                    />
+                    <FcCustomerSupport size={30} />
                   </div>
                   <p className="ml-16 text-lg leading-6 font-medium text-foreground">
                     24/7 Support
