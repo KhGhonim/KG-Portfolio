@@ -1,13 +1,12 @@
 "use client";
-import { AnimatePresence, delay, motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import FloatingBoxX from "./FloatingBoxX";
 import ProgressBar from "./ProgressBar";
-import { Devprojects } from "../../constants/Arrays";
+import { DemoHomeprojects } from "../../constants/Arrays";
 import Link from "next/link";
 import Image from "next/image";
 import { LuLink } from "react-icons/lu";
 import { FaGithub } from "react-icons/fa";
-import { useEffect, useState } from "react";
 import FloatingBoxY from "./FloatingBoxY";
 
 const parentVariants = {
@@ -19,11 +18,11 @@ const parentVariants = {
       type: "spring",
       stiffness: 100,
       damping: 10,
-      duration: 1.5, 
-      staggerChildren: 0.2, 
+      duration: 1.5,
+      staggerChildren: 0.2,
     },
   },
-  exit: { opacity: 0, y: 100, transition: { duration: 1, ease: "easeInOut" } }
+  exit: { opacity: 0, y: 100, transition: { duration: 1, ease: "easeInOut" } },
 };
 
 const childVariants = {
@@ -33,20 +32,9 @@ const childVariants = {
     y: 0,
     transition: { type: "spring", stiffness: 100, damping: 10 },
   },
-  exit: { opacity: 0, y: 100, transition: { duration: 1, ease: "easeInOut" } }, 
+  exit: { opacity: 0, y: 100, transition: { duration: 1, ease: "easeInOut" } },
 };
 export default function WorkIDone() {
-  const [Data, setData] = useState(Devprojects);
-  const [SelectCatagory, setSelectCatagory] = useState("All");
-
-  useEffect(() => {
-    const filteredData = Devprojects.filter((project) => {
-      return project.category === SelectCatagory || SelectCatagory === "All";
-    });
-
-    setData(filteredData);
-  }, [SelectCatagory]);
-
   return (
     <div>
       <div className="w-full min-h-[100vh] flex bg-[#BA3C3C] flex-col relative py-16">
@@ -109,55 +97,22 @@ export default function WorkIDone() {
         </div>
 
         <div className="w-full h-dvh relative">
-          <div className="absolute top-0 left-0 w-full h-full py-16 text-white text-center space-y-5 md:space-y-9">
-            <p className="text-xl md:text-3xl font-bold">Selected Works</p>
-            <p className="text-2xl md:text-6xl font-bold">Check my portfolio</p>
-
-            <ul className="space-x-4 font-bold text-xl flex justify-center items-center p-4">
-              <li
-                onClick={() => setSelectCatagory("All")}
-                id="all"
-                className="border-2 border-white px-4 rounded-full cursor-pointer text-sm md:text-base hover:bg-white hover:text-black transition-all duration-700 ease-in-out"
-              >
-                All
-              </li>
-              <li
-                onClick={() => setSelectCatagory("React")}
-                id="react"
-                className="border-2 border-white px-4 rounded-full cursor-pointer text-sm md:text-base hover:bg-white hover:text-black transition-all duration-700 ease-in-out"
-              >
-                React
-              </li>
-              <li
-                onClick={() => setSelectCatagory("Nextjs")}
-                id="nextjs"
-                className="border-2 border-white px-4 rounded-full cursor-pointer text-sm md:text-base hover:bg-white hover:text-black transition-all duration-700 ease-in-out"
-              >
-                Nextjs
-              </li>
-              <li
-                onClick={() => setSelectCatagory("NE")}
-                id="NE"
-                className="border-2 border-white px-4 rounded-full cursor-pointer text-sm md:text-base hover:bg-white hover:text-black transition-all duration-700 ease-in-out"
-              >
-                Node & Express
-              </li>
-            </ul>
+          <div className="absolute top-0 left-0 w-full h-full py-48 text-white text-center space-y-5 md:space-y-9">
+            <p className="text-2xl md:text-6xl font-bold">Check my Works</p>
 
             <AnimatePresence mode="wait">
               <motion.div
-                key={SelectCatagory} // Add a key to trigger re-render on category change
                 variants={parentVariants}
                 initial="hidden"
                 animate="visible"
                 exit="exit"
-                className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-6 p-6 z-40"
+                className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 place-items-center gap-6 p-6 z-40"
               >
-                {Data.map((project, index) => (
+                {DemoHomeprojects.map((project, index) => (
                   <motion.div
                     variants={childVariants}
                     key={index}
-                    className="rounded-lg relative w-36 h-36 sm:w-56 sm:h-56 lg:w-80 lg:h-80 group z-40"
+                    className="rounded-lg relative w-56 h-56 sm:w-72 sm:h-72 lg:w-80 lg:h-w-80 2xl:w-96 2xl:h-w-96 group z-40"
                   >
                     <Image
                       src={project.photo}
@@ -188,6 +143,13 @@ export default function WorkIDone() {
                 ))}
               </motion.div>
             </AnimatePresence>
+            <div className="flex justify-center items-center relative z-30">
+              <Link href="/Developer/Projects">
+                <button className="w-40 h-10 border-2 border-white rounded-full text-white hover:bg-white hover:text-black transition-all duration-700 ease-in-out">
+                  See More
+                </button>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

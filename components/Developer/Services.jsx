@@ -7,7 +7,7 @@ import { IoThumbsUpOutline } from "react-icons/io5";
 
 export default function Services() {
   return (
-    <div className="w-full py-72 md:py-80  ">
+    <div className="w-full pt-[700px] pb-28 md:py-[100px]  ">
       <div className="">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="lg:text-center">
@@ -27,7 +27,7 @@ export default function Services() {
               <div className="relative">
                 <dt>
                   <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary text-primary-foreground">
-                    <BsLightning size={30} color="#fafba5" />
+                    <BsLightning size={30} color="yellow" />
                   </div>
                   <p className="ml-16 text-lg leading-6 font-medium text-foreground">
                     Fast Performance
@@ -42,7 +42,7 @@ export default function Services() {
               <div className="relative">
                 <dt>
                   <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary text-primary-foreground">
-                    <GiShieldcomb  size={30} color="#991b1e" />
+                    <GiShieldcomb size={30} color="#991b1e" />
                   </div>
                   <p className="ml-16 text-lg leading-6 font-medium text-foreground">
                     Secure

@@ -720,15 +720,6 @@ export const frontendSkills = [
       "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
   },
   {
-    text: "Typescript",
-    image: "/devSVG/react-javascript-js-framework-facebook-svgrepo-com.svg",
-    alt: "typescript",
-    additionalClasses:
-      "group cursor-pointer flex justify-center items-center gap-5",
-    imgClasses:
-      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
-  },
-  {
     text: "HTML",
     image: "/devSVG/html-5-svgrepo-com.svg",
     alt: "html",
@@ -815,78 +806,158 @@ export const tools = [
   },
 ];
 
-export const Devprojects = [
+export const DemoHomeprojects = [
   {
-    title: "Project 1",
-    previewLink: "https://example.com/preview1",
+    title: "Grocery Store",
+    previewLink: "https://grocery-store-beta.vercel.app",
     repoLink: "https://github.com/username/repo1",
     description:
-      "Description of Project 1. This project involves building a responsive web application using React and Tailwind CSS.",
-    photo: "/fetih.jpg",
-    category: "React",
+      "A responsive web application for shopping items using React and Tailwind CSS.",
+    photo: "/devProjects/grocery store.png",
+    category: "Nextjs",
   },
   {
-    title: "Project 2",
-    previewLink: "https://example.com/preview2",
+    title: "NewsPaper",
+    previewLink: "https://news-paper-ruby.vercel.app",
     repoLink: "https://github.com/username/repo2",
     description:
-      "Description of Project 2. This project focuses on creating a dynamic e-commerce platform with Node.js and MongoDB.",
-    photo: "/fetih.jpg",
+      "A responsive web application for reading news articles using Nextjs and Tailwind CSS and MongoDB for keeping track of articles.",
+    photo: "/devProjects/download.png",
     category: "Nextjs",
   },
   {
-    title: "Project 3",
-    previewLink: "https://example.com/preview3",
+    title: "The Pyjama House",
+    previewLink: "https://pijamahouse-e1870.web.app",
     repoLink: "https://github.com/username/repo3",
     description:
-      "Description of Project 3. A real-time chat application built with Next.js and Firebase, featuring user authentication and messaging.",
-    photo: "/fetih.jpg",
-    category: "NE",
+      "A responsive web application for selling clothes using React, Material UI, and Firebase.",
+    photo: "/devProjects/Pijama evi.png",
+    category: "React",
   },
   {
-    title: "Project 4",
-    previewLink: "https://example.com/preview4",
+    title: "Movie Sotre",
+    previewLink: "https://movie-store-us3x.vercel.app",
     repoLink: "https://github.com/username/repo4",
     description:
-      "Description of Project 4. A portfolio website developed using Gatsby and GraphQL.",
-    photo: "/fetih.jpg",
+      "A responsive web application for selling movies using React, Tailwind CSS, and Firebase for handling data.",
+    photo: "/devProjects/Movie Store.png",
     category: "React",
   },
-  {
-    title: "Project 5",
-    previewLink: "https://example.com/preview5",
-    repoLink: "https://github.com/username/repo5",
-    description:
-      "Description of Project 5. An interactive data visualization dashboard built with D3.js.",
-    photo: "/fetih.jpg",
-    category: "Nextjs",
-  },
-  {
-    title: "Project 6",
-    previewLink: "https://example.com/preview6",
-    repoLink: "https://github.com/username/repo6",
-    description:
-      "Description of Project 6. A blogging platform developed with WordPress and customized themes.",
-    photo: "/fetih.jpg",
-    category: "NE",
-  },
-  {
-    title: "Project 7",
-    previewLink: "https://example.com/preview7",
-    repoLink: "https://github.com/username/repo7",
-    description:
-      "Description of Project 7. A single-page application created with Vue.js and Vuex.",
-    photo: "/fetih.jpg",
-    category: "Nextjs",
-  },
-  {
-    title: "Project 8",
-    previewLink: "https://example.com/preview8",
-    repoLink: "https://github.com/username/repo8",
-    description:
-      "Description of Project 8. An e-commerce site built with Shopify and Liquid templates.",
-    photo: "/fetih.jpg",
-    category: "React",
-  },
+];
 
+export const DevProjects = [
+  {
+    title: "Grocery Store",
+    previewLink: "https://grocery-store-beta.vercel.app",
+    repoLink: "https://github.com/LoDaBeY/Grocery-Store",
+    description:
+      "A responsive web application enabling users to shop for items by category and add them to their cart. Built with React and Tailwind CSS.",
+    photo: "/devProjects/grocery store.png",
+    category: "Next.js",
+    tools: ["Next.js", "Next.js API", "Next Auth", "Tailwind CSS", "Redux"],
+  },
+  {
+    title: "NewsPaper",
+    previewLink: "https://news-paper-ruby.vercel.app",
+    repoLink: "https://github.com/LoDaBeY/NewsPaper-Dashboard",
+    description:
+      "A responsive web application for reading global and user-specific news articles. Developed using Next.js, Tailwind CSS, and MongoDB for article tracking.",
+    photo: "/devProjects/download.png",
+    category: "Next.js",
+    tools: ["Next.js", "Next.js API", "Next Auth", "Swiper", "Tailwind CSS"],
+  },
+  {
+    title: "The Pyjama House",
+    previewLink: "https://pijamahouse-e1870.web.app",
+    repoLink: "https://github.com/LoDaBeY/pajamahouse",
+    description:
+      "A responsive web application for selling clothing items. Built with React, Material UI, and Firebase.",
+    photo: "/devProjects/Pijama evi.png",
+    category: "React",
+    tools: [
+      "React",
+      "Node.js",
+      "Express",
+      "Swiper",
+      "Material UI",
+      "Firebase Auth",
+      "Redux",
+    ],
+  },
+  {
+    title: "Movie Store",
+    previewLink: "https://movie-store-us3x.vercel.app",
+    repoLink: "https://github.com/LoDaBeY/Movie-Store",
+    description:
+      "A responsive web application for streaming movies. Developed using React, Tailwind CSS, and a REST API for data retrieval.",
+    photo: "/devProjects/Movie Store.png",
+    category: "React",
+    tools: ["React", "Swiper", "Tailwind CSS", "Firebase Auth", "Redux"],
+  },
+  {
+    title: "NusrEt Restaurant",
+    previewLink: "#",
+    repoLink: "https://github.com/LoDaBeY/Resturant",
+    description:
+      "A responsive web application for ordering food. Built with React, Tailwind CSS, and a custom REST API.",
+    photo: "/devProjects/Resturant.png",
+    category: "React",
+    tools: ["React", "Swiper", "Node.js", "Express", "Material UI"],
+  },
+  {
+    title: "Admin Dashboard For Blog",
+    previewLink:
+      "https://vercel.com/khaled-ghonims-projects/admin-dashboard-blog",
+    repoLink: "https://github.com/LoDaBeY/Frontend-Admin-Dashboard-Blog-",
+    description:
+      "A responsive web application for managing blog posts. Built with React, Tailwind CSS, and MongoDB. The connection is established through a REST API with NewsPaper API.",
+    photo: "/devProjects/Dashboard Admin for Blogs.png",
+    category: "React",
+    tools: [
+      "React",
+      "Node.js",
+      "Express",
+      "Tailwind CSS",
+      "Firebase Auth",
+      "Redux",
+    ],
+  },
+  {
+    title: "Admin Dashboard For Stats",
+    previewLink: "https://dashboard-admin-khaled-ghonim.web.app",
+    repoLink: "https://github.com/LoDaBeY/admin-dashboard",
+    description:
+      "A web application for managing administrative statistics. Developed using React, Material UI, and Firebase.",
+    photo: "/devProjects/Dashboard admin stats.png",
+    category: "React",
+    tools: [
+      "React",
+      "Node.js",
+      "Express",
+      "Material UI",
+      "Full Calendar",
+      "Nivo",
+      "Firebase Auth",
+    ],
+  },
+  {
+    title: "E-commerce Site",
+    previewLink: "https://e-commerce-website-d2610.web.app",
+    repoLink: "https://github.com/LoDaBeY/E-commerce",
+    description:
+      "A responsive web application for selling products. Built with React, Material UI, and Firebase for data management.",
+    photo: "/devProjects/E-commerce.png",
+    category: "React",
+    tools: ["React", "Strapi", "Material UI", "Redux"],
+  },
+  {
+    title: "Car Hub",
+    previewLink: "https://car-hub-wheat-sigma.vercel.app",
+    repoLink: "https://github.com/LoDaBeY/car-hub",
+    description:
+      "A responsive web application for buying and selling cars. Developed using React, Tailwind CSS, and MongoDB.",
+    photo: "/devProjects/car.png",
+    category: "Next.js",
+    tools: ["Next.js", "Next.js API", "Clark Auth", "Tailwind CSS"],
+  },
 ];
