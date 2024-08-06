@@ -30,7 +30,10 @@ const SkillsGrid = ({ skills, title }) => (
 
 export default function MySkills() {
   return (
-    <div className=" w-full h-full flex flex-col  rounded-lg shadow-md p-10 overflow-clip">
+    <div
+      id="skills"
+      className=" w-full h-full flex flex-col  rounded-lg shadow-md p-10 overflow-clip"
+    >
       <h2 className="text-2xl font-bold  mb-4">TECHNOLOGIES</h2>
       <SkillsGrid skills={backendSkills} title="Backend" />
       <SkillsGrid skills={frontendSkills} title="Frontend" />

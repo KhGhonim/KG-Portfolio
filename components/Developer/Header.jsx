@@ -5,7 +5,7 @@ import DarkMode from "./DarkMode";
 import { useState } from "react";
 import Link from "next/link";
 
-export default function Header() {
+export default function Header({ ModalHandle }) {
   const [theme, setTheme] = useState(
     typeof window !== "undefined" ? localStorage.getItem("theme") : "light"
   );
@@ -30,10 +30,14 @@ export default function Header() {
       </div>
 
       <div className="flex items-center space-x-4 ">
-        <DarkMode theme={theme} changeTheme={changeTheme} />
+        {/* <DarkMode theme={theme} changeTheme={changeTheme} /> */}
 
         <div>
-          <button id="menu-toggle" className="bg-gray-800 rounded-3xl  p-2 ">
+          <button
+            onClick={ModalHandle}
+            id="menu-toggle"
+            className="bg-gray-800 rounded-3xl  p-2 "
+          >
             <IoMdMenu size={24} />
           </button>
         </div>

@@ -6,6 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { LuLink } from "react-icons/lu";
 import { FaGithub } from "react-icons/fa";
+import Header from "../../../components/Developer/Header";
 
 const parentVariants = {
   hidden: { opacity: 0, y: 100 },
@@ -53,6 +54,7 @@ export default function page() {
 
   return (
     <div className="w-screen h-full">
+
       <div className="container mx-auto py-36">
         <ul className="space-x-4 font-bold text-xl flex justify-center items-center p-4">
           <li

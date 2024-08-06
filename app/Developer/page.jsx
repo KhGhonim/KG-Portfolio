@@ -9,13 +9,11 @@ export default function DeveloperHome() {
   return (
     <div className="h-full w-full  relative">
       <HeroSection />
-
       <div className="container mx-auto ">
         <AboutMe />
         <MySkills />
       </div>
       <WorkIDone />
-
       <div className="container mx-auto ">
         <Services />
         <Connect />
