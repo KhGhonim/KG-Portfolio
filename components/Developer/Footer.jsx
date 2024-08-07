@@ -10,7 +10,10 @@ import FloatingBox from "./FloatingBoxX";
 
 export default function Footer() {
   return (
-    <div className="container mx-auto rounded-t-3xl  devHeader mt-5 p-10 gap-6 relative">
+    <div
+      id="form-contact"
+      className="container mx-auto rounded-t-3xl  devHeader mt-5 p-10 gap-6 relative"
+    >
       <FloatingBox position="hidden md:flex absolute border-4 border-white  h-56 w-56 -top-1/3 left-0" />
 
       <div className="flex flex-col md:flex-row justify-center md:justify-between items-center text-center ">
@@ -43,7 +46,11 @@ export default function Footer() {
       </div>
 
       <p className=" text-sm text-center mt-3">
-        © 2024 <span className="font-semibold bg-gradient-to-b from-[#2c1e11] to-[#ffffff] bg-clip-text text-transparent">Khaled Ghonim</span>. All rights reserved.
+        © 2024{" "}
+        <span className="font-semibold bg-gradient-to-b from-[#2c1e11] to-[#ffffff] bg-clip-text text-transparent">
+          Khaled Ghonim
+        </span>
+        . All rights reserved.
       </p>
     </div>
   );

@@ -626,9 +626,9 @@ export const backendSkills = [
       "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
   },
   {
-    text: "Prisma",
-    image: "/devSVG/prisma-svgrepo-com.svg",
-    alt: "prisma",
+    text: "Supabase",
+    image: "/devSVG/image-Photoroom.png",
+    alt: "Supabase",
     additionalClasses:
       "group cursor-pointer flex justify-center items-center gap-5",
     imgClasses:
@@ -656,6 +656,16 @@ export const backendSkills = [
     text: "Strapi",
     image: "/devSVG/strapi-svgrepo-com.svg",
     alt: "Strapi",
+    additionalClasses:
+      "group cursor-pointer flex justify-center items-center gap-5",
+    imgClasses:
+      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+  },
+
+  {
+    text: "AWS",
+    image: "/devSVG/aws-svgrepo-com.svg",
+    alt: "AWS",
     additionalClasses:
       "group cursor-pointer flex justify-center items-center gap-5",
     imgClasses:

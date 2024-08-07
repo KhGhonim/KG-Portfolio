@@ -4,6 +4,7 @@ import ServicesHero from "../../../Assets/Services.json";
 import Link from "next/link";
 import { services } from "../../../constants/Arrays";
 import SocialMedia from "../../../components/Translator/SocialMedia";
+import { BsArrowDown } from "react-icons/bs";
 
 export default function page() {
   return (
@@ -36,14 +37,19 @@ export default function page() {
 
       <div className="min-h-screen container mx-auto border-r-2 border-l-2 border-black max-md:mt-52  p-6 md:p-12 text-center relative z-30">
         <div className="max-w-7xl mx-auto">
-          <h1 id="services" className="text-4xl md:text-7xl font-bold mb-4">My Services</h1>
+          <h1 id="services" className="text-4xl md:text-7xl font-bold mb-4">
+            My Services
+          </h1>
           <p className="text-lg my-8">
             Discover my comprehensive range of translation services,
-            meticulously tailored to meet your diverse linguistic needs. Unlock
-            global communication with my professional and innovative language
-            solutions.
+            meticulously tailored to meet your diverse linguistic needs.
+            <br />
+            <span className="text-lg text-red-500">
+              Click on the servce you desire to find out more.{" "}
+              <BsArrowDown className="animate-bounce" color="red" />
+            </span>
           </p>
-          <div  className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 ">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 ">
             {services.map((service, index) => (
               <Link
                 key={index}

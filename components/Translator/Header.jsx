@@ -71,7 +71,7 @@ export default function Header() {
         <div className="w-12 h-12 cursor-pointer  ">
           <Link
             className={`absolute transition-all duration-500 hover:scale-90 `}
-            href={"Developer"}
+            href={"/Developer"}
           >
             <Tippy content="Go To Developer Website">
               <img
@@ -169,7 +169,7 @@ export default function Header() {
         <div className="w-12 h-12 cursor-pointer  ">
           <Link
             className={`absolute transition-all duration-500 hover:scale-90 `}
-            href={"Developer"}
+            href={"/Developer"}
           >
             <Tippy content="Go To Developer Website">
               <img

@@ -100,6 +100,21 @@ export default function Model({ IsModelOpen, setIsModelOpen }) {
                 Check out all the awesome Projects
               </p>
             </div>
+
+            <div
+              className="bg-[#1c1c27] p-4 rounded-lg w-full block cursor-pointer hover:bg-[#24242f] duration-500 ease-in-out"
+              onClick={() => {
+                handleClick("/Translator");
+              }}
+            >
+              <h2 className="text-lg font-semibold text-primary">
+                {" "}
+              Translator Portfolio
+              </h2>
+              <p className="text-xs md:text-sm">
+              Are you looking for a professional translator?
+              </p>
+            </div>
           </motion.div>
 
           <motion.div variants={childVariants} className="space-y-4  w-full">
@@ -110,6 +125,15 @@ export default function Model({ IsModelOpen, setIsModelOpen }) {
               <h2 className="text-lg font-semibold text-primary">Let's Talk</h2>
               <p className="text-xs md:text-sm">Send me a message.</p>
             </Link>
+            <div
+              className="bg-[#1c1c27] p-4 rounded-lg w-full block hover:bg-[#24242f] duration-500 ease-in-out cursor-pointer"
+              onClick={() => {
+                handleClick("#form-contact");
+              }}
+            >
+              <h2 className="text-lg font-semibold text-primary">Form Contact</h2>
+              <p className="text-xs md:text-sm">Send me a message.</p>
+            </div>
           </motion.div>
         </motion.div>
         <motion.div
