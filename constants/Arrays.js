@@ -199,57 +199,154 @@ export const projects = [
     category: "Translation",
     items: [
       {
-        title: "Project Title 1",
+        title: "Arabic Movies and Series Localization",
         description:
-          "A project leveraging AI and machine learning for real-time translation of large documents, ensuring high accuracy and context preservation.",
-        imageUrl: "https://placehold.co/600x400",
-        usedTech: ["AI", "Machine Learning", "Translation Memory"],
+          "Expertly localized Arabic movies and series, ensuring cultural relevance, maintaining original context, and enhancing viewer engagement through high-quality subtitling and dubbing.",
+        imageUrl: [
+          "/Translation Projects/Arabic Movies and Series Localization 1.png",
+          "/Translation Projects/Arabic Movies and Series Localization.png",
+          "/Translation Projects/Arabic Movies and Series Localization 3.png",
+        ],
+        usedTech: ["Localization", "Cultural Adaptation", "Translation Memory"],
       },
       {
-        title: "Project Title 2",
+        title: "Building CALP Markets E-Learning Courses",
         description:
-          "An innovative project focused on translating complex technical manuals using specialized terminology databases and glossaries.",
-        imageUrl: "https://placehold.co/600x400",
-        usedTech: ["Terminology Database", "Glossary Management", "CAT Tools"],
-      },
-      {
-        title: "Project Title 3",
-        description:
-          "A comprehensive translation project for e-commerce platforms, involving product descriptions, user reviews, and UI elements.",
-        imageUrl: "https://placehold.co/600x400",
+          "Developed and translated comprehensive e-learning courses for CALP markets, incorporating interactive elements and multimedia to facilitate effective learning experiences for diverse audiences.",
+        imageUrl: [
+          "/Translation Projects/Building CALP Markets E-Learning Courses.png",
+          "/Translation Projects/Building CALP Markets E-Learning Courses 2.png",
+          "/Translation Projects/Building CALP Markets E-Learning Courses 3.png",
+          "/Translation Projects/Building CALP Markets E-Learning Courses 4.png",
+          "/Translation Projects/Building CALP Markets E-Learning Courses 5.png",
+        ],
         usedTech: [
-          "E-commerce Platforms",
+          "E-Learning",
+          "Interactive Content",
+          "Translation",
+          "Multimedia Integration",
+          "SCORM",
+        ],
+      },
+      {
+        title: "Food KFC",
+        description:
+          "Translated and localized marketing materials for KFC, ensuring the brand message is consistent and culturally resonant across different regions, while adhering to local regulatory requirements.",
+        imageUrl: [
+          "/Translation Projects/Food KFC.png",
+          "/Translation Projects/Food KFC 2.png",
+          "/Translation Projects/Food KFC 3.png",
+        ],
+        usedTech: [
+          "Marketing Translation",
+          "Brand Localization",
+          "Cultural Adaptation",
+          "Regulatory Compliance",
+          "Transcreation",
+        ],
+      },
+      {
+        title: "Goat Games Localization",
+        description:
+          "Localized popular video games from English to Arabic, preserving gaming terminology, enhancing player experience, and ensuring seamless integration of translated content within the game interface.",
+        imageUrl: [
+          "/Translation Projects/Goat Games-- EN-AR.png",
+          "/Translation Projects/Goat Games-- EN-AR - 2.png",
+          "/Translation Projects/Goat Games-- EN-AR 3.png",
+        ],
+        usedTech: [
+          "Game Localization",
+          "Terminology Management",
+          "Player Experience",
+          "UI/UX Translation",
+          "In-Game Text Integration",
+        ],
+      },
+      {
+        title: "IMDB Movies Translation",
+        description:
+          "Translated movie descriptions and reviews for IMDB, focusing on accuracy, engaging content delivery, and maintaining the tone and style of the original material to attract a global audience.",
+        imageUrl: [
+          "/Translation Projects/IMBD Movies Translation.png",
+          "/Translation Projects/IMBD Movies Translation 1.png",
+          "/Translation Projects/IMBD Movies Translation 2.png",
+        ],
+        usedTech: [
+          "Translation",
+          "Content Localization",
+          "Cultural Adaptation",
+          "SEO",
+          "Content Management",
+        ],
+      },
+      {
+        title: "Nestlé Product Localization",
+        description:
+          "Translated and localized content for Nestlé’s product descriptions and marketing campaigns, ensuring clarity, cultural appropriateness, and regulatory compliance in various target markets.",
+        imageUrl: [
+          "/Translation Projects/Nestlé.png",
+          "/Translation Projects/Nestlé 1.png",
+          "/Translation Projects/Nestlé 2.png",
+          "/Translation Projects/Nestlé 3.png",
+        ],
+        usedTech: [
+          "Content Localization",
+          "Regulatory Compliance",
+          "Marketing Translation",
+          "Product Description",
+          "Cultural Adaptation",
+        ],
+      },
+      {
+        title: "Playdemic Game Localization",
+        description:
+          "Localized Playdemic games, focusing on user interface translation and maintaining game playability, while delivering an immersive experience for players in different linguistic regions.",
+        imageUrl: [
+          "/Translation Projects/Playdemic Game.png",
+          "/Translation Projects/Playdemic Game 1.png",
+        ],
+        usedTech: [
+          "Game Localization",
+          "UI Translation",
+          "Playability",
+          "Linguistic Testing",
+          "Localization Quality Assurance",
+        ],
+      },
+      {
+        title: "TV Series Localization",
+        description:
+          "Localized a wide range of TV series, ensuring accurate subtitle translation and synchronization, while preserving the original tone, humor, and cultural references for global audiences.",
+        imageUrl: [
+          "/Translation Projects/Series Localizations.png",
+          "/Translation Projects/Series Localizations 3.png",
+          "/Translation Projects/Series Localizations 2.png",
+          "/Translation Projects/Series Localizations 1.png",
+        ],
+        usedTech: [
+          "Subtitle Translation",
+          "Synchronization",
           "Localization",
-          "Content Management System",
+          "Cultural Adaptation",
+          "Quality Control",
         ],
       },
       {
-        title: "Project Title 4",
+        title: "Song Names and Lyrics Translation",
         description:
-          "A project focusing on translating legal documents with precision, utilizing OCR technology and legal dictionaries.",
-        imageUrl: "https://placehold.co/600x400",
-        usedTech: [
-          "OCR Technology",
-          "Legal Dictionaries",
-          "Secure File Transfer",
+          "Translated song names and lyrics, preserving poetic elements, cultural nuances, and musical rhythm to deliver authentic and engaging experiences for listeners in different languages.",
+        imageUrl: [
+          "/Translation Projects/Song Names, lyrics and Singer name.png",
+          "/Translation Projects/Song Names, lyrics and Singer name 3.png",
+          "/Translation Projects/Song Names, lyrics and Singer name 2.png",
+          "/Translation Projects/Song Names, lyrics and Singer name 1.png",
         ],
-      },
-      {
-        title: "Project Title 5",
-        description:
-          "A creative translation project for marketing campaigns, ensuring cultural relevance and engagement across different regions.",
-        imageUrl: "https://placehold.co/600x400",
-        usedTech: ["Marketing Tools", "Cultural Adaptation", "SEO"],
-      },
-      {
-        title: "Project Title 6",
-        description:
-          "A localization project for mobile applications, focusing on user interface and user experience design in multiple languages.",
-        imageUrl: "https://placehold.co/600x400",
         usedTech: [
-          "Localization Platform",
-          "UI/UX Design",
-          "Mobile Development",
+          "Translation",
+          "Cultural Adaptation",
+          "Lyric Localization",
+          "Poetic Translation",
+          "Music Adaptation",
         ],
       },
     ],
@@ -258,60 +355,128 @@ export const projects = [
     category: "Management",
     items: [
       {
-        title: "Project Title 1",
+        title: "Global Marketing Campaign Translation",
         description:
-          "Managing a large-scale multilingual project with agile methodologies and real-time collaboration tools.",
-        imageUrl: "https://placehold.co/600x400",
-        usedTech: [
-          "Agile Methodologies",
-          "Collaboration Tools",
-          "Project Management Software",
-        ],
-      },
-      {
-        title: "Project Title 2",
-        description:
-          "Coordinating a global team for a high-profile translation project, using advanced scheduling and resource allocation techniques.",
-        imageUrl: "https://placehold.co/600x400",
+          "Coordinated a global team for a high-profile translation project, utilizing advanced scheduling and resource allocation techniques to deliver culturally relevant marketing campaigns across multiple regions.",
+        imageUrl: ["/Translation Projects/Management 1.webp"],
         usedTech: [
           "Resource Allocation",
           "Scheduling Tools",
           "Global Team Coordination",
+          "Marketing Translation",
+          "Cultural Adaptation",
+          "Transcreation",
         ],
       },
       {
-        title: "Project Title 3",
+        title: "Technical Manual Localization",
         description:
-          "Overseeing a complex project with multiple stakeholders, ensuring seamless communication and progress tracking.",
-        imageUrl: "https://placehold.co/600x400",
+          "Overseeing a complex project with multiple stakeholders, ensuring seamless communication and progress tracking while translating and localizing intricate technical manuals.",
+        imageUrl: ["/Translation Projects/Management 2.jpg"],
         usedTech: [
           "Communication Platforms",
           "Progress Tracking",
           "Stakeholder Management",
+          "Technical Translation",
+          "Glossary Management",
+          "CAT Tools",
         ],
       },
       {
-        title: "Project Title 4",
+        title: "Legal Document Translation Project",
         description:
-          "Implementing project management best practices for a series of translation and localization projects, ensuring on-time delivery.",
-        imageUrl: "https://placehold.co/600x400",
-        usedTech: ["Best Practices", "Risk Management", "Quality Assurance"],
+          "Implementing project management best practices for a series of translation and localization projects, ensuring on-time delivery and high accuracy in translating legal documents.",
+        imageUrl: ["/Translation Projects/Management 4.jpg"],
+        usedTech: [
+          "Best Practices",
+          "Risk Management",
+          "Quality Assurance",
+          "Legal Translation",
+          "OCR Technology",
+          "Secure File Transfer",
+        ],
       },
       {
-        title: "Project Title 5",
+        title: "Educational Content Localization",
         description:
-          "Leading a project to localize educational content for various regions, using specialized tools for educational material management.",
-        imageUrl: "https://placehold.co/600x400",
-        usedTech: ["Educational Tools", "Content Management", "Localization"],
+          "Leading a project to localize educational content for various regions, using specialized tools for educational material management and ensuring effective learning experiences.",
+        imageUrl: ["/Translation Projects/Management 5.jpg"],
+        usedTech: [
+          "Educational Tools",
+          "Content Management",
+          "Localization",
+          "Interactive Content",
+          "SCORM",
+          "Translation",
+        ],
       },
       {
-        title: "Project Title 6",
+        title: "Multimedia Content Translation",
         description:
-          "Managing a project involving the translation and localization of multimedia content, ensuring high-quality audio and video synchronization.",
-        imageUrl: "https://placehold.co/600x400",
+          "Managing a project involving the translation and localization of multimedia content, ensuring high-quality audio and video synchronization for a seamless user experience.",
+        imageUrl: ["/Translation Projects/Management 6.jpeg"],
         usedTech: [
           "Multimedia Management",
           "Audio/Video Synchronization",
+          "Quality Control",
+          "Translation",
+          "Localization",
+          "Cultural Adaptation",
+        ],
+      },
+      {
+        title: "Healthcare Document Translation",
+        description:
+          "Coordinating the translation of healthcare documents, leveraging specialized medical terminology databases to ensure accuracy and compliance with healthcare standards.",
+        imageUrl: ["/Translation Projects/Management 8.jpg"],
+        usedTech: [
+          "Medical Terminology",
+          "Compliance Tools",
+          "Healthcare Translation",
+          "Terminology Database",
+          "Glossary Management",
+          "CAT Tools",
+        ],
+      },
+      {
+        title: "Software Localization Project",
+        description:
+          "Leading the localization of software applications, focusing on user interface translation and ensuring a seamless user experience across different linguistic regions.",
+        imageUrl: ["/Translation Projects/Management 9.webp"],
+        usedTech: [
+          "Localization Platform",
+          "UI/UX Design",
+          "Software Development",
+          "Translation Memory",
+          "Linguistic Testing",
+          "Quality Assurance",
+        ],
+      },
+      {
+        title: "E-commerce Platform Translation",
+        description:
+          "Managing the translation of e-commerce platforms, including product descriptions, user reviews, and UI elements, to enhance user engagement and global reach.",
+        imageUrl: ["/Translation Projects/Management 7.jpg"],
+        usedTech: [
+          "E-commerce Platforms",
+          "Localization",
+          "Content Management System",
+          "SEO",
+          "Translation",
+          "Cultural Adaptation",
+        ],
+      },
+      {
+        title: "Entertainment Media Localization",
+        description:
+          "Overseeing the localization of entertainment media, ensuring that subtitles and dubbing are accurately translated and synchronized, while maintaining the original tone and humor.",
+        imageUrl: ["/Translation Projects/Management 3.jpg"],
+        usedTech: [
+          "Subtitle Translation",
+          "Dubbing",
+          "Synchronization",
+          "Localization",
+          "Cultural Adaptation",
           "Quality Control",
         ],
       },
@@ -321,69 +486,120 @@ export const projects = [
     category: "Transcription",
     items: [
       {
-        title: "Project Title 1",
+        title: "Corporate Meeting Transcription",
         description:
-          "Transcribing interviews and speeches with high accuracy, using advanced speech-to-text software.",
-        imageUrl: "https://placehold.co/600x400",
+          "Accurately transcribed high-profile corporate meetings, utilizing advanced speech recognition tools and ensuring confidentiality and precise time-coding.",
+        imageUrl: ["/Translation Projects/Transcription 1.jpg"],
         usedTech: [
-          "Speech-to-Text Software",
-          "Audio Analysis",
-          "Transcription Tools",
+          "Speech Recognition",
+          "Time-Coding",
+          "Confidentiality Protocols",
+          "Audio Enhancement",
+          "Transcription Software",
         ],
       },
       {
-        title: "Project Title 2",
+        title: "Medical Conference Transcription",
         description:
-          "A project focused on transcribing legal proceedings, ensuring precision and adherence to legal terminology.",
-        imageUrl: "https://placehold.co/600x400",
+          "Transcribed medical conferences, ensuring accurate terminology and adhering to strict confidentiality standards to support healthcare professionals.",
+        imageUrl: ["/Translation Projects/Transcription 2.jpg"],
         usedTech: [
-          "Legal Transcription",
+          "Medical Terminology",
+          "Confidentiality Protocols",
+          "Transcription Software",
+          "Audio Enhancement",
+          "Time-Coding",
+        ],
+      },
+      {
+        title: "Legal Deposition Transcription",
+        description:
+          "Provided detailed transcription for legal depositions, utilizing specialized legal transcription tools and ensuring high accuracy and compliance with legal standards.",
+        imageUrl: ["/Translation Projects/Transcription 3.jpg"],
+        usedTech: [
+          "Legal Transcription Tools",
+          "Compliance Tools",
+          "Audio Enhancement",
+          "Time-Coding",
+          "Confidentiality Protocols",
+        ],
+      },
+      {
+        title: "Podcast Transcription",
+        description:
+          "Transcribed podcast episodes, focusing on accurate representation of spoken content and ensuring proper formatting for publication and accessibility.",
+        imageUrl: ["/Translation Projects/Transcription 4.webp"],
+        usedTech: [
+          "Transcription Software",
+          "Audio Enhancement",
+          "Formatting Tools",
+          "Time-Coding",
+          "Content Management Systems",
+        ],
+      },
+      {
+        title: "Academic Lecture Transcription",
+        description:
+          "Accurately transcribed academic lectures, employing advanced transcription software and ensuring precise terminology for various academic fields.",
+        imageUrl: ["/Translation Projects/Transcription 5.webp"],
+        usedTech: [
+          "Transcription Software",
           "Terminology Management",
-          "Secure Storage",
+          "Time-Coding",
+          "Audio Enhancement",
+          "Content Management Systems",
         ],
       },
       {
-        title: "Project Title 3",
+        title: "Media Interview Transcription",
         description:
-          "Transcribing educational videos for online learning platforms, integrating with captioning tools.",
-        imageUrl: "https://placehold.co/600x400",
+          "Transcribed media interviews with a focus on capturing nuanced dialogue and ensuring high-quality audio processing for clear and accurate transcription.",
+        imageUrl: ["/Translation Projects/Transcription 6.webp"],
         usedTech: [
-          "Captioning Tools",
-          "Educational Platforms",
-          "Video Integration",
+          "Audio Enhancement",
+          "Transcription Software",
+          "Time-Coding",
+          "Dialogue Management",
+          "Content Management Systems",
         ],
       },
       {
-        title: "Project Title 4",
+        title: "Focus Group Transcription",
         description:
-          "Providing transcription services for multilingual conference recordings, using AI-based language detection.",
-        imageUrl: "https://placehold.co/600x400",
+          "Provided transcription services for focus groups, ensuring accurate representation of multiple speakers and clear identification of individual contributions.",
+        imageUrl: ["/Translation Projects/Transcription 7.jpg"],
         usedTech: [
-          "Language Detection",
-          "Conference Tools",
-          "AI-based Transcription",
+          "Multi-Speaker Identification",
+          "Transcription Software",
+          "Audio Enhancement",
+          "Time-Coding",
+          "Content Management Systems",
         ],
       },
       {
-        title: "Project Title 5",
+        title: "Documentary Footage Transcription",
         description:
-          "Transcribing market research focus groups, utilizing specialized tools for industry-specific terminology.",
-        imageUrl: "https://placehold.co/600x400",
+          "Transcribed documentary footage, ensuring accurate and contextual representation of spoken content to aid in the editing and production process.",
+        imageUrl: ["/Translation Projects/Transcription 8.jpg"],
         usedTech: [
-          "Market Research Tools",
-          "Industry Terminology",
-          "Transcription Management",
+          "Transcription Software",
+          "Time-Coding",
+          "Audio Enhancement",
+          "Content Management Systems",
+          "Contextual Analysis",
         ],
       },
       {
-        title: "Project Title 6",
+        title: "Court Hearing Transcription",
         description:
-          "A project aimed at transcribing medical dictations with high precision, using medical transcription software.",
-        imageUrl: "https://placehold.co/600x400",
+          "Transcribed court hearings with a focus on maintaining accuracy and adherence to legal standards, utilizing specialized transcription tools for legal proceedings.",
+        imageUrl: ["/Translation Projects/Transcription 9.jpg"],
         usedTech: [
-          "Medical Transcription Software",
-          "Dictation Tools",
-          "Terminology Management",
+          "Legal Transcription Tools",
+          "Compliance Tools",
+          "Time-Coding",
+          "Audio Enhancement",
+          "Confidentiality Protocols",
         ],
       },
     ],
@@ -392,57 +608,133 @@ export const projects = [
     category: "PE",
     items: [
       {
-        title: "Project Title 1",
+        title: "AI-Generated Text Post-Editing",
         description:
-          "Post-editing machine-translated content for accuracy and fluency, using advanced linguistic tools.",
-        imageUrl: "https://placehold.co/600x400",
-        usedTech: ["Linguistic Tools", "MT Post-Editing", "Quality Assurance"],
-      },
-      {
-        title: "Project Title 2",
-        description:
-          "A project focused on enhancing the quality of translated legal documents, ensuring adherence to legal standards.",
-        imageUrl: "https://placehold.co/600x400",
-        usedTech: ["Legal Standards", "Quality Control", "MT Enhancement"],
-      },
-      {
-        title: "Project Title 3",
-        description:
-          "Post-editing marketing materials translated by AI, ensuring cultural relevance and persuasive language.",
-        imageUrl: "https://placehold.co/600x400",
+          "Refined AI-generated texts for clarity, coherence, and accuracy, utilizing advanced language models and ensuring the final output met high-quality standards.",
+        imageUrl: ["/Translation Projects/PE.png"],
         usedTech: [
-          "Marketing Tools",
-          "Cultural Adaptation",
-          "Language Enhancement",
+          "AI Language Models",
+          "Quality Assurance Tools",
+          "Grammar Checkers",
+          "Content Management Systems",
+          "Editing Software",
         ],
       },
       {
-        title: "Project Title 4",
+        title: "Technical Manual Post-Editing",
         description:
-          "Enhancing the readability and coherence of translated educational content, using specialized educational tools.",
-        imageUrl: "https://placehold.co/600x400",
+          "Edited technical manuals to ensure precise terminology and adherence to style guides, enhancing readability and technical accuracy for end-users.",
+        imageUrl: ["/Translation Projects/PE 2.jpeg"],
+        usedTech: [
+          "Terminology Management",
+          "Style Guides",
+          "Editing Software",
+          "Content Management Systems",
+          "Quality Assurance Tools",
+        ],
+      },
+      {
+        title: "Marketing Content Post-Editing",
+        description:
+          "Polished marketing content to enhance engagement and cultural relevance, ensuring the messaging was compelling and aligned with brand guidelines.",
+        imageUrl: ["/Translation Projects/PE 3.jpeg"],
+        usedTech: [
+          "Content Management Systems",
+          "Brand Guidelines",
+          "Editing Software",
+          "SEO Tools",
+          "Quality Assurance Tools",
+        ],
+      },
+      {
+        title: "E-Learning Course Post-Editing",
+        description:
+          "Reviewed and edited e-learning materials to improve instructional clarity and effectiveness, ensuring the content was pedagogically sound and engaging.",
+        imageUrl: ["/Translation Projects/PE 4.jpeg"],
         usedTech: [
           "Educational Tools",
-          "Readability Enhancement",
-          "Content Coherence",
+          "Content Management Systems",
+          "Editing Software",
+          "Quality Assurance Tools",
+          "Interactive Content",
         ],
       },
       {
-        title: "Project Title 5",
+        title: "Legal Document Post-Editing",
         description:
-          "A project aimed at improving the fluency and accuracy of translated medical documents, using medical post-editing tools.",
-        imageUrl: "https://placehold.co/600x400",
-        usedTech: ["Medical Tools", "Fluency Enhancement", "Accuracy Control"],
+          "Edited legal documents for accuracy and compliance, ensuring all legal terminology was correct and the documents adhered to regulatory standards.",
+        imageUrl: ["/Translation Projects/PE 5.png"],
+        usedTech: [
+          "Legal Dictionaries",
+          "Compliance Tools",
+          "Editing Software",
+          "Content Management Systems",
+          "Quality Assurance Tools",
+        ],
       },
       {
-        title: "Project Title 6",
+        title: "Medical Research Post-Editing",
         description:
-          "Post-editing translated technical manuals, ensuring precision and consistency in terminology.",
-        imageUrl: "https://placehold.co/600x400",
+          "Enhanced medical research papers for clarity and technical accuracy, ensuring the use of correct medical terminology and adherence to publication standards.",
+        imageUrl: ["/Translation Projects/PE 6.jpg"],
         usedTech: [
-          "Technical Tools",
-          "Terminology Management",
-          "Consistency Control",
+          "Medical Terminology",
+          "Editing Software",
+          "Content Management Systems",
+          "Quality Assurance Tools",
+          "Publication Standards",
+        ],
+      },
+      {
+        title: "Website Content Post-Editing",
+        description:
+          "Edited website content to improve readability and SEO, ensuring that all text was optimized for search engines and provided a seamless user experience.",
+        imageUrl: ["/Translation Projects/PE 7.png"],
+        usedTech: [
+          "SEO Tools",
+          "Content Management Systems",
+          "Editing Software",
+          "Quality Assurance Tools",
+          "Web Analytics",
+        ],
+      },
+      {
+        title: "Financial Report Post-Editing",
+        description:
+          "Refined financial reports for clarity and precision, ensuring that all financial data was accurately presented and complied with reporting standards.",
+        imageUrl: ["/Translation Projects/PE 8.jpg"],
+        usedTech: [
+          "Financial Analysis Tools",
+          "Compliance Tools",
+          "Editing Software",
+          "Content Management Systems",
+          "Quality Assurance Tools",
+        ],
+      },
+      {
+        title: "Academic Paper Post-Editing",
+        description:
+          "Reviewed and edited academic papers for coherence and adherence to scholarly standards, ensuring the proper use of citations and academic style.",
+        imageUrl: ["/Translation Projects/PE 9.png"],
+        usedTech: [
+          "Academic Databases",
+          "Citation Management Tools",
+          "Editing Software",
+          "Content Management Systems",
+          "Quality Assurance Tools",
+        ],
+      },
+      {
+        title: "News Article Post-Editing",
+        description:
+          "Reviewed and edited news articles for clarity and adherence to journal standards, ensuring the proper use of journalistic style.",
+        imageUrl: ["/Translation Projects/PE 10.jpeg"],
+        usedTech: [
+          "Academic Databases",
+          "Citation Management Tools",
+          "Editing Software",
+          "Content Management Systems",
+          "Quality Assurance Tools",
         ],
       },
     ],
@@ -451,61 +743,143 @@ export const projects = [
     category: "Proofreading",
     items: [
       {
-        title: "Project Title 1",
+        title: "Medical Journal Review",
         description:
-          "Proofreading legal documents for accuracy and compliance with legal standards, using advanced proofreading tools.",
-        imageUrl: "https://placehold.co/600x400",
-        usedTech: ["Proofreading Tools", "Legal Standards", "Accuracy Control"],
-      },
-      {
-        title: "Project Title 2",
-        description:
-          "A project focused on proofreading marketing content, ensuring persuasive and engaging language.",
-        imageUrl: "https://placehold.co/600x400",
+          "Reviewed and proofread submissions for a leading medical journal, ensuring terminological accuracy, clarity, and adherence to stringent editorial standards.",
+        imageUrl: ["/Translation Projects/Proofreading 1.png"],
+
         usedTech: [
-          "Marketing Tools",
-          "Engagement Enhancement",
-          "Language Control",
+          "Medical Terminology Tools",
+          "Plagiarism Detection",
+          "Editing Software",
+          "Reference Management",
+          "Quality Assurance Tools",
         ],
       },
       {
-        title: "Project Title 3",
+        title: "Financial Statement Proofreading",
         description:
-          "Proofreading educational materials for clarity and coherence, using specialized educational tools.",
-        imageUrl: "https://placehold.co/600x400",
+          "Proofread financial statements for major corporations, ensuring precision, compliance with regulatory standards, and clarity in financial reporting.",
+        imageUrl: ["/Translation Projects/Proofreading 2.webp"],
+
+        usedTech: [
+          "Financial Analysis Tools",
+          "Compliance Tools",
+          "Editing Software",
+          "Content Management Systems",
+          "Grammar Checkers",
+        ],
+      },
+      {
+        title: "Educational Textbook Review",
+        description:
+          "Reviewed and proofread educational textbooks for various subjects, ensuring pedagogical soundness, accuracy, and engagement for students.",
+        imageUrl: ["/Translation Projects/Proofreading 3.png"],
+
         usedTech: [
           "Educational Tools",
-          "Clarity Enhancement",
-          "Coherence Control",
+          "Editing Software",
+          "Content Management Systems",
+          "Quality Assurance Tools",
+          "Pedagogical Standards",
         ],
       },
       {
-        title: "Project Title 4",
+        title: "Marketing Material Proofreading",
         description:
-          "Ensuring the precision and fluency of translated medical documents, using medical proofreading tools.",
-        imageUrl: "https://placehold.co/600x400",
-        usedTech: ["Medical Tools", "Fluency Control", "Precision Enhancement"],
-      },
-      {
-        title: "Project Title 5",
-        description:
-          "Proofreading technical manuals for consistency and accuracy, using advanced technical proofreading tools.",
-        imageUrl: "https://placehold.co/600x400",
+          "Proofread marketing materials, including brochures and online content, ensuring compelling and error-free messaging aligned with brand guidelines.",
+        imageUrl: ["/Translation Projects/Proofreading 4.png"],
+
         usedTech: [
-          "Technical Tools",
-          "Consistency Control",
-          "Accuracy Enhancement",
+          "Marketing Tools",
+          "SEO Tools",
+          "Editing Software",
+          "Content Management Systems",
+          "Grammar Checkers",
         ],
       },
       {
-        title: "Project Title 6",
+        title: "Legal Document Review",
         description:
-          "A project aimed at proofreading multimedia content captions for readability and synchronization.",
-        imageUrl: "https://placehold.co/600x400",
+          "Reviewed and proofread legal documents, contracts, and agreements, ensuring terminological accuracy, compliance, and clarity for legal proceedings.",
+        imageUrl: ["/Translation Projects/Proofreading 6.jpg"],
+
         usedTech: [
-          "Multimedia Tools",
-          "Caption Synchronization",
-          "Readability Enhancement",
+          "Legal Dictionaries",
+          "Compliance Tools",
+          "Editing Software",
+          "Confidentiality Protocols",
+          "Quality Assurance Tools",
+        ],
+      },
+      {
+        title: "Technical Manual Proofreading",
+        description:
+          "Proofread technical manuals for precision and clarity, ensuring accurate use of technical terminology and adherence to user-friendly guidelines.",
+        imageUrl: ["/Translation Projects/Proofreading 7.jpg"],
+
+        usedTech: [
+          "Technical Terminology Management",
+          "Editing Software",
+          "Content Management Systems",
+          "Quality Assurance Tools",
+          "User Experience Standards",
+        ],
+      },
+      {
+        title: "Press Release Review",
+        description:
+          "Reviewed and proofread press releases for global brands, ensuring the accuracy of information, consistency, and impactful messaging.",
+        imageUrl: ["/Translation Projects/Proofreading 8.jpeg"],
+
+        usedTech: [
+          "PR Tools",
+          "Editing Software",
+          "Content Management Systems",
+          "Grammar Checkers",
+          "Quality Assurance Tools",
+        ],
+      },
+      {
+        title: "Website Content Proofreading",
+        description:
+          "Proofread website content for major e-commerce platforms, ensuring error-free, engaging, and SEO-optimized text to enhance user experience.",
+        imageUrl: ["/Translation Projects/Proofreading 9.png"],
+
+        usedTech: [
+          "SEO Tools",
+          "Editing Software",
+          "Content Management Systems",
+          "Grammar Checkers",
+          "Web Analytics",
+        ],
+      },
+      {
+        title: "Scientific Research Paper Review",
+        description:
+          "Reviewed and proofread scientific research papers, ensuring clarity, proper formatting, and adherence to publication standards and scientific rigor.",
+        imageUrl: ["/Translation Projects/Proofreading 10.png"],
+
+        usedTech: [
+          "Scientific Databases",
+          "Reference Management Tools",
+          "Editing Software",
+          "Quality Assurance Tools",
+          "Style Guides",
+        ],
+      },
+      {
+        title: "Subtitling Script Proofreading",
+        description:
+          "Proofread subtitles for films and TV shows, ensuring synchronization, accuracy, and cultural relevance to enhance viewer understanding and enjoyment.",
+        imageUrl: ["/Translation Projects/Proofreading 11.jpg"],
+
+        usedTech: [
+          "Subtitling Software",
+          "Editing Software",
+          "Cultural Adaptation Tools",
+          "Quality Assurance Tools",
+          "Grammar Checkers",
         ],
       },
     ],
@@ -514,58 +888,76 @@ export const projects = [
     category: "Subtitling",
     items: [
       {
-        title: "Project Title 1",
+        title: "Official Subtitler for Al-Ahli Saudi FC Season 2023-2024",
         description:
-          "Subtitling a series of educational videos, ensuring synchronization and readability, using specialized subtitling software.",
-        imageUrl: "https://placehold.co/600x400",
+          "Subtitling matches and promotional content for Al-Ahli Saudi FC, ensuring accurate and timely subtitles for fans.",
+        imageUrl: ["/Translation Projects/Subtitling 1.png"],
+
         usedTech: [
-          "Subtitling Software",
-          "Educational Tools",
+          " Subtitling Software",
+          "Live Event Captioning",
           "Synchronization",
         ],
       },
       {
-        title: "Project Title 2",
+        title: "MBC Group Subtitler",
         description:
-          "Creating subtitles for a documentary series, focusing on accuracy and cultural relevance.",
-        imageUrl: "https://placehold.co/600x400",
+          "Creating subtitles for various MBC Group broadcasts, including news, entertainment, and drama, with a focus on clarity and cultural relevance.",
+        imageUrl: ["/Translation Projects/Subtitling 2.webp"],
+
         usedTech: [
-          "Documentary Tools",
+          " Subtitling Software",
           "Cultural Adaptation",
+          "Clarity Control",
+        ],
+      },
+      {
+        title: "Disney+ and Netflix Subtitler",
+        description:
+          "Subtitling a range of content for Disney+ and Netflix, ensuring accurate translations and adherence to platform guidelines.",
+        imageUrl: ["/Translation Projects/Subtitling 3.jpeg"],
+
+        usedTech: [
+          "Streaming Platform Tools",
+          "Translation Accuracy",
+          "Platform Compliance",
+        ],
+      },
+      {
+        title: "SBS News Subtitler",
+        description:
+          "Providing subtitles for SBS News broadcasts, focusing on real-time accuracy and timely delivery.",
+        imageUrl: ["/Translation Projects/Subtitling 3.webp"],
+
+        usedTech: [
+          " Subtitling Software",
+          "Real-time Captioning",
           "Accuracy Control",
         ],
       },
       {
-        title: "Project Title 3",
+        title: "Fox News Subtitler",
         description:
-          "Subtitling multilingual conference recordings, using AI-based language detection and synchronization tools.",
-        imageUrl: "https://placehold.co/600x400",
-        usedTech: ["Language Detection", "AI Tools", "Conference Subtitling"],
-      },
-      {
-        title: "Project Title 4",
-        description:
-          "A project focused on subtitling animated films, ensuring timing accuracy and viewer engagement.",
-        imageUrl: "https://placehold.co/600x400",
-        usedTech: ["Animation Tools", "Timing Control", "Viewer Engagement"],
-      },
-      {
-        title: "Project Title 5",
-        description:
-          "Subtitling e-learning courses, integrating with LMS platforms to enhance learning experience.",
-        imageUrl: "https://placehold.co/600x400",
+          "Subtitling Fox News segments, ensuring precision in live news delivery and adherence to broadcasting standards.",
+        imageUrl: ["/Translation Projects/Subtitling 7.png"],
+
         usedTech: [
-          "LMS Integration",
-          "E-learning Tools",
-          "Subtitling Software",
+          " Subtitling Software",
+          "Live Captioning",
+          "Standard Compliance",
         ],
       },
       {
-        title: "Project Title 6",
+        title: "Türkiye Earthquake Subtitler for Pakistani Newsletter",
         description:
-          "Creating subtitles for marketing videos, focusing on brand messaging and viewer retention.",
-        imageUrl: "https://placehold.co/600x400",
-        usedTech: ["Marketing Tools", "Brand Messaging", "Viewer Retention"],
+          "Subtitling content related to the Türkiye earthquake for a Pakistani newsletter, focusing on accurate translation and sensitivity to the subject matter.",
+        imageUrl: ["/Translation Projects/Subtitling 5.jpeg"],
+
+        usedTech: [
+          "Subtitling Software",
+          "Cultural Sensitivity",
+          "Emergency Reporting",
+        ],
       },
     ],
   },
@@ -720,42 +1112,42 @@ export const frontendSkills = [
     imgClasses:
       "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
   },
-  
+
   {
     text: "HTML",
     image: "/devSVG/html-5-svgrepo-com.svg",
     alt: "html",
     additionalClasses:
-    "group cursor-pointer flex justify-center items-center gap-5",
+      "group cursor-pointer flex justify-center items-center gap-5",
     imgClasses:
-    "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
   },
   {
     text: "Tailwind CSS",
     image: "/devSVG/tailwind-svgrepo-com.svg",
     alt: "tailwindcss",
     additionalClasses:
-    "group cursor-pointer flex justify-center items-center gap-5",
+      "group cursor-pointer flex justify-center items-center gap-5",
     imgClasses:
-    "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
   },
   {
     text: "CSS",
     image: "/devSVG/css-3-svgrepo-com.svg",
     alt: "css",
     additionalClasses:
-    "group cursor-pointer flex justify-center items-center gap-5",
+      "group cursor-pointer flex justify-center items-center gap-5",
     imgClasses:
-    "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
   },
   {
     text: "Material-UI",
     image: "/devSVG/material-ui-svgrepo-com.svg",
     alt: "Material-UI",
     additionalClasses:
-    "group cursor-pointer flex justify-center items-center gap-5",
+      "group cursor-pointer flex justify-center items-center gap-5",
     imgClasses:
-    "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
   },
   {
     text: "Bootstrap",

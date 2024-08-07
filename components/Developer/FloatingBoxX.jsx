@@ -12,7 +12,7 @@ export default function FloatingBoxX({ position }) {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       style={{ x }}
-      className={`flex absolute   h-32  w-32 md:h-56 md:w-56 ${position} transition-all duration-700 z-20`}
+      className={`flex absolute   h-32  w-32 md:h-56 md:w-56 ${position} transition-all duration-700 rounded-sm z-20`}
     ></motion.div>
   );
 }

@@ -9,6 +9,7 @@ import Transcription from "../../../Assets/Transcriptionist.json";
 import Management from "../../../Assets/Management.json";
 import SocialMedia from "../../../components/Translator/SocialMedia";
 import { projects, serviceNames } from "../../../constants/Arrays";
+import ImageSlider from "./ImageSlider";
 
 const animationMap = {
   Translation: Translation,
@@ -67,10 +68,13 @@ export default function Services({ service }) {
       <div className="min-h-screen container mx-auto border-r-2 border-l-2 border-black max-md:mt-52  p-6 md:p-12 text-center relative z-30">
         <div className="max-w-7xl mx-auto">
           <h1 id="projects" className="text-4xl md:text-7xl font-bold mb-4">
-            {service}
+            {displayName}
           </h1>
           <p className="text-lg my-8">
             Those are most of the International project I've worked over it.
+
+            <br />
+            <span className="text-sm font-bold text-red-500 animate-pulse">To see more double click over the photos!</span>
           </p>
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-16 ">
             {ProjectService.items.map((projectItem, index) => {
@@ -79,25 +83,23 @@ export default function Services({ service }) {
                   key={index}
                   className=" p-4 rounded-lg shadow-md hover:shadow-xl transition-all duration-700 cursor-pointer"
                 >
-                  <img
-                    src={projectItem.imgSrc}
-                    alt={`Project ${index + 1} of Translation and Localization`}
-                    className="w-full h-48 md:h-64 object-cover rounded-lg mb-4"
-                  />
-                  <h2 className="text-xl font-semibold  mb-2">
+                  <ImageSlider Photo={projectItem.imageUrl} />
+                  <h2 className="text-base md:text-xl font-semibold  mb-2">
                     {projectItem.title}
                   </h2>
-                  <p className="text- mb-4">{projectItem.description}</p>
-                  <div className="text-sm text-start flex flex-row gap-2 justify-start items-center">
-                    <span className="font-semibold">Used Tech:</span>{" "}
+                  <p className="text-sm md:text-base mb-4">
+                    {projectItem.description}
+                  </p>
+                  <div className="text-sm text-start flex flex-wrap gap-2 justify-start items-center">
+                    <span className="font-semibold text-xs">Used Tech:</span>{" "}
                     {projectItem.usedTech.map((tech, index) => {
                       return (
-                        <span
+                        <p
                           key={index}
-                          className="bg-gray-300 px-1 py-1 rounded-3xl text-black font-bold text-xs text-center"
+                          className="bg-gray-300 px-1 py-1 rounded-3xl text-black font-bold text-xs text-center hover:bg-gray-400 transition-all duration-500"
                         >
                           {tech}
-                        </span>
+                        </p>
                       );
                     })}
                   </div>

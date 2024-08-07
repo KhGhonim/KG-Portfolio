@@ -44,9 +44,9 @@ export default function page() {
             Discover my comprehensive range of translation services,
             meticulously tailored to meet your diverse linguistic needs.
             <br />
-            <span className="text-lg text-red-500">
-              Click on the servce you desire to find out more.{" "}
-              <BsArrowDown className="animate-bounce" color="red" />
+            <span className="text-lg text-red-500 font-semibold flex flex-col justify-center items-center my-5 gap-5">
+              Click on the service you desire to find out more.{" "}
+              <BsArrowDown size={40} className="animate-bounce " color="red" />
             </span>
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 ">

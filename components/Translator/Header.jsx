@@ -4,7 +4,32 @@ import { useEffect, useRef, useState } from "react";
 import Tippy from "@tippyjs/react";
 import { MotionConfig, motion } from "framer-motion";
 import { navLinks, VARIANTS } from "../../constants/Arrays";
-import { usePathname } from "next/navigation";
+
+const parentVariants = {
+  hidden: { opacity: 0, y: 100 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      type: "spring",
+      stiffness: 100,
+      damping: 10,
+      duration: 1.5,
+      staggerChildren: 0.2,
+    },
+  },
+  exit: { opacity: 0, y: 100, transition: { duration: 1, ease: "easeInOut" } },
+};
+
+const childVariants = {
+  hidden: { opacity: 0, y: 100 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { type: "spring", stiffness: 100, damping: 10 },
+  },
+  exit: { opacity: 0, y: 100, transition: { duration: 1, ease: "easeInOut" } },
+};
 
 export default function Header() {
   const [active, setActive] = useState(false);
@@ -139,36 +164,43 @@ export default function Header() {
           </MotionConfig>
 
           {/* Menu Items for Phone */}
+
           <div
             ref={ref}
             className={`absolute z-50 origin-top-right ${Menu} top-full w-44 rounded-lg shadow-lg border border-black bg-[--background-color]`}
           >
-            <div
+            <motion.div
+              key={active ? "open" : "closed"}
+              variants={parentVariants}
+              animate="visible"
+              initial="hidden"
               className=" flex flex-col items-center px-4 py-5 gap-3 "
               role="none"
             >
               {navLinks.map((link, index) => {
                 return (
-                  <Link
-                    key={index}
-                    href={`${link.href}`}
+                  <motion.div
+                    variants={childVariants}
                     className="relative group"
+                    key={index}
                   >
-                    <span className="relative font-blod hover:font-extrabold">
-                      {link.text}
-                    </span>
-                    <span className="absolute left-0 bottom-0 w-full h-0.5 bg-black transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></span>
-                  </Link>
+                    <Link href={`${link.href}`} className="relative group">
+                      <span className="relative font-blod hover:font-extrabold">
+                        {link.text}
+                      </span>
+                      <span className="absolute left-0 bottom-0 w-full h-0.5 bg-black transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></span>
+                    </Link>
+                  </motion.div>
                 );
               })}
-            </div>
+            </motion.div>
           </div>
         </div>
 
         {/* Translator and Developer Switcher */}
         <div className="w-12 h-12 cursor-pointer  ">
           <Link
-            className={`absolute transition-all duration-500 hover:scale-90 `}
+            className={`absolute transition-all duration-500 hover:scale-90  pr-2`}
             href={"/Developer"}
           >
             <Tippy content="Go To Developer Website">
