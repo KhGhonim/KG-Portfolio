@@ -72,9 +72,10 @@ export default function Services({ service }) {
           </h1>
           <p className="text-lg my-8">
             Those are most of the International project I've worked over it.
-
             <br />
-            <span className="text-sm font-bold text-red-500 animate-pulse">To see more double click over the photos!</span>
+            <span className="text-sm font-bold text-red-500 animate-pulse">
+              To see more double click over the photos!
+            </span>
           </p>
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-16 ">
             {ProjectService.items.map((projectItem, index) => {

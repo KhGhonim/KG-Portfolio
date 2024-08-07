@@ -7,8 +7,6 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 
 export default function page() {
-
-
   return (
     <div className=" relative z-40 ">
       <div>
@@ -20,6 +18,11 @@ export default function page() {
       <div className="w-5/6 mx-auto">
         <VerticalTimeline animate={true} lineColor="gray">
           <VerticalTimelineElement
+            contentStyle={{
+              background: `url('/old bg.jpg') no-repeat center center`,
+              backgroundSize: "cover",
+              color: "black",
+            }}
             className="vertical-timeline-element--work"
             date="2017 - 2019"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
@@ -35,12 +38,14 @@ export default function page() {
               />
             }
           >
-            <h3 className="vertical-timeline-element-title">Supervisor</h3>
+            <h3 className="vertical-timeline-element-title font-extrabold text-xl">
+              Supervisor
+            </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Dubai, UAE,{" "}
               <span className="font-semibold">Flexell International Ltd</span>
             </h4>
-            <div className="flex flex-col mt-4">
+            <div className="flex flex-col mt-4 font-semibold text-sm md:text-base">
               <span>
                 Supervision in translation projects and trained junior
                 translators.
@@ -53,6 +58,11 @@ export default function page() {
             </div>
           </VerticalTimelineElement>
           <VerticalTimelineElement
+            contentStyle={{
+              background: `url('/old bg.jpg') no-repeat center center`,
+              backgroundSize: "cover",
+              color: "black",
+            }}
             visible={true}
             className="vertical-timeline-element--work"
             date="2019 - Present"
@@ -68,13 +78,13 @@ export default function page() {
               />
             }
           >
-            <h3 className="vertical-timeline-element-title">
+            <h3 className="vertical-timeline-element-title font-extrabold text-xl">
               Operation Manager
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Dubai, UAE, <span className="font-semibold">ALPHA</span>
             </h4>
-            <div className="flex flex-col mt-4">
+            <div className="flex flex-col mt-4 font-semibold text-sm md:text-base">
               <span>
                 Develop plans for the work system in the company and the
                 necessary rules to facilitate work movement.
@@ -87,6 +97,11 @@ export default function page() {
             </div>
           </VerticalTimelineElement>
           <VerticalTimelineElement
+            contentStyle={{
+              background: `url('/old bg.jpg') no-repeat center center`,
+              backgroundSize: "cover",
+              color: "black",
+            }}
             visible={true}
             className="vertical-timeline-element--work"
             date="2022 - 3 Months, Internship"
@@ -102,12 +117,14 @@ export default function page() {
               />
             }
           >
-            <h3 className="vertical-timeline-element-title">Project Manager</h3>
+            <h3 className="vertical-timeline-element-title font-extrabold text-xl">
+              Project Manager
+            </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Switzerland,{" "}
               <span className="font-semibold">Collot Baca Localization</span>
             </h4>
-            <div className="flex flex-col mt-4">
+            <div className="flex flex-col mt-4 font-semibold text-sm md:text-base">
               <span>Project Manager in Ooona.</span>
               <span>
                 Clarifying with the client the specifications of the project.
@@ -131,6 +148,11 @@ export default function page() {
             </div>
           </VerticalTimelineElement>
           <VerticalTimelineElement
+            contentStyle={{
+              background: `url('/old bg.jpg') no-repeat center center`,
+              backgroundSize: "cover",
+              color: "black",
+            }}
             visible={true}
             className="vertical-timeline-element--work"
             date="2022 - Present"
@@ -146,13 +168,13 @@ export default function page() {
               />
             }
           >
-            <h3 className="vertical-timeline-element-title">
+            <h3 className="vertical-timeline-element-title font-extrabold text-xl">
               Linguistic Quality Assurance
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Singapore, <span className="font-semibold">Andovar</span>
             </h4>
-            <div className="flex flex-col mt-4">
+            <div className="flex flex-col mt-4 font-semibold text-sm md:text-base">
               <span>
                 Reviewing translated materials for errors and inconsistencies.
               </span>
@@ -184,6 +206,11 @@ export default function page() {
             </div>
           </VerticalTimelineElement>
           <VerticalTimelineElement
+            contentStyle={{
+              background: `url('/old bg.jpg') no-repeat center center`,
+              backgroundSize: "cover",
+              color: "black",
+            }}
             visible={true}
             className="vertical-timeline-element--education"
             date="2023 - 2024"
@@ -199,14 +226,14 @@ export default function page() {
               />
             }
           >
-            <h3 className="vertical-timeline-element-title">
+            <h3 className="vertical-timeline-element-title font-extrabold text-xl">
               Closed Caption Editor
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Singapore,{" "}
               <span className="font-semibold">WORDS Language Solutions </span>
             </h4>
-            <div className="flex flex-col mt-4">
+            <div className="flex flex-col mt-4 font-semibold text-sm md:text-base">
               <span>
                 Providing accurate translations for the daily morning news
                 bulletin of an{" "}
@@ -227,6 +254,11 @@ export default function page() {
             </div>
           </VerticalTimelineElement>
           <VerticalTimelineElement
+            contentStyle={{
+              background: `url('/old bg.jpg') no-repeat center center`,
+              backgroundSize: "cover",
+              color: "black",
+            }}
             visible={true}
             className="vertical-timeline-element--education"
             date="2022 - 2024"
@@ -242,13 +274,13 @@ export default function page() {
               />
             }
           >
-            <h3 className="vertical-timeline-element-title">
+            <h3 className="vertical-timeline-element-title font-extrabold text-xl">
               Subtitler & Transcriptionist
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               India, <span className="font-semibold">Sirri Translations </span>
             </h4>
-            <div className="flex flex-col mt-4">
+            <div className="flex flex-col mt-4 font-semibold text-sm md:text-base">
               <span>
                 Specialization in transcribing and translating global interviews
                 and news bulletins, particularly focusing on significant
@@ -267,6 +299,11 @@ export default function page() {
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
+            contentStyle={{
+              background: `url('/old bg.jpg') no-repeat center center`,
+              backgroundSize: "cover",
+              color: "black",
+            }}
             visible={true}
             className="vertical-timeline-element--education"
             date="2021 - 6 Months, Internship"
@@ -282,13 +319,13 @@ export default function page() {
               />
             }
           >
-            <h3 className="vertical-timeline-element-title">
+            <h3 className="vertical-timeline-element-title font-extrabold text-xl">
               Subtitler & Transcriptionist
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Denmark, <span className="font-semibold">Hilal Play </span>
             </h4>
-            <div className="flex flex-col mt-4">
+            <div className="flex flex-col mt-4 font-semibold text-sm md:text-base">
               <span>Subtitling from Turkish to English</span>
               <span>Subtitling from Turkish to Arabic</span>
               <span>
@@ -298,6 +335,11 @@ export default function page() {
             </div>
           </VerticalTimelineElement>
           <VerticalTimelineElement
+            contentStyle={{
+              background: `url('/old bg.jpg') no-repeat center center`,
+              backgroundSize: "cover",
+              color: "black",
+            }}
             visible={true}
             className="vertical-timeline-element--education"
             date="2023 - 9 Months, Internship"
@@ -313,14 +355,14 @@ export default function page() {
               />
             }
           >
-            <h3 className="vertical-timeline-element-title">
+            <h3 className="vertical-timeline-element-title font-extrabold text-xl">
               Subtitler & Transcriptionist
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Pakistan,{" "}
               <span className="font-semibold">Pinnacles Productions </span>
             </h4>
-            <div className="flex flex-col mt-4">
+            <div className="flex flex-col mt-4 font-semibold text-sm md:text-base">
               <span>
                 Freelancer offers language localization to{" "}
                 <span className="font-semibold text-[#FF4654]">
@@ -346,6 +388,11 @@ export default function page() {
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
+            contentStyle={{
+              background: `url('/old bg.jpg') no-repeat center center`,
+              backgroundSize: "cover",
+              color: "black",
+            }}
             visible={true}
             className="vertical-timeline-element--education"
             date="2021 - 2023"
@@ -361,11 +408,13 @@ export default function page() {
               />
             }
           >
-            <h3 className="vertical-timeline-element-title">MTPE Specialist</h3>
+            <h3 className="vertical-timeline-element-title font-extrabold text-xl">
+              MTPE Specialist
+            </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Egypt, <span className="font-semibold">TrensTech </span>
             </h4>
-            <div className="flex flex-col mt-4">
+            <div className="flex flex-col mt-4 font-semibold text-sm md:text-base">
               <span>
                 Post-editing machine-translated content from English to Arabic
                 to improve its linguistic quality and readability.
@@ -389,6 +438,11 @@ export default function page() {
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
+            contentStyle={{
+              background: `url('/old bg.jpg') no-repeat center center`,
+              backgroundSize: "cover",
+              color: "black",
+            }}
             visible={true}
             className="vertical-timeline-element--education"
             date="2023 - 2024"
@@ -404,11 +458,13 @@ export default function page() {
               />
             }
           >
-            <h3 className="vertical-timeline-element-title">Subtitler</h3>
+            <h3 className="vertical-timeline-element-title font-extrabold text-xl">
+              Subtitler
+            </h3>
             <h4 className="vertical-timeline-element-subtitle">
               USA, <span className="font-semibold">Vice News & Fox News </span>
             </h4>
-            <div className="flex flex-col mt-4">
+            <div className="flex flex-col mt-4 font-semibold text-sm md:text-base">
               <span>
                 Accurately transcribing and timing the spoken dialogue of video
                 footage related to the earthquakes in Turkey and Syria.
