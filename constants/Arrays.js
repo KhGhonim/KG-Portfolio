@@ -626,15 +626,6 @@ export const backendSkills = [
       "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
   },
   {
-    text: "Supabase",
-    image: "/devSVG/image-Photoroom.png",
-    alt: "Supabase",
-    additionalClasses:
-      "group cursor-pointer flex justify-center items-center gap-5",
-    imgClasses:
-      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
-  },
-  {
     text: "Express",
     image: "/devSVG/express-svgrepo-com.svg",
     alt: "express",
@@ -652,6 +643,16 @@ export const backendSkills = [
     imgClasses:
       "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
   },
+  {
+    text: "Supabase",
+    image: "/devSVG/image-Photoroom.png",
+    alt: "Supabase",
+    additionalClasses:
+      "group cursor-pointer flex justify-center items-center gap-5",
+    imgClasses:
+      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+  },
+
   {
     text: "Strapi",
     image: "/devSVG/strapi-svgrepo-com.svg",
@@ -711,16 +712,6 @@ export const frontendSkills = [
       "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
   },
   {
-    text: "Bootstrap",
-    image: "/devSVG/bootstrap-svgrepo-com.svg",
-    alt: "bootstrap",
-    additionalClasses:
-      "group cursor-pointer flex justify-center items-center gap-5",
-    imgClasses:
-      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
-  },
-
-  {
     text: "Javascript",
     image: "/devSVG/javascript-svgrepo-com.svg",
     alt: "javascript",
@@ -729,37 +720,47 @@ export const frontendSkills = [
     imgClasses:
       "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
   },
+  
   {
     text: "HTML",
     image: "/devSVG/html-5-svgrepo-com.svg",
     alt: "html",
     additionalClasses:
-      "group cursor-pointer flex justify-center items-center gap-5",
+    "group cursor-pointer flex justify-center items-center gap-5",
     imgClasses:
-      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+    "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
   },
   {
     text: "Tailwind CSS",
     image: "/devSVG/tailwind-svgrepo-com.svg",
     alt: "tailwindcss",
     additionalClasses:
-      "group cursor-pointer flex justify-center items-center gap-5",
+    "group cursor-pointer flex justify-center items-center gap-5",
     imgClasses:
-      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+    "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
   },
   {
     text: "CSS",
     image: "/devSVG/css-3-svgrepo-com.svg",
     alt: "css",
     additionalClasses:
-      "group cursor-pointer flex justify-center items-center gap-5",
+    "group cursor-pointer flex justify-center items-center gap-5",
     imgClasses:
-      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+    "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
   },
   {
     text: "Material-UI",
     image: "/devSVG/material-ui-svgrepo-com.svg",
     alt: "Material-UI",
+    additionalClasses:
+    "group cursor-pointer flex justify-center items-center gap-5",
+    imgClasses:
+    "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+  },
+  {
+    text: "Bootstrap",
+    image: "/devSVG/bootstrap-svgrepo-com.svg",
+    alt: "bootstrap",
     additionalClasses:
       "group cursor-pointer flex justify-center items-center gap-5",
     imgClasses:
@@ -795,6 +796,16 @@ export const tools = [
     imgClasses:
       "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
   },
+
+  {
+    text: "Git",
+    image: "/devSVG/git-svgrepo-com.svg",
+    alt: "Git",
+    additionalClasses:
+      "group cursor-pointer flex justify-center items-center gap-5",
+    imgClasses:
+      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+  },
   {
     text: "NPM",
     image: "/devSVG/npm-svgrepo-com.svg",
@@ -809,6 +820,16 @@ export const tools = [
     text: "Wordpress",
     image: "/devSVG/wordpress-svgrepo-com.svg",
     alt: "wordpress",
+    additionalClasses:
+      "group cursor-pointer flex justify-center items-center gap-5",
+    imgClasses:
+      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+  },
+
+  {
+    text: "Jira",
+    image: "/devSVG/jira-svgrepo-com.svg",
+    alt: "Jira",
     additionalClasses:
       "group cursor-pointer flex justify-center items-center gap-5",
     imgClasses:

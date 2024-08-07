@@ -1,15 +1,11 @@
-import { Tajawal } from "next/font/google";
 import "../globals.css";
 import Header from "../../components/Translator/Header";
 import Footer from "../../components/Translator/Footer";
 
-const tajawal = Tajawal({
-  subsets: ["latin", "arabic"],
-  weight: ["400", "500", "700"],
-});
+
 
 export const metadata = {
-  title: "Khaled Ghonim Portfolio",
+  title: "KG Trannslator's Portfolio",
   description: "Web App for Khaled Ghonim's Translator and Developer Portfolio",
   icons: {
     icon: "/KGLogo.svg",
