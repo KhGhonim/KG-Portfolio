@@ -15,7 +15,7 @@ export default function ProjectHomeSlider() {
           return (
             <SwiperSlide
               key={index}
-              className="w-full rounded-lg flex flex-col justify-center items-center"
+              className="flex w-full flex-col items-center justify-center rounded-lg"
             >
               <Image
                 width={500}
@@ -23,9 +23,9 @@ export default function ProjectHomeSlider() {
                 quality={100}
                 src={project.photo}
                 alt={project.name}
-                className="rounded-xl shadow-md transition-all mb-3 duration-500 cursor-pointer hover:scale-105 w-[95%] h-[85%] object-contain"
+                className="mb-3 h-[85%] w-[95%] cursor-pointer rounded-xl object-contain shadow-md transition-all duration-500 hover:scale-105"
               />
-              <h1 className="text-base md:text-2xl font-bold text-white">
+              <h1 className="text-base font-bold text-white md:text-2xl">
                 {project.name}
               </h1>
             </SwiperSlide>

@@ -63,16 +63,16 @@ export default function Header() {
   }, []);
 
   return (
-    <div className=" w-screen container mx-auto relative z-50">
+    <div className="container relative z-50 mx-auto w-screen">
       {/* Pc Header */}
-      <header className=" hidden md:flex items-center justify-between p-4 z-50 relative">
+      <header className="relative z-50 hidden items-center justify-between p-4 md:flex">
         <div className="flex items-center">
-          <div className="w-16 h-16 border-2 border-red-500 rounded-full flex items-center justify-center cursor-pointer  hover:bg-red-500 transition-all duration-300 ease-linear ">
+          <div className="flex h-16 w-16 cursor-pointer items-center justify-center rounded-full border-2 border-red-500 transition-all duration-300 ease-linear hover:bg-red-500">
             <Link
-              className="text-red-500 font-semibold flex  hover:text-gray-50 p-4"
+              className="flex p-4 font-semibold text-red-500 hover:text-gray-50"
               href={"/Translator"}
             >
-              K <span className="drop-animate ">G</span>
+              K <span className="drop-animate">G</span>
             </Link>
           </div>
         </div>
@@ -82,27 +82,27 @@ export default function Header() {
               <Link
                 key={index}
                 href={`${link.href}`}
-                className="relative group"
+                className="group relative"
               >
-                <span className="relative z-10 font-blod hover:font-extrabold">
+                <span className="font-blod relative z-10 hover:font-extrabold">
                   {link.text}
                 </span>
-                <span className="absolute left-0 bottom-0 w-full h-0.5 bg-black transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></span>
+                <span className="absolute bottom-0 left-0 h-0.5 w-full scale-x-0 transform bg-black transition-transform duration-500 group-hover:scale-x-100"></span>
               </Link>
             );
           })}
         </nav>
 
-        <div className="w-12 h-12 cursor-pointer  ">
+        <div className="h-12 w-12 cursor-pointer">
           <Link
-            className={`absolute transition-all duration-500 hover:scale-90 `}
+            className={`absolute transition-all duration-500 hover:scale-90`}
             href={"/Developer"}
           >
             <Tippy content="Go To Developer Website">
               <img
                 src="/app-development.png"
                 alt="Translator Switcher"
-                className={`w-full h-full object-cover cursor-pointer`}
+                className={`h-full w-full cursor-pointer object-cover`}
               />
             </Tippy>
           </Link>
@@ -110,15 +110,15 @@ export default function Header() {
       </header>
 
       {/* Telefon Header */}
-      <header className="hidden max-md:flex items-center justify-between p-4 z-50 relative">
+      <header className="relative z-50 hidden items-center justify-between p-4 max-md:flex">
         {/* Logo */}
         <div className="flex items-center">
-          <div className="w-16 h-16 border-2 border-red-500 rounded-full flex items-center justify-center cursor-pointer  hover:bg-red-500 ">
+          <div className="flex h-16 w-16 cursor-pointer items-center justify-center rounded-full border-2 border-red-500 hover:bg-red-500">
             <Link
-              className="text-red-500 font-semibold flex  hover:text-gray-50 p-4"
+              className="flex p-4 font-semibold text-red-500 hover:text-gray-50"
               href={"/Translator"}
             >
-              K <span className="drop-animate ">G</span>
+              K <span className="drop-animate">G</span>
             </Link>
           </div>
         </div>
@@ -126,7 +126,7 @@ export default function Header() {
         {/* Menu */}
         <div
           onClick={toggleMenu}
-          className="relative flex justify-center border-2 border-black rounded bg-[--background-color] w-12 h-12 cursor-pointer"
+          className="relative flex h-12 w-12 cursor-pointer justify-center rounded border-2 border-black bg-[--background-color]"
         >
           <MotionConfig
             transition={{
@@ -138,7 +138,7 @@ export default function Header() {
               initial={false}
               animate={active ? "open" : "closed"}
               onClick={() => setActive((pv) => !pv)}
-              className="relative h-10 w-10 rounded-full  transition-colors "
+              className="relative h-10 w-10 rounded-full transition-colors"
             >
               <motion.span
                 variants={VARIANTS.top}
@@ -167,28 +167,28 @@ export default function Header() {
 
           <div
             ref={ref}
-            className={`absolute z-50 origin-top-right ${Menu} top-full w-44 rounded-lg shadow-lg border border-black bg-[--background-color]`}
+            className={`absolute z-50 origin-top-right ${Menu} top-full w-44 rounded-lg border border-black bg-[--background-color] shadow-lg`}
           >
             <motion.div
               key={active ? "open" : "closed"}
               variants={parentVariants}
               animate="visible"
               initial="hidden"
-              className=" flex flex-col items-center px-4 py-5 gap-3 "
+              className="flex flex-col items-center gap-3 px-4 py-5"
               role="none"
             >
               {navLinks.map((link, index) => {
                 return (
                   <motion.div
                     variants={childVariants}
-                    className="relative group"
+                    className="group relative"
                     key={index}
                   >
-                    <Link href={`${link.href}`} className="relative group">
-                      <span className="relative font-blod hover:font-extrabold">
+                    <Link href={`${link.href}`} className="group relative">
+                      <span className="font-blod relative hover:font-extrabold">
                         {link.text}
                       </span>
-                      <span className="absolute left-0 bottom-0 w-full h-0.5 bg-black transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></span>
+                      <span className="absolute bottom-0 left-0 h-0.5 w-full scale-x-0 transform bg-black transition-transform duration-500 group-hover:scale-x-100"></span>
                     </Link>
                   </motion.div>
                 );
@@ -198,16 +198,16 @@ export default function Header() {
         </div>
 
         {/* Translator and Developer Switcher */}
-        <div className="w-12 h-12 cursor-pointer  ">
+        <div className="h-12 w-12 cursor-pointer">
           <Link
-            className={`absolute transition-all duration-500 hover:scale-90  pr-2`}
+            className={`absolute pr-2 transition-all duration-500 hover:scale-90`}
             href={"/Developer"}
           >
             <Tippy content="Go To Developer Website">
               <img
                 src="/app-development.png"
                 alt="Translator Switcher"
-                className={`w-full h-full object-cover cursor-pointer`}
+                className={`h-full w-full cursor-pointer object-cover`}
               />
             </Tippy>
           </Link>

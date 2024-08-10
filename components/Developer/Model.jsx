@@ -73,7 +73,7 @@ export default function Model({ IsModelOpen, setIsModelOpen }) {
         key={IsModelOpen}
         className={
           IsModelOpen
-            ? "fixed inset-0 flex flex-col items-center justify-center z-50 bg-black bg-opacity-70 backdrop-blur-md"
+            ? "fixed inset-0 z-50 flex flex-col items-center justify-center bg-black bg-opacity-70 backdrop-blur-md"
             : "hidden"
         }
       >
@@ -83,16 +83,16 @@ export default function Model({ IsModelOpen, setIsModelOpen }) {
           animate="visible"
           exit="exit"
           ref={ref}
-          className=" flex max-sm:flex-col justify-between items-center rounded-lg p-6 md:p-5 gap-5 bg-[#171720] shadow-lg max-w-3xl w-full"
+          className="flex w-full max-w-3xl items-center justify-between gap-5 rounded-lg bg-[#171720] p-6 shadow-lg max-sm:flex-col md:p-5"
         >
-          <motion.div variants={childVariants} className="space-y-4  w-full">
+          <motion.div variants={childVariants} className="w-full space-y-4">
             <div
-              className="bg-[#1c1c27] p-4 rounded-lg w-full block cursor-pointer hover:bg-[#24242f] duration-500 ease-in-out"
+              className="block w-full cursor-pointer rounded-lg bg-[#1c1c27] p-4 duration-500 ease-in-out hover:bg-[#24242f]"
               onClick={() => {
                 handleClick("/Developer/Projects");
               }}
             >
-              <h2 className="text-lg font-semibold text-primary">
+              <h2 className="text-primary text-lg font-semibold">
                 {" "}
                 My Projects
               </h2>
@@ -102,42 +102,44 @@ export default function Model({ IsModelOpen, setIsModelOpen }) {
             </div>
 
             <div
-              className="bg-[#1c1c27] p-4 rounded-lg w-full block cursor-pointer hover:bg-[#24242f] duration-500 ease-in-out"
+              className="block w-full cursor-pointer rounded-lg bg-[#1c1c27] p-4 duration-500 ease-in-out hover:bg-[#24242f]"
               onClick={() => {
                 handleClick("/Translator");
               }}
             >
-              <h2 className="text-lg font-semibold text-primary">
+              <h2 className="text-primary text-lg font-semibold">
                 {" "}
-              Translator Portfolio
+                Translator Portfolio
               </h2>
               <p className="text-xs md:text-sm">
-              Are you looking for a professional translator?
+                Are you looking for a professional translator?
               </p>
             </div>
           </motion.div>
 
-          <motion.div variants={childVariants} className="space-y-4  w-full">
+          <motion.div variants={childVariants} className="w-full space-y-4">
             <Link
-              className="bg-[#1c1c27] p-4 rounded-lg w-full block hover:bg-[#24242f] duration-500 ease-in-out"
+              className="block w-full rounded-lg bg-[#1c1c27] p-4 duration-500 ease-in-out hover:bg-[#24242f]"
               href={"mailto:khaledonem89@gmail.com"}
             >
-              <h2 className="text-lg font-semibold text-primary">Let's Talk</h2>
+              <h2 className="text-primary text-lg font-semibold">Let's Talk</h2>
               <p className="text-xs md:text-sm">Send me a message.</p>
             </Link>
             <div
-              className="bg-[#1c1c27] p-4 rounded-lg w-full block hover:bg-[#24242f] duration-500 ease-in-out cursor-pointer"
+              className="block w-full cursor-pointer rounded-lg bg-[#1c1c27] p-4 duration-500 ease-in-out hover:bg-[#24242f]"
               onClick={() => {
                 handleClick("#form-contact");
               }}
             >
-              <h2 className="text-lg font-semibold text-primary">Form Contact</h2>
+              <h2 className="text-primary text-lg font-semibold">
+                Form Contact
+              </h2>
               <p className="text-xs md:text-sm">Send me a message.</p>
             </div>
           </motion.div>
         </motion.div>
         <motion.div
-          className="w-full flex justify-center items-center gap-4 py-6"
+          className="flex w-full items-center justify-center gap-4 py-6"
           variants={parentVariants}
           initial="hidden"
           animate="visible"

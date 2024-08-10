@@ -51,32 +51,32 @@ export default function ProjectCard({ DevProjects }) {
   }, [SelectCatagory]);
   return (
     <div className="container mx-auto py-36">
-      <ul className="space-x-4 font-bold text-xl flex justify-center items-center p-4">
+      <ul className="flex items-center justify-center space-x-4 p-4 text-xl font-bold">
         <li
           onClick={() => setSelectCatagory("All")}
           id="all"
-          className="border-2 border-white py-2 px-4 rounded-full cursor-pointer text-sm md:text-base hover:bg-white hover:text-black transition-all duration-700 ease-in-out"
+          className="cursor-pointer rounded-full border-2 border-white px-4 py-2 text-sm transition-all duration-700 ease-in-out hover:bg-white hover:text-black md:text-base"
         >
           All
         </li>
         <li
           onClick={() => setSelectCatagory("React")}
           id="react"
-          className="border-2 border-white  py-2 px-4 rounded-full cursor-pointer text-sm md:text-base hover:bg-white hover:text-black transition-all duration-700 ease-in-out"
+          className="cursor-pointer rounded-full border-2 border-white px-4 py-2 text-sm transition-all duration-700 ease-in-out hover:bg-white hover:text-black md:text-base"
         >
           React
         </li>
         <li
           onClick={() => setSelectCatagory("Next.js")}
           id="nextjs"
-          className="border-2 border-white  py-2 px-4 rounded-full cursor-pointer text-sm md:text-base hover:bg-white hover:text-black transition-all duration-700 ease-in-out"
+          className="cursor-pointer rounded-full border-2 border-white px-4 py-2 text-sm transition-all duration-700 ease-in-out hover:bg-white hover:text-black md:text-base"
         >
           Next.js
         </li>
         <li
           onClick={() => setSelectCatagory("Node.js")}
           id="NE"
-          className="border-2 border-white  py-2 px-4 rounded-full cursor-pointer text-sm md:text-base hover:bg-white hover:text-black transition-all duration-700 ease-in-out"
+          className="cursor-pointer rounded-full border-2 border-white px-4 py-2 text-sm transition-all duration-700 ease-in-out hover:bg-white hover:text-black md:text-base"
         >
           Node & Express
         </li>
@@ -89,13 +89,14 @@ export default function ProjectCard({ DevProjects }) {
           initial="hidden"
           animate="visible"
           exit="exit"
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 place-items-center gap-10 p-6 z-40"
+          className="z-40 grid grid-cols-1 place-items-center gap-10 p-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
         >
           {Data.map((project, index) => (
             <motion.div
               variants={childVariants}
+              whileHover={{ scale: 1.1, y: -10 }}
               key={index}
-              className="rounded-lg relative w-72 h-72   group z-40"
+              className="group relative z-40 h-72 w-72 rounded-lg"
             >
               <Image
                 src={project.photo}
@@ -103,17 +104,17 @@ export default function ProjectCard({ DevProjects }) {
                 width={500}
                 height={500}
                 quality={100}
-                className="w-full h-full  object-cover rounded-md mb-4"
+                className="mb-4 h-full w-full rounded-md object-cover"
               />
 
-              <div className="opacity-0 text-center group-hover:opacity-100 flex flex-col absolute rounded-lg inset-0 bg-gradient-to-t from-black to-[rgba(0,0,0,0.5)] transition-opacity duration-700 ease-in-out">
-                <h1 className="font-bold text-xl text-white py-5">
+              <div className="absolute inset-0 flex flex-col rounded-lg bg-gradient-to-t from-black to-[rgba(0,0,0,0.5)] text-center opacity-0 transition-opacity duration-700 ease-in-out group-hover:opacity-100">
+                <h1 className="py-5 text-xl font-bold text-white">
                   {project.title}
                 </h1>
-                <h1 className="font-bold text-sm text-white py-5 flex">
+                <h1 className="flex py-5 text-sm font-bold text-white">
                   {project.description}
                 </h1>
-                <div className="flex justify-around items-center gap-5">
+                <div className="flex items-center justify-around gap-5">
                   <Link href={project.previewLink} target="_blank">
                     <LuLink color="white" size={20} />
                   </Link>
@@ -126,7 +127,7 @@ export default function ProjectCard({ DevProjects }) {
                   {project.tools.map((tool, index) => (
                     <div
                       key={index}
-                      className="flex flex-wrap items-center  bg-white p-1 rounded-xl text-black text-xs"
+                      className="flex flex-wrap items-center rounded-xl bg-white p-1 text-xs text-black"
                     >
                       {tool}
                     </div>

@@ -12,7 +12,7 @@ export default function FloatingBoxY({ position }) {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       style={{ y }}
-      className={` absolute   h-32  w-32 md:h-56 md:w-56 ${position} transition-all duration-700 rounded-sm `}
+      className={`absolute h-32 w-32 md:h-56 md:w-56 ${position} scroll-smooth rounded transition-all duration-700`}
     ></motion.div>
   );
 }

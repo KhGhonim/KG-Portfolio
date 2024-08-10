@@ -4,25 +4,26 @@ import Recieved from "../../Assets/Email Recieved.json";
 import Lottie from "lottie-react";
 import Link from "next/link";
 
-
 export default function TranslatorForm() {
   const [state, handleSubmit] = useForm("mzzprgaw");
 
   if (state.succeeded) {
-    return <Lottie animationData={Recieved} loop={false} className="w-1/2 h-96" />;
-  } 
+    return (
+      <Lottie animationData={Recieved} loop={false} className="h-96 w-1/2" />
+    );
+  }
 
   return (
-    <div id="contact" className="w-full mx-auto  relative z-30 max-md:pt-56 ">
-      <div className="w-11/12 mx-auto md:border-r-2 md:border-l-2  border-black md:py-10">
-        <div className="max-w-5xl mx-auto   px-4 sm:px-6 lg:px-8  p-6 bg-background rounded-lg shadow-md">
-          <h2 className="text-2xl font-bold text-red-700 text-center mb-4">
+    <div id="contact" className="relative z-30 mx-auto w-full max-md:pt-56">
+      <div className="mx-auto w-11/12 border-black md:border-l-2 md:border-r-2 md:py-10">
+        <div className="bg-background mx-auto max-w-5xl rounded-lg p-6 px-4 shadow-md sm:px-6 lg:px-8">
+          <h2 className="mb-4 text-center text-2xl font-bold text-red-700">
             KEEP IN TOUCH
           </h2>
-          <h3 className="text-5xl font-semibold text-[#1E1D20] text-center  mb-2">
+          <h3 className="mb-2 text-center text-5xl font-semibold text-[#1E1D20]">
             CONTACT FORM
           </h3>
-          <p className="text-base md:text-lg mb-4 text-center py-4">
+          <p className="mb-4 py-4 text-center text-base md:text-lg">
             You can{" "}
             <Link
               href="mailto:khaledonem89@gmail.com"
@@ -35,13 +36,13 @@ export default function TranslatorForm() {
           </p>
           <form onSubmit={handleSubmit}>
             <div className="mb-4">
-              <label className="block  mb-1" htmlFor="name">
+              <label className="mb-1 block" htmlFor="name">
                 Name
               </label>
               <input
                 type="text"
                 id="name"
-                className="w-full p-2 border border-border rounded"
+                className="border-border w-full rounded border p-2"
                 placeholder="Name"
               />
               <ValidationError
@@ -51,14 +52,14 @@ export default function TranslatorForm() {
               />
             </div>
             <div className="mb-4">
-              <label className="block  mb-1" htmlFor="email">
+              <label className="mb-1 block" htmlFor="email">
                 Email address
               </label>
               <input
                 type="email"
                 id="email"
                 name="email"
-                className="w-full p-2 border border-border rounded"
+                className="border-border w-full rounded border p-2"
                 placeholder="Email address"
               />
               <ValidationError
@@ -68,13 +69,13 @@ export default function TranslatorForm() {
               />
             </div>
             <div className="mb-4">
-              <label className="block  mb-1" htmlFor="message">
+              <label className="mb-1 block" htmlFor="message">
                 Your message
               </label>
               <textarea
                 id="message"
                 name="message"
-                className="w-full p-2 border border-border rounded"
+                className="border-border w-full rounded border p-2"
                 placeholder="Your message"
               ></textarea>
               <ValidationError
@@ -87,13 +88,13 @@ export default function TranslatorForm() {
               <button
                 disabled={state.submitting}
                 type="submit"
-                className="bg-black text-white hover:bg-black/80 py-2 px-4 rounded-lg flex "
+                className="flex rounded-lg bg-black px-4 py-2 text-white hover:bg-black/80"
               >
                 SUBMIT
               </button>
             </div>
             <ValidationError
-              className="text-white bg-red-500 w-1/2  rounded-md p-2 my-4 text-center"
+              className="my-4 w-1/2 rounded-md bg-red-500 p-2 text-center text-white"
               errors={state.errors}
             />
           </form>

@@ -23,13 +23,13 @@ export default function ConnectForm() {
   return (
     <>
       {showForm ? (
-        <form onSubmit={handleSubmit} className="space-y-4 ">
+        <form onSubmit={handleSubmit} className="space-y-4">
           <input
             type="text"
             placeholder="Your Name"
             id="name"
             name="name"
-            className="w-full p-2 border border-border rounded outline-0 text-black"
+            className="border-border w-full rounded border p-2 text-black outline-0"
             required
           />
           <input
@@ -37,7 +37,7 @@ export default function ConnectForm() {
             id="email"
             name="email"
             placeholder="Your Email"
-            className="w-full p-2 border border-border rounded outline-0 text-black"
+            className="border-border w-full rounded border p-2 text-black outline-0"
             required
           />
           <input
@@ -45,20 +45,20 @@ export default function ConnectForm() {
             id="phone"
             name="phone"
             placeholder="Your Phone"
-            className="w-full p-2 border border-border rounded outline-0 text-black"
+            className="border-border w-full rounded border p-2 text-black outline-0"
           />
           <textarea
             id="message"
             name="message"
             placeholder="Your message here"
-            className="w-full p-2 border border-border rounded outline-0 text-black"
+            className="border-border w-full rounded border p-2 text-black outline-0"
             required
           ></textarea>
-          <div className="flex justify-center md:justify-end items-center">
+          <div className="flex items-center justify-center md:justify-end">
             <button
               disabled={state.submitting}
               type="submit"
-              className="bg-red-500 text-white hover:bg-red-700 transition-all duration-300 ease-in-out p-2 rounded  flex justify-center items-center gap-2"
+              className="flex items-center justify-center gap-2 rounded bg-red-500 p-2 text-white transition-all duration-300 ease-in-out hover:bg-red-700"
             >
               Submit Message <IoSend />
             </button>

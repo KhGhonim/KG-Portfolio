@@ -1,6 +1,3 @@
-
 export default function Empty() {
-  return (
-    <div className='w-screen h-dvh'></div>
-  )
+  return <div className="h-dvh w-screen"></div>;
 }

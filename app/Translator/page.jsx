@@ -8,15 +8,15 @@ import Testimonials from "../../components/Translator/Testimonials";
 
 export default function TranslatorHome() {
   return (
-    <div className="relative z-20 ">
+    <div className="relative z-20">
       <HearoSection />
       <SocialMedia />
       <ServicesHome />
-      <div className="flex  w-screen ">
+      <div className="flex w-screen">
         <SideBar title={"projects"} position={"left-0"} />
         <ProjectsHome />
       </div>
-      <div className="flex  w-screen ">
+      <div className="flex w-screen">
         <SideBar title={"Testimonials"} position={"right-0"} />
         <Testimonials />
       </div>

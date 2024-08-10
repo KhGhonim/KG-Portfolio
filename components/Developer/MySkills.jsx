@@ -3,14 +3,14 @@ import { backendSkills, frontendSkills, tools } from "../../constants/Arrays";
 
 const SkillsGrid = ({ skills, title }) => (
   <div className="mb-6">
-    <h3 className="text-xl font-semibold text-foreground">{title}</h3>
-    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-2">
+    <h3 className="text-foreground text-xl font-semibold">{title}</h3>
+    <div className="mt-2 grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
       {skills.map((item, index) => (
         <div
           key={index}
           className={`${
             item.additionalClasses || ""
-          } bg-[#1A1A27] hover:bg-[#222233] transition-all duration-700 ease-in-out p-2 md:p-4 rounded-2xl text-center max-sm:text-xs`}
+          } rounded-2xl bg-[#1A1A27] p-2 text-center transition-all duration-700 ease-in-out hover:bg-[#222233] max-sm:text-xs md:p-4`}
         >
           <Image
             src={item.image}
@@ -32,9 +32,9 @@ export default function MySkills() {
   return (
     <div
       id="skills"
-      className=" w-full h-full flex flex-col  rounded-lg shadow-md p-10 overflow-clip"
+      className="flex h-full w-full flex-col overflow-clip rounded-lg p-10 shadow-md"
     >
-      <h2 className="text-2xl font-bold  mb-4">TECHNOLOGIES</h2>
+      <h2 className="mb-4 text-2xl font-bold">TECHNOLOGIES</h2>
       <SkillsGrid skills={backendSkills} title="Backend" />
       <SkillsGrid skills={frontendSkills} title="Frontend" />
       <SkillsGrid skills={tools} title="Tools" />

@@ -28,7 +28,7 @@ export default function DarkMode({ theme, changeTheme }) {
 
   return (
     <div className="cursor-pointer" onClick={changeTheme}>
-      {theme === "dark" ? <LuMoon size={24} /> : <LuSun  size={24} />}
+      {theme === "dark" ? <LuMoon size={24} /> : <LuSun size={24} />}
     </div>
   );
 }

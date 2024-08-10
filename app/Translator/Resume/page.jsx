@@ -8,14 +8,14 @@ import "react-vertical-timeline-component/style.min.css";
 
 export default function page() {
   return (
-    <div className=" relative z-40 ">
+    <div className="relative z-40">
       <div>
-        <h1 className="text-2xl md:text-5xl font-bold text-center py-10 px-4">
+        <h1 className="px-4 py-10 text-center text-2xl font-bold md:text-5xl">
           Welcome! Have a look to my Journey as a Language Linguistic
         </h1>
       </div>
 
-      <div className="w-5/6 mx-auto">
+      <div className="mx-auto w-5/6">
         <VerticalTimeline animate={true} lineColor="gray">
           <VerticalTimelineElement
             contentStyle={{
@@ -33,19 +33,19 @@ export default function page() {
                 height={100}
                 quality={100}
                 src={"/Flexell.png"}
-                className="rounded-full object-cover h-full"
+                className="h-full rounded-full object-cover"
                 alt={""}
               />
             }
           >
-            <h3 className="vertical-timeline-element-title font-extrabold text-xl">
+            <h3 className="vertical-timeline-element-title text-xl font-extrabold">
               Supervisor
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Dubai, UAE,{" "}
               <span className="font-semibold">Flexell International Ltd</span>
             </h4>
-            <div className="flex flex-col mt-4 font-semibold text-sm md:text-base">
+            <div className="mt-4 flex flex-col text-sm font-semibold md:text-base">
               <span>
                 Supervision in translation projects and trained junior
                 translators.
@@ -73,18 +73,18 @@ export default function page() {
                 height={100}
                 quality={100}
                 src={"/ALPHA.jpeg"}
-                className="rounded-full object-cover "
+                className="rounded-full object-cover"
                 alt={""}
               />
             }
           >
-            <h3 className="vertical-timeline-element-title font-extrabold text-xl">
+            <h3 className="vertical-timeline-element-title text-xl font-extrabold">
               Operation Manager
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Dubai, UAE, <span className="font-semibold">ALPHA</span>
             </h4>
-            <div className="flex flex-col mt-4 font-semibold text-sm md:text-base">
+            <div className="mt-4 flex flex-col text-sm font-semibold md:text-base">
               <span>
                 Develop plans for the work system in the company and the
                 necessary rules to facilitate work movement.
@@ -112,19 +112,19 @@ export default function page() {
                 height={100}
                 quality={100}
                 src={"/1635514359868.jpg"}
-                className="rounded-full object-cover "
+                className="rounded-full object-cover"
                 alt={""}
               />
             }
           >
-            <h3 className="vertical-timeline-element-title font-extrabold text-xl">
+            <h3 className="vertical-timeline-element-title text-xl font-extrabold">
               Project Manager
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Switzerland,{" "}
               <span className="font-semibold">Collot Baca Localization</span>
             </h4>
-            <div className="flex flex-col mt-4 font-semibold text-sm md:text-base">
+            <div className="mt-4 flex flex-col text-sm font-semibold md:text-base">
               <span>Project Manager in Ooona.</span>
               <span>
                 Clarifying with the client the specifications of the project.
@@ -163,18 +163,18 @@ export default function page() {
                 height={100}
                 quality={100}
                 src={"/download.jpg"}
-                className="rounded-full object-cover "
+                className="rounded-full object-cover"
                 alt={""}
               />
             }
           >
-            <h3 className="vertical-timeline-element-title font-extrabold text-xl">
+            <h3 className="vertical-timeline-element-title text-xl font-extrabold">
               Linguistic Quality Assurance
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Singapore, <span className="font-semibold">Andovar</span>
             </h4>
-            <div className="flex flex-col mt-4 font-semibold text-sm md:text-base">
+            <div className="mt-4 flex flex-col text-sm font-semibold md:text-base">
               <span>
                 Reviewing translated materials for errors and inconsistencies.
               </span>
@@ -221,19 +221,19 @@ export default function page() {
                 height={100}
                 quality={100}
                 src={"/1.webp"}
-                className="rounded-full h-full  "
+                className="h-full rounded-full"
                 alt={""}
               />
             }
           >
-            <h3 className="vertical-timeline-element-title font-extrabold text-xl">
+            <h3 className="vertical-timeline-element-title text-xl font-extrabold">
               Closed Caption Editor
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Singapore,{" "}
               <span className="font-semibold">WORDS Language Solutions </span>
             </h4>
-            <div className="flex flex-col mt-4 font-semibold text-sm md:text-base">
+            <div className="mt-4 flex flex-col text-sm font-semibold md:text-base">
               <span>
                 Providing accurate translations for the daily morning news
                 bulletin of an{" "}
@@ -269,18 +269,18 @@ export default function page() {
                 height={100}
                 quality={100}
                 src={"/logo-1.png"}
-                className="rounded-full h-full "
+                className="h-full rounded-full"
                 alt={""}
               />
             }
           >
-            <h3 className="vertical-timeline-element-title font-extrabold text-xl">
+            <h3 className="vertical-timeline-element-title text-xl font-extrabold">
               Subtitler & Transcriptionist
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               India, <span className="font-semibold">Sirri Translations </span>
             </h4>
-            <div className="flex flex-col mt-4 font-semibold text-sm md:text-base">
+            <div className="mt-4 flex flex-col text-sm font-semibold md:text-base">
               <span>
                 Specialization in transcribing and translating global interviews
                 and news bulletins, particularly focusing on significant
@@ -314,18 +314,18 @@ export default function page() {
                 height={100}
                 quality={100}
                 src={"/643d11b454483.jpg"}
-                className="rounded-full h-full object-cover "
+                className="h-full rounded-full object-cover"
                 alt={""}
               />
             }
           >
-            <h3 className="vertical-timeline-element-title font-extrabold text-xl">
+            <h3 className="vertical-timeline-element-title text-xl font-extrabold">
               Subtitler & Transcriptionist
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Denmark, <span className="font-semibold">Hilal Play </span>
             </h4>
-            <div className="flex flex-col mt-4 font-semibold text-sm md:text-base">
+            <div className="mt-4 flex flex-col text-sm font-semibold md:text-base">
               <span>Subtitling from Turkish to English</span>
               <span>Subtitling from Turkish to Arabic</span>
               <span>
@@ -350,19 +350,19 @@ export default function page() {
                 height={100}
                 quality={100}
                 src={"/PinnacleWhite+Logo.png"}
-                className="rounded-full  h-full  "
+                className="h-full rounded-full"
                 alt={""}
               />
             }
           >
-            <h3 className="vertical-timeline-element-title font-extrabold text-xl">
+            <h3 className="vertical-timeline-element-title text-xl font-extrabold">
               Subtitler & Transcriptionist
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Pakistan,{" "}
               <span className="font-semibold">Pinnacles Productions </span>
             </h4>
-            <div className="flex flex-col mt-4 font-semibold text-sm md:text-base">
+            <div className="mt-4 flex flex-col text-sm font-semibold md:text-base">
               <span>
                 Freelancer offers language localization to{" "}
                 <span className="font-semibold text-[#FF4654]">
@@ -403,18 +403,18 @@ export default function page() {
                 height={100}
                 quality={100}
                 src={"/unnamed.jpg"}
-                className="rounded-full  h-full  "
+                className="h-full rounded-full"
                 alt={""}
               />
             }
           >
-            <h3 className="vertical-timeline-element-title font-extrabold text-xl">
+            <h3 className="vertical-timeline-element-title text-xl font-extrabold">
               MTPE Specialist
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Egypt, <span className="font-semibold">TrensTech </span>
             </h4>
-            <div className="flex flex-col mt-4 font-semibold text-sm md:text-base">
+            <div className="mt-4 flex flex-col text-sm font-semibold md:text-base">
               <span>
                 Post-editing machine-translated content from English to Arabic
                 to improve its linguistic quality and readability.
@@ -453,18 +453,18 @@ export default function page() {
                 height={100}
                 quality={100}
                 src={"/unnamed (4).jpg"}
-                className="rounded-full  h-full  "
+                className="h-full rounded-full"
                 alt={""}
               />
             }
           >
-            <h3 className="vertical-timeline-element-title font-extrabold text-xl">
+            <h3 className="vertical-timeline-element-title text-xl font-extrabold">
               Subtitler
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               USA, <span className="font-semibold">Vice News & Fox News </span>
             </h4>
-            <div className="flex flex-col mt-4 font-semibold text-sm md:text-base">
+            <div className="mt-4 flex flex-col text-sm font-semibold md:text-base">
               <span>
                 Accurately transcribing and timing the spoken dialogue of video
                 footage related to the earthquakes in Turkey and Syria.

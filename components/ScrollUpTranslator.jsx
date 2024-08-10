@@ -21,7 +21,7 @@ function ScrollUp() {
   return (
     <div
       onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-      className={`fixed bottom-10 right-10 z-50 bg-blue-400 rounded-full w-10 h-10 flex justify-center items-center cursor-pointer transition-transform duration-700 ${
+      className={`fixed bottom-10 right-10 z-50 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-blue-400 transition-transform duration-700 ${
         ScrollUp ? "translate-y-0" : "-translate-y-[999px]"
       }`}
     >

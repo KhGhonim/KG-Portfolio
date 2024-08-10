@@ -17,9 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={tajawal.className}>
-        {children}
-      </body>
+      <body className={tajawal.className}>{children}</body>
     </html>
   );
 }

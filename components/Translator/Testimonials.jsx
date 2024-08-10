@@ -12,16 +12,16 @@ import { testimonials } from "../../constants/Arrays";
 import Image from "next/image";
 export default function Testimonials() {
   return (
-    <div className="w-screen h-dvh md:mb-16">
-      <div className="container mx-auto relative z-20 md:py-20 md:border-l-2   md:border-black  h-dvh md:pr-44">
-        <div className="flex flex-row max-md:flex-col items-center justify-between gap-8  md:gap-2  w-full p-4">
+    <div className="h-dvh w-screen md:mb-16">
+      <div className="container relative z-20 mx-auto h-dvh md:border-l-2 md:border-black md:py-20 md:pr-44">
+        <div className="flex w-full flex-row items-center justify-between gap-8 p-4 max-md:flex-col md:gap-2">
           <div className="w-full text-center">
             <section className="bg-background text-foreground py-12">
-              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 className="text-3xl font-extrabold text-center mb-8">
+              <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <h2 className="mb-8 text-center text-3xl font-extrabold">
                   What My Clients Say
                 </h2>
-                <div className="w-full relative">
+                <div className="relative w-full">
                   <Swiper
                     slidesPerView={1}
                     spaceBetween={10}
@@ -49,26 +49,26 @@ export default function Testimonials() {
                       return (
                         <SwiperSlide
                           key={index}
-                          className="swiper-slide-2 p-4 cursor-pointer"
+                          className="swiper-slide-2 cursor-pointer p-4"
                         >
-                          <div className="p-6 rounded-lg shadow-lg relative overflow-hidden">
-                            <div className="absolute top-0 left-0 w-full h-2 bg-red-500"></div>
-                            <div className="flex items-center mb-4">
+                          <div className="relative overflow-hidden rounded-lg p-6 shadow-lg">
+                            <div className="absolute left-0 top-0 h-2 w-full bg-red-500"></div>
+                            <div className="mb-4 flex items-center">
                               <img
                                 alt={`client-avatar`}
                                 src={`${testimonial.photo}`}
-                                className="w-20 h-20 p-1 object-contain rounded-full border-2 "
+                                className="h-20 w-20 rounded-full border-2 object-contain p-1"
                               />
                               <div className="ml-2 max-md:text-sm">
-                                <span className="text-black font-bold">
+                                <span className="font-bold text-black">
                                   {testimonial.name}
                                 </span>
                               </div>
                             </div>
-                            <p className=" mb-2 text-sm max-md:text-xs">
+                            <p className="mb-2 text-sm max-md:text-xs">
                               {testimonial.testimonial}
                             </p>
-                            <h4 className="font-bold ">
+                            <h4 className="font-bold">
                               {testimonial.location}
                             </h4>
                           </div>
@@ -78,7 +78,7 @@ export default function Testimonials() {
                   </Swiper>
                 </div>
 
-                <div className="w-full flex justify-center items-center gap-7  font-semibold text-Lg md:text-2xl">
+                <div className="text-Lg flex w-full items-center justify-center gap-7 font-semibold md:text-2xl">
                   Swipe to right to see more testimonials{" "}
                   <span>
                     <Image
@@ -86,7 +86,7 @@ export default function Testimonials() {
                       alt="arrow-right"
                       width={20}
                       height={20}
-                      className="cursor-pointer animate-ping"
+                      className="animate-ping cursor-pointer"
                     />
                   </span>
                 </div>

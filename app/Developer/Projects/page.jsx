@@ -11,7 +11,7 @@ export const metadata = {
 
 export default function page() {
   return (
-    <div className="w-screen h-full">
+    <div className="h-full w-screen">
       <ProjectCard DevProjects={DevProjects} />
     </div>
   );

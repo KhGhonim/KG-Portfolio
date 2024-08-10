@@ -5,13 +5,13 @@ export default function SocialMedia() {
   return (
     <div>
       {/* PC Socail Media */}
-      <div className="relative hidden md:block z-20  h-32">
-        <div className="hidden absolute left-0 w-2/3 md:flex items-center justify-center  ">
+      <div className="relative z-20 hidden h-32 md:block">
+        <div className="absolute left-0 hidden w-2/3 items-center justify-center md:flex">
           <hr className="flex-grow border-t border-black" />
-          <div className="flex space-x-4 mx-4">
+          <div className="mx-4 flex space-x-4">
             <Link
               href="mailto:khaledonem89@gmail.com"
-              className="hover:scale-95 rounded-lg transition-all duration-500 hover:shadow-sm hover:rotate-[360deg]"
+              className="rounded-lg transition-all duration-500 hover:rotate-[360deg] hover:scale-95 hover:shadow-sm"
             >
               <Image
                 width={50}
@@ -23,7 +23,7 @@ export default function SocialMedia() {
             </Link>
             <Link
               href="https://www.facebook.com/share/RMFAEgTHAzDKefJw/?mibextid=qi2Omg"
-              className="hover:scale-95 rounded-lg transition-all duration-500 hover:shadow-sm hover:rotate-[360deg]"
+              className="rounded-lg transition-all duration-500 hover:rotate-[360deg] hover:scale-95 hover:shadow-sm"
             >
               <Image
                 width={50}
@@ -35,7 +35,7 @@ export default function SocialMedia() {
             </Link>
             <Link
               href="https://www.linkedin.com/in/khaled-ghonim-4a4007147"
-              className="hover:scale-95 rounded-lg transition-all duration-500 hover:shadow-sm hover:rotate-[360deg]"
+              className="rounded-lg transition-all duration-500 hover:rotate-[360deg] hover:scale-95 hover:shadow-sm"
             >
               <Image
                 width={50}
@@ -47,7 +47,7 @@ export default function SocialMedia() {
             </Link>
             <Link
               href="https://join.skype.com/invite/kqyhKpADi29m"
-              className="hover:scale-95 rounded-lg transition-all duration-500 hover:shadow-sm hover:rotate-[360deg]"
+              className="rounded-lg transition-all duration-500 hover:rotate-[360deg] hover:scale-95 hover:shadow-sm"
             >
               <Image
                 width={50}
@@ -59,7 +59,7 @@ export default function SocialMedia() {
             </Link>
             <Link
               href="https://wa.me/905319045891"
-              className="hover:scale-95 rounded-lg transition-all duration-500 hover:shadow-sm hover:rotate-[360deg]"
+              className="rounded-lg transition-all duration-500 hover:rotate-[360deg] hover:scale-95 hover:shadow-sm"
             >
               <Image
                 width={50}
@@ -78,12 +78,12 @@ export default function SocialMedia() {
 
       {/* Mobile Socail Media */}
 
-      <div className="hidden absolute right-0 w-full max-md:flex items-center justify-center py-28 max-md:py-36 z-30">
-        <hr className="w-5 max-md:w-10 ma border-2 border-red-400" />
-        <div className="flex space-x-4 mx-4">
+      <div className="absolute right-0 z-30 hidden w-full items-center justify-center py-28 max-md:flex max-md:py-36">
+        <hr className="ma w-5 border-2 border-red-400 max-md:w-10" />
+        <div className="mx-4 flex space-x-4">
           <Link
             href="mailto:khaledonem89@gmail.com"
-            className="hover:scale-95 rounded-lg hover:shadow-sm"
+            className="rounded-lg hover:scale-95 hover:shadow-sm"
           >
             <Image
               width={50}
@@ -95,7 +95,7 @@ export default function SocialMedia() {
           </Link>
           <Link
             href="https://facebook.com"
-            className="hover:scale-95 rounded-lg hover:shadow-sm"
+            className="rounded-lg hover:scale-95 hover:shadow-sm"
           >
             <Image
               width={50}
@@ -107,7 +107,7 @@ export default function SocialMedia() {
           </Link>
           <Link
             href="https://instagram.com"
-            className="hover:scale-95 rounded-lg hover:shadow-sm"
+            className="rounded-lg hover:scale-95 hover:shadow-sm"
           >
             <Image
               width={50}
@@ -119,7 +119,7 @@ export default function SocialMedia() {
           </Link>
           <Link
             href="https://google.com"
-            className="hover:scale-95 rounded-lg hover:shadow-sm"
+            className="rounded-lg hover:scale-95 hover:shadow-sm"
           >
             <Image
               width={50}
@@ -131,7 +131,7 @@ export default function SocialMedia() {
           </Link>
           <Link
             href="https://linkedin.com"
-            className="hover:scale-95 rounded-lg hover:shadow-sm"
+            className="rounded-lg hover:scale-95 hover:shadow-sm"
           >
             <Image
               width={50}
@@ -142,7 +142,7 @@ export default function SocialMedia() {
             />
           </Link>
         </div>
-        <hr className="w-5 max-md:w-10 border-2 border-red-400" />
+        <hr className="w-5 border-2 border-red-400 max-md:w-10" />
       </div>
     </div>
   );

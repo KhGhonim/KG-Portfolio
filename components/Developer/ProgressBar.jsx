@@ -11,9 +11,9 @@ export default function ProgressBar({ percentage }) {
     },
   };
   return (
-    <div className="w-full bg-gray-200 rounded-full h-4 overflow-hidden">
+    <div className="h-4 w-full overflow-hidden rounded-full bg-gray-200">
       <motion.div
-        className="bg-slate-800 h-full rounded-full"
+        className="h-full rounded-full bg-slate-800"
         initial="hidden"
         animate="visible"
         variants={variants}
