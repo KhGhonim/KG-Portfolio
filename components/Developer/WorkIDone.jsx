@@ -112,7 +112,6 @@ export default function WorkIDone() {
                   <motion.div
                     variants={childVariants}
                     whileHover={{ scale: 1.1, y: -10 }}
-                    whileTap={{ scale: 0.9, y: 0 }}
                     key={index}
                     className="group relative z-40 h-72 w-72 rounded-lg md:h-80 md:w-80"
                   >

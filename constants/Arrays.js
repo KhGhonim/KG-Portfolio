@@ -975,7 +975,7 @@ export const serviceNames = {
 export const Sliderprojects = [
   {
     name: "Al-Ahli Saudi FC",
-    photo: "/projects/Alahli from Arabic to English.png", // Replace with actual image path or data
+    photo: "/projects/Alahli from Arabic to English.png",
   },
   {
     name: "Dicerna Phyox",
@@ -1244,7 +1244,7 @@ export const DemoHomeprojects = [
     previewLink: "https://news-paper-ruby.vercel.app",
     repoLink: "https://github.com/username/repo2",
     description:
-      "A responsive web application for reading news articles using Nextjs and Tailwind CSS and MongoDB for keeping track of articles.",
+      "A responsive web application for reading news articles using Nextjs and Tailwind CSS and MongoDB.",
     photo: "/devProjects/download.png",
     category: "Nextjs",
   },

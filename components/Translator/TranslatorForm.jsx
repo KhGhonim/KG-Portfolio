@@ -26,7 +26,7 @@ export default function TranslatorForm() {
           <p className="mb-4 py-4 text-center text-base md:text-lg">
             You can{" "}
             <Link
-              href="mailto:khaledonem89@gmail.com"
+              href="mailto:kg@khaledghonim.com"
               className="text-red-500 hover:underline"
             >
               click here

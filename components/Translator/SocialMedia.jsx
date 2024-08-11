@@ -10,7 +10,7 @@ export default function SocialMedia() {
           <hr className="flex-grow border-t border-black" />
           <div className="mx-4 flex space-x-4">
             <Link
-              href="mailto:khaledonem89@gmail.com"
+              href="mailto:kg@khaledghonim.com"
               className="rounded-lg transition-all duration-500 hover:rotate-[360deg] hover:scale-95 hover:shadow-sm"
             >
               <Image
@@ -82,7 +82,7 @@ export default function SocialMedia() {
         <hr className="ma w-5 border-2 border-red-400 max-md:w-10" />
         <div className="mx-4 flex space-x-4">
           <Link
-            href="mailto:khaledonem89@gmail.com"
+            href="mailto:kg@khaledghonim.com"
             className="rounded-lg hover:scale-95 hover:shadow-sm"
           >
             <Image

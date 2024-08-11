@@ -32,9 +32,9 @@ export default function Connect() {
             <span className="text-secondary">Email</span>
             <Link
               className="text-primary group relative ml-2"
-              href={"mailto:Khaledonem@gmail.com"}
+              href={"mailto:dev@khaledghonim.com"}
             >
-              Khaledonem@gmail.com
+          dev@khaledghonim.com
               <span className="absolute bottom-0 left-0 h-0.5 w-full scale-x-0 transform bg-white transition-transform duration-500 group-hover:scale-x-100"></span>
             </Link>
           </p>

@@ -120,7 +120,7 @@ export default function Model({ IsModelOpen, setIsModelOpen }) {
           <motion.div variants={childVariants} className="w-full space-y-4">
             <Link
               className="block w-full rounded-lg bg-[#1c1c27] p-4 duration-500 ease-in-out hover:bg-[#24242f]"
-              href={"mailto:khaledonem89@gmail.com"}
+              href={"mailto:dev@khaledghonim.com"}
             >
               <h2 className="text-primary text-lg font-semibold">Let's Talk</h2>
               <p className="text-xs md:text-sm">Send me a message.</p>

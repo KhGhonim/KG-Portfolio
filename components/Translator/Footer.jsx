@@ -103,7 +103,7 @@ export default function Footer() {
             <ul>
               <li className="mb-2">
                 <Link
-                  href="/"
+                  href="/Translator"
                   className="flex items-center gap-5 transition-all duration-500 hover:text-red-500"
                 >
                   <FaHome /> Home
@@ -111,7 +111,7 @@ export default function Footer() {
               </li>
               <li className="mb-2">
                 <Link
-                  href="/Services"
+                  href="/Translator/Services"
                   className="flex items-center gap-5 transition-all duration-500 hover:text-red-500"
                 >
                   <RiCustomerService2Fill /> Services
@@ -119,7 +119,7 @@ export default function Footer() {
               </li>
               <li className="mb-2">
                 <Link
-                  href="/Projects"
+                  href="/Translator/Services/Translation"
                   className="flex items-center gap-5 transition-all duration-500 hover:text-red-500"
                 >
                   <AiFillProject /> Projects
@@ -127,7 +127,7 @@ export default function Footer() {
               </li>
               <li className="mb-2">
                 <Link
-                  href="/Resume"
+                  href="/Translator/Resume"
                   className="flex items-center gap-5 transition-all duration-500 hover:text-red-500"
                 >
                   <IoPersonOutline /> Resume
@@ -135,7 +135,7 @@ export default function Footer() {
               </li>
               <li className="mb-2">
                 <Link
-                  href="/Contact"
+                  href="/Translator/Contact"
                   className="flex items-center gap-5 transition-all duration-500 hover:text-red-500"
                 >
                   <MdOutlineContactSupport /> Contact
@@ -148,22 +148,22 @@ export default function Footer() {
             <h3 className="mb-4 text-lg font-extrabold">SERVICES</h3>
             <ul>
               <li className="mb-2 transition-all duration-500 hover:text-blue-400 hover:underline">
-                <Link href={"/Translation"}>Translation</Link>
+                <Link href={"/Translator/Services/Translation"}>Translation</Link>
               </li>
               <li className="mb-2 transition-all duration-500 hover:text-blue-400 hover:underline">
-                <Link href={"/Subtitling"}>Subtitling</Link>
-              </li>
-              <li className="mb-2 transition-all duration-500 hover:text-blue-400 hover:underline">
-                {" "}
-                <Link href={"/Transcription"}>Transcription</Link>
+                <Link href={"/Translator/Services/Subtitling"}>Subtitling</Link>
               </li>
               <li className="mb-2 transition-all duration-500 hover:text-blue-400 hover:underline">
                 {" "}
-                <Link href={"/PE"}>Post Editing</Link>
+                <Link href={"/Translator/Services/Transcription"}>Transcription</Link>
               </li>
               <li className="mb-2 transition-all duration-500 hover:text-blue-400 hover:underline">
                 {" "}
-                <Link href={"/Proofreading"}>Proofreading</Link>
+                <Link href={"/Translator/Services/PE"}>Post Editing</Link>
+              </li>
+              <li className="mb-2 transition-all duration-500 hover:text-blue-400 hover:underline">
+                {" "}
+                <Link href={"/Translator/Services/Proofreading"}>Proofreading</Link>
               </li>
             </ul>
           </div>

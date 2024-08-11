@@ -18,7 +18,7 @@ export default function FooterForm() {
           type="email"
           name="email"
           placeholder="example@email.com"
-          className="w-4/5 rounded-l-lg p-3 sm:w-2/3"
+          className="w-72 rounded-l-lg p-3"
         />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
         <button

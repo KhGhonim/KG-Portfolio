@@ -4,7 +4,7 @@ import ProjectHomeSlider from "./ProjectHomeSlider";
 export default function ProjectsHome() {
   return (
     <div className="relative z-30 h-dvh w-screen">
-      <div className="container relative z-20 mx-auto h-dvh md:border-r-2 md:border-black md:py-20 md:pl-44">
+      <div className="container relative z-20 mx-auto h-dvh md:border-r-2 md:border-black md:py-20 md:pl-56">
         <div className="flex w-full flex-row items-center justify-between gap-8 p-4 max-md:flex-col md:gap-2">
           <div className="w-full md:w-1/3">
             <h2 className="text-primary text-5xl font-bold">PROJECTS</h2>
@@ -24,7 +24,7 @@ export default function ProjectsHome() {
               </Link>
             </div>
           </div>
-          <div className="flex w-full flex-grow overflow-hidden rounded-3xl pr-3 md:w-2/3">
+          <div className="flex w-full flex-grow overflow-hidden md:pr-3 md:w-2/3">
             <ProjectHomeSlider />
           </div>
         </div>

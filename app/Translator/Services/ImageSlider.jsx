@@ -12,13 +12,13 @@ export default function ImageSlider({ Photo }) {
       <Swiper
         navigation={true}
         modules={[Navigation, Zoom]}
-        className="mySwiper"
+        className="mySwiper rounded"
         zoom={true}
       >
         {Photo.map((photo, index) => {
           return (
             <SwiperSlide key={index}>
-              <div className="swiper-zoom-container">
+              <div className="swiper-zoom-container rounded">
                 <img
                   src={photo}
                   alt={`Project ${index + 1}`}

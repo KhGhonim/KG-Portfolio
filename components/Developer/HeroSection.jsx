@@ -40,9 +40,9 @@ export default function HeroSection() {
         </div>
         <Link
           className="absolute bottom-5 left-5 text-xl font-bold"
-          href={"mailto:khaledonem89@gmail.com"}
+          href={"mailto:dev@khaledghonim.com"}
         >
-          Khaledonem89@gmail.com
+          dev@khaledghonim.com
         </Link>
       </div>
 
@@ -61,7 +61,7 @@ export default function HeroSection() {
         </h4>
         <div className="flex flex-row gap-4">
           <Link
-            href="mailto:khaledonem89@gmail"
+            href="mailto:dev@khaledghonim.com"
             className="flex w-32 flex-row items-center justify-center gap-2 rounded-full bg-red-500 px-4 py-2 transition-all duration-300 ease-in-out hover:bg-red-500/75"
           >
             Say Hello <FaEnvelope />
