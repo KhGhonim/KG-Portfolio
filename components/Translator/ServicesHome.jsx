@@ -167,12 +167,15 @@ export default function ServicesHome() {
         </div>
 
         <div className="flex gap-5 max-md:w-[100%] max-sm:flex-col">
-          <button className="relative border border-black bg-[#FF4654] p-2 text-sm font-semibold uppercase text-black shadow-[9px_5px_0px_1px_rgba(0,0,0,1)] transition-all duration-500 hover:shadow-[0px_0px_0px_0px_rgba(0,0,0,1)] sm:px-14 sm:text-base md:border-2">
+          <Link
+            className="relative border text-center border-black bg-[#FF4654] p-2 text-sm font-semibold uppercase text-black shadow-[9px_5px_0px_1px_rgba(0,0,0,1)] transition-all duration-500 hover:shadow-[0px_0px_0px_0px_rgba(0,0,0,1)] sm:px-14 sm:text-base md:border-2"
+            href={"/Translator/Resume"}
+          >
             My Resume
-          </button>
+          </Link>
           <Link
             className="relative border border-black bg-gray-100 p-2 text-center text-sm font-semibold uppercase text-black shadow-[9px_5px_0px_1px_rgba(0,0,0,1)] transition-all duration-500 hover:shadow-[0px_0px_0px_0px_rgba(0,0,0,1)] sm:text-base md:border-2"
-            href={"/Services"}
+            href={"/Translator/Services"}
           >
             Read More about SERVICES
           </Link>

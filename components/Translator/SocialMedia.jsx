@@ -78,7 +78,7 @@ export default function SocialMedia() {
 
       {/* Mobile Socail Media */}
 
-      <div className="absolute right-0 z-30 hidden w-full items-center justify-center py-28 max-md:flex max-md:py-36">
+      <div className="absolute right-0 z-50 hidden w-full items-center justify-center py-28 max-md:flex max-md:py-36">
         <hr className="ma w-5 border-2 border-red-400 max-md:w-10" />
         <div className="mx-4 flex space-x-4">
           <Link
