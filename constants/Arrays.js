@@ -1319,7 +1319,7 @@ export const DevProjects = [
   },
   {
     title: "NusrEt Restaurant",
-    previewLink: "#",
+    previewLink: "https://nusret-resturant.vercel.app",
     repoLink: "https://github.com/LoDaBeY/Resturant",
     description:
       "A responsive web application for ordering food. Built with React, Tailwind CSS, and a custom REST API.",
