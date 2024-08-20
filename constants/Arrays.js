@@ -1365,7 +1365,7 @@ export const DevProjects = [
   },
   {
     title: "E-commerce Site",
-    previewLink: "https://e-commerce-kg.vercel.app/",
+    previewLink: "https://e-commerce-kg.vercel.app",
     repoLink: "https://github.com/LoDaBeY/E-commerce",
     description:
       "A responsive web application for selling products. Built with React, Material UI, and Firebase for data management.",
