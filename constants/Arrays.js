@@ -1249,12 +1249,12 @@ export const DemoHomeprojects = [
     category: "Nextjs",
   },
   {
-    title: "The Pyjama House",
-    previewLink: "https://pijamahouse-e1870.web.app",
-    repoLink: "https://github.com/username/repo3",
+    title: "E-commerce Site",
+    previewLink: "https://e-commerce-kg.vercel.app/",
+    repoLink: "https://github.com/LoDaBeY/E-commerce",
     description:
-      "A responsive web application for selling clothes using React, Material UI, and Firebase.",
-    photo: "/devProjects/Pijama evi.png",
+      "A responsive web application for selling products. Built with React, Material UI, and Firebase for data management.",
+    photo: "/devProjects/E-commerce.png",
     category: "React",
   },
   {
@@ -1290,14 +1290,22 @@ export const DevProjects = [
     tools: ["Next.js", "Next.js API", "Next Auth", "Swiper", "Tailwind CSS"],
   },
   {
-    title: "E-commerce Site",
-    previewLink: "https://e-commerce-kg.vercel.app",
-    repoLink: "https://github.com/LoDaBeY/E-commerce",
+    title: "The Pyjama House",
+    previewLink: "https://pijamahouse-e1870.web.app",
+    repoLink: "https://github.com/LoDaBeY/pajamahouse",
     description:
-      "A responsive web application for selling products. Built with React, Material UI, and Firebase for data management.",
-    photo: "/devProjects/E-commerce.png",
+      "A responsive web application for selling clothing items. Built with React, Material UI, and Firebase.",
+    photo: "/devProjects/Pijama evi.png",
     category: "React",
-    tools: ["React", "Strapi", "Material UI", "Redux"],
+    tools: [
+      "React",
+      "Node.js",
+      "Express",
+      "Swiper",
+      "Material UI",
+      "Firebase Auth",
+      "Redux",
+    ],
   },
   {
     title: "Movie Store",
@@ -1357,7 +1365,7 @@ export const DevProjects = [
   },
   {
     title: "E-commerce Site",
-    previewLink: "https://e-commerce-kg.vercel.app",
+    previewLink: "https://e-commerce-kg.vercel.app/",
     repoLink: "https://github.com/LoDaBeY/E-commerce",
     description:
       "A responsive web application for selling products. Built with React, Material UI, and Firebase for data management.",
