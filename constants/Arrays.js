@@ -1027,6 +1027,15 @@ export const backendSkills = [
       "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
   },
   {
+    text: "Socekt.IO",
+    image: "/devSVG/Socekt.io.png",
+    alt: "Socekt.io",
+    additionalClasses:
+      "group cursor-pointer flex justify-center items-center gap-5",
+    imgClasses:
+      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+  },
+  {
     text: "MongoDB",
     image: "/devSVG/mongo-svgrepo-com.svg",
     alt: "mongodb",
@@ -1039,6 +1048,15 @@ export const backendSkills = [
     text: "Supabase",
     image: "/devSVG/image-Photoroom.png",
     alt: "Supabase",
+    additionalClasses:
+      "group cursor-pointer flex justify-center items-center gap-5",
+    imgClasses:
+      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+  },
+  {
+    text: "PostgreSQL",
+    image: "/devSVG/PostgreSQL.png",
+    alt: "PostgreSQL",
     additionalClasses:
       "group cursor-pointer flex justify-center items-center gap-5",
     imgClasses:
@@ -1382,5 +1400,15 @@ export const DevProjects = [
     photo: "/devProjects/car.png",
     category: "Next.js",
     tools: ["Next.js", "Next.js API", "Clark Auth", "Tailwind CSS"],
+  },
+  {
+    title: "Real-Time Chat Application",
+    previewLink: "https://chat-app-sooty-seven.vercel.app",
+    repoLink: "https://github.com/LoDaBeY/ChatApp",
+    description:
+      "The application provides a seamless messaging experience with instant, bi-directional communication, making it ideal for real-time conversations.",
+    photo: "/devProjects/Socekt.io.png",
+    category: "React",
+    tools: ["React", "Node.js", "MongoDB", "Express", "Redux", "Tailwind CSS"],
   },
 ];
