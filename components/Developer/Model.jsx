@@ -146,27 +146,27 @@ export default function Model({ IsModelOpen, setIsModelOpen }) {
           exit="exit"
         >
           <motion.div variants={childVariants}>
-            <Link href={""}>
+            <Link href={"https://www.linkedin.com/in/khaled-ghonim-4a4007147/"}>
               <FaLinkedin color="#0e76a8" size={24} />
             </Link>
           </motion.div>
           <motion.div variants={childVariants}>
-            <Link href={""}>
+            <Link href={"https://github.com/LoDaBeY"}>
               <FaGithub color="white" size={24} />
             </Link>
           </motion.div>
           <motion.div variants={childVariants}>
-            <Link href={""}>
+            <Link href={"https://join.skype.com/invite/kqyhKpADi29m"}>
               <FaSkype color="#00aff0" size={24} />
             </Link>
           </motion.div>
           <motion.div variants={childVariants}>
-            <Link href={""}>
+            <Link href={"https://wa.me/905319045891"}>
               <FaWhatsapp color="#25d366" size={24} />
             </Link>
           </motion.div>
           <motion.div variants={childVariants}>
-            <Link href={""}>
+            <Link href={"https://t.me/MrPoDGK"}>
               <FaTelegram color="#0088cc" size={24} />
             </Link>
           </motion.div>
