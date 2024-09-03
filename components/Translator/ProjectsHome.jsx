@@ -3,7 +3,7 @@ import ProjectHomeSlider from "./ProjectHomeSlider";
 
 export default function ProjectsHome() {
   return (
-    <div className="relative z-30 h-dvh w-screen">
+    <div className="relative z-30 h-dvh w-full">
       <div className="container relative z-20 mx-auto h-dvh md:border-r-2 md:border-black md:py-20 md:pl-56">
         <div className="flex w-full flex-row items-center justify-between gap-8 p-4 max-md:flex-col md:gap-2">
           <div className="w-full md:w-1/3">

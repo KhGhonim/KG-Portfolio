@@ -8,7 +8,7 @@ import Testimonials from "../../components/Translator/Testimonials";
 
 export default function TranslatorHome() {
   return (
-    <div className="relative z-20">
+    <div className="relative z-20 w-screen">
       <HearoSection />
       <SocialMedia />
       <ServicesHome />

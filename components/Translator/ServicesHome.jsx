@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function ServicesHome() {
   return (
-    <div className="container relative z-30 mx-auto w-screen border-black pb-32 max-md:pb-16 max-md:pt-44 md:border-l-2 md:border-r-2">
+    <div className="container relative z-30 mx-auto w-full overflow-hidden border-black pb-32 max-md:pb-16 max-md:pt-44 md:border-l-2 md:border-r-2">
       {/* Desktop Services */}
       <div className="hidden flex-col items-center p-6 md:flex md:flex-row">
         <div className="flex w-2/3 flex-col gap-5 max-md:items-center">

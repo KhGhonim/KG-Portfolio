@@ -34,9 +34,15 @@ export default function HeroSection() {
     <div className="flex h-dvh w-full pt-36">
       <div className="relative flex h-full w-1/6 flex-col p-2">
         <div className="flex h-full flex-col items-center justify-center space-y-4">
-          <FaGithub className="text-2xl font-medium text-[#ffffff] hover:underline" />
-          <FaLinkedin className="text-2xl font-medium text-[#0077B5] hover:underline" />
-          <FaWhatsapp className="text-2xl font-medium text-[#25D366] hover:underline" />
+          <Link href={"https://github.com/LoDaBeY"}>
+            <FaGithub className="text-2xl font-medium text-[#ffffff] hover:underline" />
+          </Link>
+          <Link href={"https://www.linkedin.com/in/khaled-ghonim-4a4007147/"}>
+            <FaLinkedin className="text-2xl font-medium text-[#0077B5] hover:underline" />
+          </Link>
+          <Link href={"https://wa.me/905319045891"}>
+            <FaWhatsapp className="text-2xl font-medium text-[#25D366] hover:underline" />
+          </Link>
         </div>
         <Link
           className="absolute bottom-5 left-5 text-xl font-bold"
