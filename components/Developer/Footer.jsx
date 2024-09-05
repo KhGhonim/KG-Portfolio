@@ -7,6 +7,7 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 import FloatingBox from "./FloatingBoxX";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -35,11 +36,25 @@ export default function Footer() {
               <h1 className="text-xl md:text-3xl">Connect</h1>
             </div>
             <div className="flex space-x-4">
-              <FaGithub className="scale-100 cursor-pointer rounded-xl text-3xl text-[#ffffff] transition-all duration-300 hover:rotate-[30deg] hover:scale-90" />
-              <FaLinkedin className="scale-100 cursor-pointer rounded-xl text-3xl text-[#0077B5] transition-all duration-300 hover:rotate-[30deg] hover:scale-90" />
-              <FaSkype className="scale-100 cursor-pointer rounded-xl text-3xl text-[#00AFF0] transition-all duration-300 hover:rotate-[30deg] hover:scale-90" />
-              <FaTelegram className="scale-100 cursor-pointer rounded-xl text-3xl text-[#0088cc] transition-all duration-300 hover:rotate-[30deg] hover:scale-90" />
-              <FaWhatsapp className="scale-100 cursor-pointer rounded-xl text-3xl text-[#25D366] transition-all duration-300 hover:rotate-[30deg] hover:scale-90" />
+              <Link href={"https://github.com/LoDaBeY"}>
+                <FaGithub className="scale-100 cursor-pointer rounded-xl text-3xl text-[#ffffff] transition-all duration-300 hover:rotate-[30deg] hover:scale-90" />
+              </Link>
+              <Link
+                href={"https://www.linkedin.com/in/khaled-ghonim-4a4007147/"}
+              >
+                <FaLinkedin className="scale-100 cursor-pointer rounded-xl text-3xl text-[#0077B5] transition-all duration-300 hover:rotate-[30deg] hover:scale-90" />
+              </Link>
+
+              <Link href={"https://join.skype.com/invite/kqyhKpADi29m"}>
+                <FaSkype className="scale-100 cursor-pointer rounded-xl text-3xl text-[#00AFF0] transition-all duration-300 hover:rotate-[30deg] hover:scale-90" />
+              </Link>
+
+              <Link href={"https://t.me/MrPoDGK"}>
+                <FaTelegram className="scale-100 cursor-pointer rounded-xl text-3xl text-[#0088cc] transition-all duration-300 hover:rotate-[30deg] hover:scale-90" />
+              </Link>
+              <Link href={"https://wa.me/905319045891"}>
+                <FaWhatsapp className="scale-100 cursor-pointer rounded-xl text-3xl text-[#25D366] transition-all duration-300 hover:rotate-[30deg] hover:scale-90" />
+              </Link>
             </div>
           </div>
         </div>
