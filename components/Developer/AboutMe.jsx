@@ -38,8 +38,9 @@ export default function AboutMe() {
         </h1>
         <p className="text-lg">Based In Türkiye, İstanbul</p>
         <p className="text-lg">
-          Hi! My name is Khaled Ghonim. I am UI/UX designer, and I'm very
-          passionate and dedicated to my work.
+          Passionate Full-Stack Developer. Specializing in MERN, PERN, and
+          Next.js. Committed to delivering high-quality, efficient web
+          applications.
         </p>
 
         <div className="flex items-center justify-end">
