@@ -1064,6 +1064,16 @@ export const backendSkills = [
   },
 
   {
+    text: "Redis",
+    image: "/devSVG/redis-svgrepo-com.svg",
+    alt: "Redis",
+    additionalClasses:
+      "group cursor-pointer flex justify-center items-center gap-5",
+    imgClasses:
+      "w-10 h-10 bg-[#222233] transition-all duration-700 ease-in-out group-hover:bg-[#1A1A27] rounded-full p-2",
+  },
+
+  {
     text: "Strapi",
     image: "/devSVG/strapi-svgrepo-com.svg",
     alt: "Strapi",
