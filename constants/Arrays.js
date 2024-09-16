@@ -1431,4 +1431,14 @@ export const DevProjects = [
     category: "React",
     tools: ["React", "Node.js", "MongoDB", "Express", "Redux", "Tailwind CSS"],
   },
+  {
+    title: "ALPHAA - Final Soltuion For Loans",
+    previewLink: "https://alphaa-final-soltuion-for-loans.vercel.app",
+    repoLink: "https://github.com/LoDaBeY/ALPHAA---Final-Soltuion-For-Loans",
+    description:
+      "Loan management Website app. It is a replica of one of the largest loan companies in Australia and is fully functional. It was developed using React, Swiper, and Tailwind CSS.",
+    photo: "/devProjects/ALPHAA---Final-Soltuion-For-Loans.png",
+    category: "React",
+    tools: ["React", "Swiper", "Tailwind CSS"],
+  },
 ];
