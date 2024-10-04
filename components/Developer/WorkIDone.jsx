@@ -106,7 +106,7 @@ export default function WorkIDone() {
                 initial="hidden"
                 animate="visible"
                 exit="exit"
-                className="z-40 grid grid-cols-1 place-items-center gap-60 p-6 md:grid-cols-2 md:gap-5 lg:grid-cols-3 xl:grid-cols-4"
+                className="z-40 grid grid-cols-1 place-items-center gap-64 p-4 md:grid-cols-2 md:gap-52 md:p-10 lg:grid-cols-3 lg:gap-5 lg:p-12 xl:grid-cols-4"
               >
                 {DemoHomeprojects.map((project, index) => (
                   <motion.div
