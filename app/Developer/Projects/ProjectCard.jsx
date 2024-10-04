@@ -107,7 +107,7 @@ export default function ProjectCard({ DevProjects }) {
                 className="mb-4 h-full w-full rounded-md object-cover"
               />
 
-              <div className="absolute inset-0 flex flex-col rounded-lg bg-gradient-to-t from-black to-[rgba(0,0,0,0.5)] text-center opacity-0 transition-opacity duration-700 ease-in-out group-hover:opacity-100">
+              <div className="absolute inset-0 flex flex-col  bg-gradient-to-t from-black to-[rgba(0,0,0,0.5)] text-center opacity-0 transition-opacity duration-700 ease-in-out group-hover:opacity-100">
                 <h1 className="py-5 text-xl font-bold text-white">
                   {project.title}
                 </h1>

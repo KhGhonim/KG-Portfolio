@@ -1436,9 +1436,20 @@ export const DevProjects = [
     previewLink: "https://alphaa-final-soltuion-for-loans.vercel.app",
     repoLink: "https://github.com/LoDaBeY/ALPHAA---Final-Soltuion-For-Loans",
     description:
-      "Loan management Website app. It is a replica of one of the largest loan companies in Australia and is fully functional. It was developed using React, Swiper, and Tailwind CSS.",
+      "Loan management Website app. It is a replica of one of the largest loan companies in Australia and is fully functional.",
     photo: "/devProjects/ALPHAA---Final-Soltuion-For-Loans.png",
     category: "React",
     tools: ["React", "Swiper", "Tailwind CSS"],
+  },
+
+  {
+    title: "Hotel Booking Website",
+    previewLink: "https://hotel-app-sage.vercel.app",
+    repoLink: "https://github.com/LoDaBeY/Hotel-App-Customer",
+    description:
+      "A Hotel Booking Website. An application for booking hotels. It also contains a dashboard for managing reservations and booking.",
+    photo: "/devProjects/hotelapp.png",
+    category: "Next.js",
+    tools: ["Next.js", "Swiper", "Tailwind", "PostgreSQL", "Chart.js"],
   },
 ];
