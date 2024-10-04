@@ -36,7 +36,7 @@ export default function AboutMe() {
         <h1 className="text-xl font-medium md:text-4xl">
           Web <span className="text-[#FF4654]">Developer</span>
         </h1>
-        <p className="text-lg">Based In Türkiye, İstanbul</p>
+        <p className="text-lg">Based In Türkiye, Hatay</p>
         <p className="text-lg">
           Passionate Full-Stack Developer. Specializing in MERN, PERN, and
           Next.js. Committed to delivering high-quality, efficient web
