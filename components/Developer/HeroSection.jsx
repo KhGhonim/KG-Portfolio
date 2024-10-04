@@ -46,9 +46,9 @@ export default function HeroSection() {
         </div>
         <Link
           className="absolute bottom-5 left-5 text-xl font-bold"
-          href={"mailto:dev@khaledghonim.com"}
+          href={"mailto:kg@khaledghonim.com"}
         >
-          dev@khaledghonim.com
+          kg@khaledghonim.com
         </Link>
       </div>
 
