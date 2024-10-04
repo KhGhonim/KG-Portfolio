@@ -67,7 +67,7 @@ export default function HeroSection() {
         </h4>
         <div className="flex flex-row gap-4">
           <Link
-            href="mailto:dev@khaledghonim.com"
+            href="mailto:kg@khaledghonim.com"
             className="flex w-32 flex-row items-center justify-center gap-2 rounded-full bg-red-500 px-4 py-2 transition-all duration-300 ease-in-out hover:bg-red-500/75"
           >
             Say Hello <FaEnvelope />
