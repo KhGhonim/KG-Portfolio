@@ -5,7 +5,7 @@ import FloatingBoxX from "./FloatingBoxX";
 import FloatingBoxY from "./FloatingBoxY";
 
 export default function AboutMe() {
-  const googleDriveFileId = "1Y_UaK07f3wEeGi9p_VdyksRNTiaP8WJl"; // Replace with your file ID from Google Drive
+  const googleDriveFileId = "1QWSINvdGlkw159iA7VJOWoNKqILUY0PO"; // Replace with your file ID from Google Drive
   const downloadLink = `https://drive.google.com/uc?export=download&id=${googleDriveFileId}`;
   return (
     <div
