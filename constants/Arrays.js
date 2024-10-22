@@ -1237,9 +1237,9 @@ export const tools = [
   },
 
   {
-    text: "Wordpress",
-    image: "/devSVG/wordpress-svgrepo-com.svg",
-    alt: "wordpress",
+    text: "Docker",
+    image: "/devSVG/docker-svgrepo-com.svg",
+    alt: "Docker",
     additionalClasses:
       "group cursor-pointer flex justify-center items-center gap-5",
     imgClasses:
@@ -1316,6 +1316,8 @@ export const DevProjects = [
     photo: "/devProjects/grocery store.png",
     category: "Next.js",
     tools: ["Next.js", "Next.js API", "Next Auth", "Tailwind CSS", "Redux"],
+    status : "In Progress",
+    Badge : "/InProgress.png"
   },
   {
     title: "NewsPaper",
@@ -1326,6 +1328,9 @@ export const DevProjects = [
     photo: "/devProjects/download.png",
     category: "Next.js",
     tools: ["Next.js", "Next.js API", "Next Auth", "Swiper", "Tailwind CSS"],
+    status : "Completed",
+    Badge : "/completed.png"
+
   },
   {
     title: "The Pyjama House",
@@ -1344,6 +1349,9 @@ export const DevProjects = [
       "Firebase Auth",
       "Redux",
     ],
+    status : "Under-construction",
+    Badge : "/Under construction.png"
+
   },
   {
     title: "Movie Store",
@@ -1354,6 +1362,9 @@ export const DevProjects = [
     photo: "/devProjects/Movie Store.png",
     category: "React",
     tools: ["React", "Swiper", "Tailwind CSS", "Firebase Auth", "Redux"],
+    status : "Under-construction",
+    Badge : "/Under construction.png"
+
   },
   {
     title: "NusrEt Restaurant",
@@ -1364,6 +1375,8 @@ export const DevProjects = [
     photo: "/devProjects/Resturant.png",
     category: "React",
     tools: ["React", "Swiper", "Node.js", "Express", "Material UI"],
+    status : "In Progress",
+    Badge : "/InProgress.png"
   },
   {
     title: "Admin Dashboard For Blog",
@@ -1382,6 +1395,9 @@ export const DevProjects = [
       "Firebase Auth",
       "Redux",
     ],
+    status : "Completed",
+    Badge : "/completed.png"
+
   },
   {
     title: "Admin Dashboard For Stats",
@@ -1400,6 +1416,9 @@ export const DevProjects = [
       "Nivo",
       "Firebase Auth",
     ],
+    status : "Under-construction",
+    Badge : "/Under construction.png"
+
   },
   {
     title: "E-commerce Site",
@@ -1410,6 +1429,8 @@ export const DevProjects = [
     photo: "/devProjects/E-commerce.png",
     category: "React",
     tools: ["React", "Strapi", "Material UI", "Redux"],
+    status : "Completed",
+    Badge : "/completed.png"
   },
   {
     title: "Car Hub",
@@ -1420,6 +1441,9 @@ export const DevProjects = [
     photo: "/devProjects/car.png",
     category: "Next.js",
     tools: ["Next.js", "Next.js API", "Clark Auth", "Tailwind CSS"],
+    status : "Under-construction",
+    Badge : "/Under construction.png"
+
   },
   {
     title: "Real-Time Chat Application",
@@ -1430,6 +1454,9 @@ export const DevProjects = [
     photo: "/devProjects/Socekt.io.png",
     category: "React",
     tools: ["React", "Node.js", "MongoDB", "Express", "Redux", "Tailwind CSS"],
+    status : "In Progress",
+    Badge : "/InProgress.png"
+    
   },
   {
     title: "ALPHAA - Final Soltuion For Loans",
@@ -1440,6 +1467,8 @@ export const DevProjects = [
     photo: "/devProjects/ALPHAA---Final-Soltuion-For-Loans.png",
     category: "React",
     tools: ["React", "Swiper", "Tailwind CSS"],
+    status : "In Progress",
+    Badge : "/InProgress.png"
   },
 
   {
@@ -1451,5 +1480,8 @@ export const DevProjects = [
     photo: "/devProjects/hotelapp.png",
     category: "Next.js",
     tools: ["Next.js", "Swiper", "Tailwind", "PostgreSQL", "Chart.js"],
+    status : "Under-construction",
+    Badge : "/Under construction.png"
+
   },
 ];
