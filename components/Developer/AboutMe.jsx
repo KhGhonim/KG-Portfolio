@@ -38,7 +38,7 @@ export default function AboutMe() {
         </h1>
         <p className="text-lg">Based In Türkiye, Hatay</p>
         <p className="text-lg">
-          Passionate Full-Stack Developer. Specializing in MERN, PERN, and
+          Passionate Full-Stack Developer. Specializing in MERN and
           Next.js. Committed to delivering high-quality, efficient web
           applications.
         </p>
