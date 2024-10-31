@@ -1484,4 +1484,17 @@ export const DevProjects = [
     Badge : "/Under construction.png"
 
   },
+
+  {
+    title: "Meta Legends",
+    previewLink: "https://meta-legends-gules.vercel.app",
+    repoLink: "https://github.com/KhGhonim/Meta-Legends",
+    description:
+      "Meta Legends is a web application that allows users to search for and purchase NFTs.",
+    photo: "/devProjects/Meta.png",
+    category: "React",
+    tools: ["React", "Swiper", "Tailwind CSS"],
+    status : "In Progress",
+    Badge : "/InProgress.png"
+  },
 ];
