@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 import { LuLink } from "react-icons/lu";
-import { FaGithub } from "react-icons/fa";
+import { FaChevronUp, FaGithub } from "react-icons/fa";
 
 const parentVariants = {
   hidden: { opacity: 0, y: 100 },
@@ -94,9 +94,10 @@ export default function ProjectCard({ DevProjects }) {
           {Data.map((project, index) => (
             <motion.div
               variants={childVariants}
-              whileHover={{ scale: 1.1, y: -10 }}
+              whileHover={{ scale: 1.05, y: -5 }}
+              transition={{ type: "spring", stiffness: 200, damping: 15 }}
               key={index}
-              className="group relative z-40 h-72 w-72 rounded-lg"
+              className="group relative z-40 h-80 w-80 rounded-lg shadow-lg transition-shadow duration-300 hover:shadow-2xl"
             >
               <Image
                 src={project.photo}
@@ -107,33 +108,60 @@ export default function ProjectCard({ DevProjects }) {
                 className="mb-4 h-full w-full rounded-md object-cover"
               />
 
-              <div className="absolute inset-0 flex flex-col  bg-gradient-to-t from-black to-[rgba(0,0,0,0.5)] text-center opacity-0 transition-opacity duration-700 ease-in-out group-hover:opacity-100">
-                <h1 className="py-5 text-xl font-bold text-white">
+              {/* Project Status Ribbon */}
+              <div
+                className={`ribbon absolute left-0 top-0 z-50 rounded-tr-lg px-3 py-1 text-xl font-semibold text-white ${
+                  project.status === "Completed"
+                    ? "bg-emerald-500"
+                    : project.status === "Under-construction"
+                      ? "bg-red-500"
+                      : "bg-orange-500"
+                } shadow-md`}
+              >
+                {project.status}
+              </div>
+
+              {/* Project Details Slide-up */}
+              <motion.div
+                whileHover={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, ease: "easeInOut", type: "tween" }}
+                className="group absolute bottom-0 z-40 flex flex-col  bg-gradient-to-t from-black to-[rgba(0,0,0,0.6)] p-5 text-center opacity-0"
+              >
+                <h1 className="py-3 text-2xl font-bold text-white">
                   {project.title}
                 </h1>
-                <h1 className="flex py-5 text-sm font-bold text-white">
+                <p className="mb-3 text-sm font-medium text-gray-300">
                   {project.description}
-                </h1>
-                <div className="flex items-center justify-around gap-5">
+                </p>
+                <div className="flex items-center justify-around gap-5 pb-3">
                   <Link href={project.previewLink} target="_blank">
-                    <LuLink color="white" size={20} />
+                    <LuLink
+                      color="white"
+                      size={24}
+                      className="transition-colors duration-200 hover:text-gray-300"
+                    />
                   </Link>
                   <Link href={project.repoLink} target="_blank">
-                    <FaGithub color="white" size={20} />
+                    <FaGithub
+                      color="white"
+                      size={24}
+                      className="transition-colors duration-200 hover:text-gray-300"
+                    />
                   </Link>
                 </div>
 
-                <div className="grid grid-cols-5 place-items-center gap-1 pt-3">
+                {/* Tools Used */}
+                <div className="grid grid-cols-3 gap-2 pt-2">
                   {project.tools.map((tool, index) => (
                     <div
                       key={index}
-                      className="flex flex-wrap items-center rounded-xl bg-white p-1 text-xs text-black"
+                      className="flex items-center justify-center rounded-md bg-white px-2 py-1 text-xs font-semibold text-black shadow-sm"
                     >
                       {tool}
                     </div>
                   ))}
                 </div>
-              </div>
+              </motion.div>
             </motion.div>
           ))}
         </motion.div>

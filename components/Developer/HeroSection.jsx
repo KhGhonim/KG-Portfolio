@@ -4,6 +4,7 @@ import Link from "next/link";
 import { FaEnvelope, FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { CgMouse } from "react-icons/cg";
 import { motion } from "framer-motion";
+import { useState } from "react";
 
 const parentVariants = {
   hidden: { opacity: 0, x: 100 },
@@ -30,8 +31,15 @@ const childVariants = {
 };
 
 export default function HeroSection() {
+  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
+
+  const handleMouseMove = (e) => {
+    const { clientX, clientY } = e;
+    setMousePos({ x: clientX, y: clientY });
+  };
+
   return (
-    <div className="flex h-dvh w-full pt-36">
+    <div onMouseMove={handleMouseMove} className="flex h-dvh w-full pt-36">
       <div className="relative flex h-full w-1/6 flex-col p-2">
         <div className="flex h-full flex-col items-center justify-center space-y-4">
           <Link href={"https://github.com/LoDaBeY"}>
@@ -86,6 +94,7 @@ export default function HeroSection() {
         </div>
       </div>
 
+      {/* Hero Image */}
       <motion.div
         variants={parentVariants}
         initial="hidden"
@@ -100,14 +109,32 @@ export default function HeroSection() {
             height={300}
             quality={100}
             className="h-full w-full object-cover"
+            style={{
+              transform: `translate(${mousePos.x * 0.03}px, ${mousePos.y * 0.03}px)`,
+            }}
           />
         </motion.div>
 
-        <div className="absolute bottom-0 top-0 -z-[1] h-full w-56 translate-x-2/4 rounded bg-[#FF4654]"></div>
+        <div
+          style={{
+            transform: `translate(${mousePos.x * 0.03}px, ${mousePos.y * 0.03}px)`,
+          }}
+          className="absolute bottom-0 top-0 -z-[1] h-full w-56 translate-x-2/4 rounded bg-[#FF4654]"
+        ></div>
         <div className="top-1/6 absolute -z-[1] h-96 w-96 translate-x-2/4 rounded border-4 border-white"></div>
-        <div className="absolute bottom-20 left-0 -z-[1] h-24 w-16 translate-x-2/4 rounded bg-[#FF4654]"></div>
-        <div className="absolute bottom-48 right-20 -z-[1] h-24 w-24 translate-x-2/4 rounded bg-[#FF4654]"></div>
-        <div className="absolute right-40 top-24 -z-[2] h-32 w-32 translate-x-2/4 rounded bg-[#FF4654]"></div>
+        <div className="absolute bottom-20 left-0 -z-[1] h-24 w-24 -translate-x-full rounded bg-[#FF4654]"></div>
+        <div
+          style={{
+            transform: `translate(${mousePos.x * 0.03}px, ${mousePos.y * 0.03}px)`,
+          }}
+          className="absolute bottom-48 right-20 -z-[1] h-24 w-24 translate-x-2/4 rounded bg-[#FF4654]"
+        ></div>
+        <div
+          style={{
+            transform: `translate(${mousePos.x * 0.03}px, ${mousePos.y * 0.03}px)`,
+          }}
+          className="absolute right-40 top-24 -z-[2] h-32 w-32 translate-x-2/4 rounded bg-[#FF4654]"
+        ></div>
       </motion.div>
     </div>
   );

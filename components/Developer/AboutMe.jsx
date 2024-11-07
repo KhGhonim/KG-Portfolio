@@ -5,7 +5,7 @@ import FloatingBoxX from "./FloatingBoxX";
 import FloatingBoxY from "./FloatingBoxY";
 
 export default function AboutMe() {
-  const googleDriveFileId = "1QWSINvdGlkw159iA7VJOWoNKqILUY0PO"; // Replace with your file ID from Google Drive
+  const googleDriveFileId = "1xhtTN-rM5hGwE88gOsVUxrkQrhvUOuKw"; // Replace with your file ID from Google Drive
   const downloadLink = `https://drive.google.com/uc?export=download&id=${googleDriveFileId}`;
   return (
     <div
@@ -38,9 +38,8 @@ export default function AboutMe() {
         </h1>
         <p className="text-lg">Based In Türkiye, Hatay</p>
         <p className="text-lg">
-          Passionate Full-Stack Developer. Specializing in MERN and
-          Next.js. Committed to delivering high-quality, efficient web
-          applications.
+          Passionate Full-Stack Developer. Specializing in MERN and Next.js.
+          Committed to delivering high-quality, efficient web applications.
         </p>
 
         <div className="flex items-center justify-end">

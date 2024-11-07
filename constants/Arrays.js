@@ -1269,25 +1269,25 @@ export const tools = [
 
 export const DemoHomeprojects = [
   {
-    title: "Grocery Store",
-    previewLink: "https://grocery-store-beta.vercel.app",
-    repoLink: "https://github.com/username/repo1",
+    title: "Hotel Booking Website & Dashboard",
+    previewLink: "https://hotel-app-sage.vercel.app",
+    repoLink: "https://github.com/LoDaBeY/Hotel-App-Customer",
     description:
-      "A responsive web application for shopping items using React and Tailwind CSS.",
-    photo: "/devProjects/grocery store.png",
+      "A Hotel Booking Website containing a dashboard for managing booking.",
+    photo: "/devProjects/hotelapp.png",
     category: "Nextjs",
   },
   {
-    title: "NewsPaper",
+    title: "World Class Newspaper",
     previewLink: "https://news-paper-ruby.vercel.app",
-    repoLink: "https://github.com/username/repo2",
+    repoLink: "https://github.com/KhGhonim/NewsPaper-Dashboard",
     description:
       "A responsive web application for reading news articles using Nextjs and Tailwind CSS and MongoDB.",
     photo: "/devProjects/download.png",
     category: "Nextjs",
   },
   {
-    title: "E-commerce Site",
+    title: "Multi-lingual E-commerce Site",
     previewLink: "https://e-commerce-kg.vercel.app/",
     repoLink: "https://github.com/LoDaBeY/E-commerce",
     description:
@@ -1298,7 +1298,7 @@ export const DemoHomeprojects = [
   {
     title: "Movie Sotre",
     previewLink: "https://movie-store-us3x.vercel.app",
-    repoLink: "https://github.com/username/repo4",
+    repoLink: "https://github.com/KhGhonim/Movie-Store/tree/main/Frontend",
     description:
       "A responsive web application for selling movies using React, Tailwind CSS, and Firebase for handling data.",
     photo: "/devProjects/Movie Store.png",
@@ -1310,32 +1310,31 @@ export const DevProjects = [
   {
     title: "Grocery Store",
     previewLink: "https://grocery-store-beta.vercel.app",
-    repoLink: "https://github.com/LoDaBeY/Grocery-Store",
+    repoLink: "https://github.com/KhGhonim/Grocery-Store",
     description:
       "A responsive web application enabling users to shop for items by category and add them to their cart. Built with React and Tailwind CSS.",
     photo: "/devProjects/grocery store.png",
     category: "Next.js",
     tools: ["Next.js", "Next.js API", "Next Auth", "Tailwind CSS", "Redux"],
-    status : "In Progress",
-    Badge : "/InProgress.png"
+    status: "In Progress",
+    Badge: "/InProgress.png",
   },
   {
     title: "NewsPaper",
     previewLink: "https://news-paper-ruby.vercel.app",
-    repoLink: "https://github.com/LoDaBeY/NewsPaper-Dashboard",
+    repoLink: "https://github.com/KhGhonim/NewsPaper-Dashboard",
     description:
       "A responsive web application for reading global and user-specific news articles. Developed using Next.js, Tailwind CSS, and MongoDB for article tracking.",
     photo: "/devProjects/download.png",
     category: "Next.js",
     tools: ["Next.js", "Next.js API", "Next Auth", "Swiper", "Tailwind CSS"],
-    status : "Completed",
-    Badge : "/completed.png"
-
+    status: "Completed",
+    Badge: "/completed.png",
   },
   {
     title: "The Pyjama House",
     previewLink: "https://pijamahouse-e1870.web.app",
-    repoLink: "https://github.com/LoDaBeY/pajamahouse",
+    repoLink: "https://github.com/KhGhonim/pajamahouse",
     description:
       "A responsive web application for selling clothing items. Built with React, Material UI, and Firebase.",
     photo: "/devProjects/Pijama evi.png",
@@ -1349,40 +1348,37 @@ export const DevProjects = [
       "Firebase Auth",
       "Redux",
     ],
-    status : "Under-construction",
-    Badge : "/Under construction.png"
-
+    status: "Under-construction",
+    Badge: "/Under construction.png",
   },
   {
     title: "Movie Store",
     previewLink: "https://movie-store-us3x.vercel.app",
-    repoLink: "https://github.com/LoDaBeY/Movie-Store",
+    repoLink: "https://github.com/KhGhonim/Movie-Store",
     description:
       "A responsive web application for streaming movies. Developed using React, Tailwind CSS, and a REST API for data retrieval.",
     photo: "/devProjects/Movie Store.png",
     category: "React",
     tools: ["React", "Swiper", "Tailwind CSS", "Firebase Auth", "Redux"],
-    status : "Under-construction",
-    Badge : "/Under construction.png"
-
+    status: "In Progress",
+    Badge: "/Under construction.png",
   },
   {
     title: "NusrEt Restaurant",
     previewLink: "https://nusret-resturant.vercel.app",
-    repoLink: "https://github.com/LoDaBeY/Resturant",
+    repoLink: "https://github.com/KhGhonim/Resturant",
     description:
       "A responsive web application for ordering food. Built with React, Tailwind CSS, and a custom REST API.",
     photo: "/devProjects/Resturant.png",
     category: "React",
     tools: ["React", "Swiper", "Node.js", "Express", "Material UI"],
-    status : "In Progress",
-    Badge : "/InProgress.png"
+    status: "In Progress",
+    Badge: "/InProgress.png",
   },
   {
     title: "Admin Dashboard For Blog",
-    previewLink:
-      "https://vercel.com/khaled-ghonims-projects/admin-dashboard-blog",
-    repoLink: "https://github.com/LoDaBeY/Frontend-Admin-Dashboard-Blog-",
+    previewLink: "https://admin-dashboard-blog.vercel.app/",
+    repoLink: "https://github.com/KhGhonim/Frontend-Admin-Dashboard-Blog-",
     description:
       "A responsive web application for managing blog posts. Built with React, Tailwind CSS, and MongoDB. The connection is established through a REST API with NewsPaper API.",
     photo: "/devProjects/Dashboard Admin for Blogs.png",
@@ -1395,14 +1391,13 @@ export const DevProjects = [
       "Firebase Auth",
       "Redux",
     ],
-    status : "Completed",
-    Badge : "/completed.png"
-
+    status: "In Progress",
+    Badge: "/completed.png",
   },
   {
-    title: "Admin Dashboard For Stats",
+    title: "Blogs Dashboard",
     previewLink: "https://dashboard-admin-khaled-ghonim.web.app",
-    repoLink: "https://github.com/LoDaBeY/admin-dashboard",
+    repoLink: "https://github.com/KhGhonim/admin-dashboard",
     description:
       "A web application for managing administrative statistics. Developed using React, Material UI, and Firebase.",
     photo: "/devProjects/Dashboard admin stats.png",
@@ -1416,73 +1411,69 @@ export const DevProjects = [
       "Nivo",
       "Firebase Auth",
     ],
-    status : "Under-construction",
-    Badge : "/Under construction.png"
-
+    status: "In Progress",
+    Badge: "/Under construction.png",
   },
   {
-    title: "E-commerce Site",
+    title: "Multi-lingual E-commerce Site",
     previewLink: "https://e-commerce-kg.vercel.app",
-    repoLink: "https://github.com/LoDaBeY/E-commerce",
+    repoLink: "https://github.com/KhGhonim/Multi-lang-e-commerce",
     description:
       "A responsive web application for selling products. Built with React, Material UI, and Firebase for data management.",
     photo: "/devProjects/E-commerce.png",
     category: "React",
     tools: ["React", "Strapi", "Material UI", "Redux"],
-    status : "Completed",
-    Badge : "/completed.png"
+    status: "Completed",
+    Badge: "/completed.png",
   },
   {
     title: "Car Hub",
     previewLink: "https://car-hub-wheat-sigma.vercel.app",
-    repoLink: "https://github.com/LoDaBeY/car-hub",
+    repoLink: "https://github.com/KhGhonim/Old-Car-Hub",
     description:
       "A responsive web application for buying and selling cars. Developed using React, Tailwind CSS, and MongoDB.",
     photo: "/devProjects/car.png",
     category: "Next.js",
     tools: ["Next.js", "Next.js API", "Clark Auth", "Tailwind CSS"],
-    status : "Under-construction",
-    Badge : "/Under construction.png"
-
+    status: "Under-construction",
+    Badge: "/Under construction.png",
   },
   {
     title: "Real-Time Chat Application",
     previewLink: "https://chat-app-sooty-seven.vercel.app",
-    repoLink: "https://github.com/LoDaBeY/ChatApp",
+    repoLink: "https://github.com/KhGhonim/ChatApp",
     description:
       "The application provides a seamless messaging experience with instant, bi-directional communication, making it ideal for real-time conversations.",
     photo: "/devProjects/Socekt.io.png",
     category: "React",
     tools: ["React", "Node.js", "MongoDB", "Express", "Redux", "Tailwind CSS"],
-    status : "In Progress",
-    Badge : "/InProgress.png"
-    
+    status: "Completed",
+    Badge: "/InProgress.png",
   },
   {
     title: "ALPHAA - Final Soltuion For Loans",
     previewLink: "https://alphaa-final-soltuion-for-loans.vercel.app",
-    repoLink: "https://github.com/LoDaBeY/ALPHAA---Final-Soltuion-For-Loans",
+    repoLink: "https://github.com/KhGhonim/ALPHAA---Final-Soltuion-For-Loans",
     description:
       "Loan management Website app. It is a replica of one of the largest loan companies in Australia and is fully functional.",
     photo: "/devProjects/ALPHAA---Final-Soltuion-For-Loans.png",
     category: "React",
     tools: ["React", "Swiper", "Tailwind CSS"],
-    status : "In Progress",
-    Badge : "/InProgress.png"
+    status: "Completed",
+    Badge: "/InProgress.png",
   },
 
   {
     title: "Hotel Booking Website",
     previewLink: "https://hotel-app-sage.vercel.app",
-    repoLink: "https://github.com/LoDaBeY/Hotel-App-Customer",
+    repoLink: "https://github.com/KhGhonim/Hotel-App-Customer",
     description:
       "A Hotel Booking Website. An application for booking hotels. It also contains a dashboard for managing reservations and booking.",
     photo: "/devProjects/hotelapp.png",
     category: "Next.js",
     tools: ["Next.js", "Swiper", "Tailwind", "PostgreSQL", "Chart.js"],
-    status : "Under-construction",
-    Badge : "/Under construction.png"
-
+    status: "In Progress",
+    Badge: "/Under construction.png",
   },
 
   {
@@ -1490,11 +1481,11 @@ export const DevProjects = [
     previewLink: "https://meta-legends-gules.vercel.app",
     repoLink: "https://github.com/KhGhonim/Meta-Legends",
     description:
-      "Meta Legends is a web application that allows users to search for and purchase NFTs.",
+      "Meta Legends is a web application that allows users to search for and purchase NFTs. It also includes a dashboard for managing NFTs.",
     photo: "/devProjects/Meta.png",
     category: "React",
-    tools: ["React", "Swiper", "Tailwind CSS"],
-    status : "In Progress",
-    Badge : "/InProgress.png"
+    tools: ["React", "Swiper", "Tailwind CSS", "Redux"],
+    status: "Completed",
+    Badge: "/InProgress.png",
   },
 ];
