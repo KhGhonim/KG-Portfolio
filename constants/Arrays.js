@@ -148,7 +148,7 @@ export const services = [
     title: "Translation",
     description:
       "As a seasoned language translator, I specialize in providing expert translation services in multiple language pairs. With fluency in English, Arabic, and Turkish, I offer precise and culturally nuanced translations from English to Arabic, Arabic to English, Turkish to Arabic, and Arabic to Turkish. With meticulous attention to detail and a thorough understanding of language intricacies, I ensure your message is accurately conveyed across different languages and cultural contexts.",
-    Link: "/Translator/Services/Translation",
+    Link: "/Services/Translation",
   },
   {
     imgSrc: "/project-manager.png",
@@ -156,7 +156,7 @@ export const services = [
     title: "Project Management",
     description:
       "With a wealth of experience as a Project Manager and Operation Manager at reputable companies in Switzerland and the UAE, I offer exceptional Project Management services. I bring a strategic approach, meticulous planning, and effective execution to ensure successful project outcomes aligned with your business objectives.",
-    Link: "/Translator/Services/Management ",
+    Link: "/Services/Management ",
   },
 
   {
@@ -165,7 +165,7 @@ export const services = [
     title: "Transcription",
     description:
       "Enhance your content with our accurate transcription services. Capture every word from meetings, interviews, and lectures with precision. Improve accessibility and make your content searchable.",
-    Link: "/Translator/Services/Transcription",
+    Link: "/Services/Transcription",
   },
   {
     imgSrc: "/ai.png",
@@ -175,7 +175,7 @@ export const services = [
 MTPE Editor
 
 Join me on a journey to transform your language with my MTPE (Machine Translation Post-Editing) editing services. As a linguistic alchemist, I take the raw materials of machine-generated translations and imbue them with the power of human creativity. Witness the magic of technology and human expertise coming together to create linguistic works of art that will capture the hearts and minds of people worldwide. Let's shape the future of communication together!`,
-    Link: "/Translator/Services/PE",
+    Link: "/Services/PE",
   },
   {
     imgSrc: "/translating.png",
@@ -183,14 +183,14 @@ Join me on a journey to transform your language with my MTPE (Machine Translatio
     title: "Proofreading",
     description:
       "Embark on a linguistic journey of perfection with my extraordinary Linguistic Quality Assurance services. Harnessing the artistry of language, I weave a tapestry of flawlessness, polishing every word and nuance to captivate your audience. From linguistic finesse to cultural resonance, I breathe life into your content, crafting a symphony of linguistic brilliance. Elevate your brand's voice and leave an indelible mark with my unrivalled linguistic mastery.",
-    Link: "/Translator/Services/Proofreading",
+    Link: "/Services/Proofreading",
   },
   {
     imgSrc: "/subtitles.png",
     imgAlt: "Subtitling Service",
     title: "Subtitling",
     description: `Unleash the full potential of your videos with my creative expertise in video subtitling service. I seamlessly bridge the language gap with my Turkish, English, and Arabic fluency, offering accurate and captivating translations in both directions. From English to Arabic, Turkish to Arabic, and beyond, I ensure your videos resonate with diverse audiences, captivating hearts and minds across cultures. Let's bring your visuals to life and connect the world through powerful storytelling.`,
-    Link: "/Translator/Services/Subtitling",
+    Link: "/Services/Subtitling",
   },
 ];
 
