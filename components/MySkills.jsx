@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { backendSkills, frontendSkills, tools } from "../../constants/Arrays";
+import { backendSkills, frontendSkills, tools } from "../constants/Arrays";
 
 const SkillsGrid = ({ skills, title }) => (
   <div className="mb-6">

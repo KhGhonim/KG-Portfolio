@@ -1,22 +1,12 @@
-"use client";
 import Image from "next/image";
 import { IoMdMenu } from "react-icons/io";
-import DarkMode from "./DarkMode";
-import { useState } from "react";
 import Link from "next/link";
 
 export default function Header({ ModalHandle }) {
-  const [theme, setTheme] = useState(
-    typeof window !== "undefined" ? localStorage.getItem("theme") : "light",
-  );
-
-  const changeTheme = () => {
-    setTheme(theme === "dark" ? "light" : "dark");
-  };
   return (
     <header className="devHeader container absolute left-1/2 top-10 z-50 flex w-80 -translate-x-1/2 items-center justify-between rounded-full p-3 px-8 md:w-full md:p-4">
       <div className="text-xl font-bold text-white">
-        <Link href="/Developer">
+        <Link href="/">
           {" "}
           <Image
             priority={true}

@@ -97,7 +97,7 @@ export default function ProjectCard({ DevProjects }) {
               whileHover={{ scale: 1.05, y: -5 }}
               transition={{ type: "spring", stiffness: 200, damping: 15 }}
               key={index}
-              className="group relative z-40 h-80 w-80 rounded-lg shadow-lg transition-shadow duration-300 hover:shadow-2xl"
+              className="group relative z-40 h-72 w-72 rounded-lg shadow-lg transition-shadow duration-300 hover:shadow-2xl"
             >
               <Image
                 src={project.photo}

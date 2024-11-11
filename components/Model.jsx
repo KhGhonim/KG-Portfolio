@@ -89,7 +89,7 @@ export default function Model({ IsModelOpen, setIsModelOpen }) {
             <div
               className="block w-full cursor-pointer rounded-lg bg-[#1c1c27] p-4 duration-500 ease-in-out hover:bg-[#24242f]"
               onClick={() => {
-                handleClick("/Developer/Projects");
+                handleClick("/Projects");
               }}
             >
               <h2 className="text-primary text-lg font-semibold">
@@ -101,7 +101,7 @@ export default function Model({ IsModelOpen, setIsModelOpen }) {
               </p>
             </div>
 
-            <div
+            {/* <div
               className="block w-full cursor-pointer rounded-lg bg-[#1c1c27] p-4 duration-500 ease-in-out hover:bg-[#24242f]"
               onClick={() => {
                 handleClick("/Translator");
@@ -114,13 +114,13 @@ export default function Model({ IsModelOpen, setIsModelOpen }) {
               <p className="text-xs md:text-sm">
                 Are you looking for a professional translator?
               </p>
-            </div>
+            </div> */}
           </motion.div>
 
           <motion.div variants={childVariants} className="w-full space-y-4">
             <Link
               className="block w-full rounded-lg bg-[#1c1c27] p-4 duration-500 ease-in-out hover:bg-[#24242f]"
-              href={"mailto:dev@khaledghonim.com"}
+              href={"mailto:kg@khaledghonim.com"}
             >
               <h2 className="text-primary text-lg font-semibold">Let's Talk</h2>
               <p className="text-xs md:text-sm">Send me a message.</p>
@@ -151,7 +151,7 @@ export default function Model({ IsModelOpen, setIsModelOpen }) {
             </Link>
           </motion.div>
           <motion.div variants={childVariants}>
-            <Link href={"https://github.com/LoDaBeY"}>
+            <Link href={"https://github.com/KhGhonim"}>
               <FaGithub color="white" size={24} />
             </Link>
           </motion.div>
@@ -161,7 +161,7 @@ export default function Model({ IsModelOpen, setIsModelOpen }) {
             </Link>
           </motion.div>
           <motion.div variants={childVariants}>
-            <Link href={"https://wa.me/905319045891"}>
+            <Link href={"https://wa.me/905516688908"}>
               <FaWhatsapp color="#25d366" size={24} />
             </Link>
           </motion.div>

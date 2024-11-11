@@ -2,7 +2,7 @@
 
 import { useForm } from "@formspree/react";
 import { IoSend } from "react-icons/io5";
-import Recieved from "../../Assets/Email Recieved.json";
+import Recieved from "../Assets/Email Recieved.json";
 import Lottie from "lottie-react";
 import { useEffect, useState } from "react";
 

@@ -42,7 +42,7 @@ export default function HeroSection() {
     <div onMouseMove={handleMouseMove} className="flex h-dvh w-full pt-36">
       <div className="relative flex h-full w-1/6 flex-col p-2">
         <div className="flex h-full flex-col items-center justify-center space-y-4">
-          <Link href={"https://github.com/LoDaBeY"}>
+          <Link href={"https://github.com/KhGhonim"}>
             <FaGithub className="text-2xl font-medium text-[#ffffff] hover:underline" />
           </Link>
           <Link href={"https://www.linkedin.com/in/khaled-ghonim-4a4007147/"}>

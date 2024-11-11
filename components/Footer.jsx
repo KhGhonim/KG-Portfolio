@@ -36,7 +36,7 @@ export default function Footer() {
               <h1 className="text-xl md:text-3xl">Connect</h1>
             </div>
             <div className="flex space-x-4">
-              <Link href={"https://github.com/LoDaBeY"}>
+              <Link href={"https://github.com/KhGhonim"}>
                 <FaGithub className="scale-100 cursor-pointer rounded-xl text-3xl text-[#ffffff] transition-all duration-300 hover:rotate-[30deg] hover:scale-90" />
               </Link>
               <Link
@@ -52,7 +52,7 @@ export default function Footer() {
               <Link href={"https://t.me/MrPoDGK"}>
                 <FaTelegram className="scale-100 cursor-pointer rounded-xl text-3xl text-[#0088cc] transition-all duration-300 hover:rotate-[30deg] hover:scale-90" />
               </Link>
-              <Link href={"https://wa.me/905319045891"}>
+              <Link href={"https://wa.me/905516688908"}>
                 <FaWhatsapp className="scale-100 cursor-pointer rounded-xl text-3xl text-[#25D366] transition-all duration-300 hover:rotate-[30deg] hover:scale-90" />
               </Link>
             </div>
@@ -62,7 +62,7 @@ export default function Footer() {
 
       <p className="mt-3 text-center text-sm">
         © 2024{" "}
-        <span className="bg-gradient-to-b from-[#2c1e11] to-[#ffffff] bg-clip-text font-semibold text-transparent">
+        <span className="bg-[url('https://comicbook.com/wp-content/uploads/sites/4/2023/12/73afece2-5149-4774-8e34-3ae632039d00.jpg')] bg-cover bg-clip-text bg-center font-semibold text-transparent">
           Khaled Ghonim
         </span>
         . All rights reserved.

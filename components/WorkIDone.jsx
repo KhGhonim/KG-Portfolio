@@ -2,7 +2,7 @@
 import { AnimatePresence, motion } from "framer-motion";
 import FloatingBoxX from "./FloatingBoxX";
 import ProgressBar from "./ProgressBar";
-import { DemoHomeprojects } from "../../constants/Arrays";
+import { DemoHomeprojects } from "../constants/Arrays";
 import Link from "next/link";
 import Image from "next/image";
 import { LuLink } from "react-icons/lu";
@@ -148,7 +148,7 @@ export default function WorkIDone() {
               </motion.div>
             </AnimatePresence>
             <div className="relative z-30 flex items-center justify-center py-60">
-              <Link href="/Developer/Projects">
+              <Link href="/Projects">
                 <button className="h-10 w-40 rounded-full border-2 border-white text-white transition-all duration-700 ease-in-out hover:bg-white hover:text-black">
                   See More
                 </button>
