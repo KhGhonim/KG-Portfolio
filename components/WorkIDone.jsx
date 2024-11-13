@@ -74,10 +74,10 @@ export default function WorkIDone() {
                   variants={childVariants}
                   className="flex w-full flex-row justify-between"
                 >
-                  <h1 className="text-2xl font-bold">NextJS</h1>
-                  <h1 className="text-xl font-bold">83%</h1>
+                  <h1 className="text-2xl font-bold">Next.js</h1>
+                  <h1 className="text-xl font-bold">92%</h1>
                 </motion.div>
-                <ProgressBar percentage={83} />
+                <ProgressBar percentage={92} />
               </motion.div>
               <motion.div
                 variants={childVariants}
@@ -147,7 +147,7 @@ export default function WorkIDone() {
                 ))}
               </motion.div>
             </AnimatePresence>
-            <div className="relative z-30 flex items-center justify-center py-60">
+            <div className="relative z-30 flex items-center justify-center py-56 md:py-44">
               <Link href="/Projects">
                 <button className="h-10 w-40 rounded-full border-2 border-white text-white transition-all duration-700 ease-in-out hover:bg-white hover:text-black">
                   See More

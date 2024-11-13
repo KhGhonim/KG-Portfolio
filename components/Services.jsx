@@ -7,7 +7,7 @@ import { IoThumbsUpOutline } from "react-icons/io5";
 
 export default function Services() {
   return (
-    <div className="w-full pb-28 pt-[1900px] md:py-[190px]">
+    <div className="w-full pb-28 pt-[1900px] md:pt-[350px] lg:pt-[200px]">
       <div className="">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="lg:text-center">

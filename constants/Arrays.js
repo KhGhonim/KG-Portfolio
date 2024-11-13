@@ -313,7 +313,7 @@ export const DevProjects = [
     Badge: "/InProgress.png",
   },
   {
-    title: "NewsPaper",
+    title: "World Class Newspaper",
     previewLink: "https://news-paper-ruby.vercel.app",
     repoLink: "https://github.com/KhGhonim/NewsPaper-Dashboard",
     description:
@@ -409,7 +409,7 @@ export const DevProjects = [
   },
 
   {
-    title: "Hotel Booking Website",
+    title: "Hotel Booking Website & Dashboard",
     previewLink: "https://hotel-app-sage.vercel.app",
     repoLink: "https://github.com/KhGhonim/Hotel-App-Customer",
     description:
