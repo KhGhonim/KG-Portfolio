@@ -1,5 +1,5 @@
-import ProjectCard from "./ProjectCard";
 import { DevProjects } from "../../constants/Arrays";
+import ProjectCard from "./ProjectCard";
 
 export const metadata = {
   title: `Khaled Ghonim Dev's Projects`,
