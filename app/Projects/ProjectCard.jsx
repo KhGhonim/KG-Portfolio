@@ -35,7 +35,7 @@ const childVariants = {
 export default function ProjectCard({ DevProjects }) {
   const [Data, setData] = useState(DevProjects);
   const [SelectCatagory, setSelectCatagory] = useState("All");
-  const [IsHovered, setIsHovered] = useState(0);
+  const [hoveredIndex, setHoveredIndex] = useState(null);
   useEffect(() => {
     if (SelectCatagory === "All") {
       setData(DevProjects);
@@ -49,6 +49,15 @@ export default function ProjectCard({ DevProjects }) {
       setData(filteredData);
     }
   }, [SelectCatagory]);
+
+  const handleCardClick = (index) => {
+    if (hoveredIndex === index) {
+      setHoveredIndex(null);
+    } else {
+      setHoveredIndex(index);
+    }
+  };
+
   return (
     <div className="container mx-auto py-36">
       <ul className="flex items-center justify-center space-x-4 p-4 text-xl font-bold">
@@ -98,6 +107,9 @@ export default function ProjectCard({ DevProjects }) {
               transition={{ type: "spring", stiffness: 200, damping: 15 }}
               key={index}
               className="group relative z-10 h-72 w-72 rounded-lg shadow-lg transition-shadow duration-300 hover:shadow-2xl"
+              onMouseEnter={() => setHoveredIndex(index)} // Hover for desktops
+              onMouseLeave={() => setHoveredIndex(null)}
+              onClick={() => handleCardClick(index)} // Click for touch devices
             >
               {/* Project Image */}
               <Image
@@ -124,17 +136,16 @@ export default function ProjectCard({ DevProjects }) {
 
               {/* Project Details */}
               <motion.div
-                initial={{ opacity: 0, y: 30 }}
-                whileHover={{ opacity: 1, y: 0 }}
+                animate={{
+                  opacity: hoveredIndex === index ? 1 : 0,
+                  y: hoveredIndex === index ? 0 : 30,
+                }}
                 transition={{ duration: 0.5 }}
-                onHoverStart={() => setIsHovered(100)} // Hover handling for non-touch devices
-                onHoverEnd={() => setIsHovered(0)}
-                onMouseEnter={() => setIsHovered(100)} // Hover handling for touch devices
-                onMouseLeave={() => setIsHovered(0)}
-                onTouchStart={() => setIsHovered(100)}
-                onTouchEnd={() => setIsHovered(0)}
-                onClick={() => setIsHovered(100)}
-                className={`absolute inset-0 z-30 flex flex-col justify-end bg-gradient-to-t from-black via-black to-transparent p-3 text-white opacity-${IsHovered}`}
+                className={`absolute inset-0 z-30 flex flex-col justify-end bg-gradient-to-t from-black via-black to-transparent p-3 text-white ${
+                  hoveredIndex === index
+                    ? "pointer-events-auto"
+                    : "pointer-events-none"
+                }`}
               >
                 <h2 className="mb-2 text-center text-xl font-bold">
                   {project.title}
