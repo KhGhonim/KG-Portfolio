@@ -327,7 +327,7 @@ export const DevProjects = [
 
   {
     title: "Movie Store",
-    previewLink: "https://movie-store-us3x.vercel.app",
+    previewLink: "https://movie-store-three.vercel.app/",
     repoLink: "https://github.com/KhGhonim/Movie-Store",
     description:
       "A responsive web application for streaming movies. Developed using React, Tailwind CSS, and a REST API for data retrieval.",
@@ -339,7 +339,7 @@ export const DevProjects = [
   },
   {
     title: "NusrEt Restaurant",
-    previewLink: "https://nusret-resturant.vercel.app",
+    previewLink: "https://nusret-resturant-ngm4ho6gd-khaled-ghonims-projects.vercel.app",
     repoLink: "https://github.com/KhGhonim/Resturant",
     description:
       "A responsive web application for ordering food. Built with React, Tailwind CSS, and a custom REST API.",
