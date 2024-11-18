@@ -334,7 +334,7 @@ export const DevProjects = [
     photo: "/devProjects/Movie Store.png",
     category: "React",
     tools: ["React", "Swiper", "Tailwind CSS", "Firebase Auth", "Redux"],
-    status: "In Progress",
+    status: "Completed",
     Badge: "/Under construction.png",
   },
   {
@@ -346,7 +346,7 @@ export const DevProjects = [
     photo: "/devProjects/Resturant.png",
     category: "React",
     tools: ["React", "Swiper", "Node.js", "Express", "Material UI"],
-    status: "In Progress",
+    status: "Completed",
     Badge: "/InProgress.png",
   },
 
