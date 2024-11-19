@@ -481,7 +481,7 @@ export const DevProjects = [
     photo: "/devProjects/car.png",
     category: "Next.js",
     tools: ["Next.js", "Next.js API", "Clark Auth", "Tailwind CSS"],
-    status: "In Progress",
+    status: "Completed",
     Badge: "/Under construction.png",
   },
 ];
