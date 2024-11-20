@@ -24,7 +24,7 @@ export default function Home() {
             transition={{ duration: 1 }}
             className="flex h-full w-full items-center justify-center md:w-1/2"
           >
-            <Link href="/Developer">
+            <Link target="_blank" href="https://dev.khaledghonim.com">
               <div className="container">
                 <div className="book">
                   <div className="front flex w-full items-center justify-center lg:mt-32">
@@ -58,7 +58,7 @@ export default function Home() {
             transition={{ duration: 1 }}
             className="flex h-full w-full items-center justify-center p-4 md:w-1/2"
           >
-            <Link href="/Translator">
+            <Link target="_blank" href="https://translator.khaledghonim.com/">
               <div className="container">
                 <div className="book">
                   <div className="front flex w-full items-center justify-center lg:mt-32">
