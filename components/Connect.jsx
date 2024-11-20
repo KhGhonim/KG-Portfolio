@@ -21,7 +21,7 @@ export default function Connect() {
             </span>
             <span className="text-secondary">Call me</span>
             <Link className="group relative ml-2" href={"callto:905516688908"}>
-              +90 531 904 58 91
+              +90 551 668 89 08
               <span className="absolute bottom-0 left-0 h-0.5 w-full scale-x-0 transform bg-white transition-transform duration-500 group-hover:scale-x-100"></span>
             </Link>
           </p>
