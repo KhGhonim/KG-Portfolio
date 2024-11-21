@@ -458,7 +458,7 @@ export const DevProjects = [
     previewLink: "https://admin-dashboard-blog.vercel.app/",
     repoLink: "https://github.com/KhGhonim/Frontend-Admin-Dashboard-Blog-",
     description:
-      "A responsive web application for managing blog posts. Built with React, Tailwind CSS, and MongoDB. The connection is established through a REST API with NewsPaper API.",
+      "A responsive web application for managing blog posts related to newspaper. Built with React, Tailwind CSS, and MongoDB. The connection is established through a REST API with NewsPaper API.",
     photo: "/devProjects/Dashboard Admin for Blogs.png",
     category: "React",
     tools: [
@@ -469,7 +469,7 @@ export const DevProjects = [
       "Firebase Auth",
       "Redux",
     ],
-    status: "In Progress",
+    status: "Completed",
     Badge: "/completed.png",
   },
   {
