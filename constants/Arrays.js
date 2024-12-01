@@ -1,5 +1,3 @@
-
-
 export const backendSkills = [
   {
     text: "Node",
@@ -339,7 +337,8 @@ export const DevProjects = [
   },
   {
     title: "NusrEt Restaurant",
-    previewLink: "https://nusret-resturant-ngm4ho6gd-khaled-ghonims-projects.vercel.app",
+    previewLink:
+      "https://nusret-resturant-ngm4ho6gd-khaled-ghonims-projects.vercel.app",
     repoLink: "https://github.com/KhGhonim/Resturant",
     description:
       "A responsive web application for ordering food. Built with React, Tailwind CSS, and a custom REST API.",
@@ -482,6 +481,18 @@ export const DevProjects = [
     category: "Next.js",
     tools: ["Next.js", "Next.js API", "Clark Auth", "Tailwind CSS"],
     status: "Completed",
+    Badge: "/Under construction.png",
+  },
+  {
+    title: "Social Media Tracker",
+    previewLink: "https://social-media-tracker-theta.vercel.app",
+    repoLink: "https://github.com/KhGhonim/Social-Media-Tracker",
+    description:
+      "I have built an integrated project to track statistics, analytics, posting pattern and interactions on your social media accounts without having to pay money to find out those statistics from well-known Social platforms",
+    photo: "/devProjects/SMT.png",
+    category: "React.js",
+    tools: ["ReacT", "Node.js", "PostgreSQL", "TypeScript", "Tailwind CSS" ],
+    status: "In Progress",
     Badge: "/Under construction.png",
   },
 ];
